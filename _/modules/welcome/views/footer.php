@@ -1,0 +1,1 @@
+<?php trans('footer') ?>

@@ -1,0 +1,1188 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!-- saved from url=(0031)http://www.ncdex.com/index.aspx -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>
+	NCDEX - National Commodity &amp; Derivatives Exchange Limited : Connecting People and Market
+</title><meta name="google-site-verification" content="C7bxy9-lHxm9afYQ7ZNIRKB_v5hZNyvaqfZgsd1Wioo"><meta name="google-site-verification" content="Ppju2Co4u8iKOddi8i1TXiZ7hnw5FOchpu2zjS5Y6f0"><meta name="DESCRIPTION" content="National Commodity &amp; Derivatives Exchange Limited (NCDEX) is an online multi commodity exchange. The exchange offers future contracts for widest range of benchmark products across agriculture and precious &amp; base metals"><meta content="commodity, futures, future quotes, quotes, NCDEX, Gold Hedge,hedging,  NCDEX, derivatives, spot, commodity exchange, lme, mcx, cme, cbot, india" name="KEYWORDS"><meta content="askus@ncdex.com" name="OWNER"><meta content="NCDEX" name="COPYRIGHT"><meta content="NCDEX" name="AUTHOR"><meta http-equiv="EXPIRES"><meta http-equiv="CHARSET" content="ISO-8859-1"><meta http-equiv="CONTENT-LANGUAGE" content="English"><meta http-equiv="VW96.OBJECT TYPE" content="Homepage"><meta content="General" name="RATING"><meta content="index,follow" name="ROBOTS"><meta http-equiv="refresh" content="900"><meta content="7 days" name="REVISIT-AFTER"><link href="./NCDEX - National Commodity & Derivatives Exchange Limited   Connecting People and Market_files/Home.css" rel="stylesheet" type="text/css"><link href="./NCDEX - National Commodity & Derivatives Exchange Limited   Connecting People and Market_files/droplistv2.css" type="text/css" rel="stylesheet"><link href="./NCDEX - National Commodity & Derivatives Exchange Limited   Connecting People and Market_files/SpryTabbedPanels.css" rel="stylesheet" type="text/css"><link rel="shortcut icon" type="image/x-icon" href="http://www.ncdex.com/logo.ico">
+
+    <script src="./NCDEX - National Commodity & Derivatives Exchange Limited   Connecting People and Market_files/jquery-1.4.2.min.js" type="text/javascript"></script>
+    <script src="./NCDEX - National Commodity & Derivatives Exchange Limited   Connecting People and Market_files/NcdexTicker.js" type="text/javascript"></script>    
+    <script src="./NCDEX - National Commodity & Derivatives Exchange Limited   Connecting People and Market_files/jquery-ui-1.8.custom.min.js" type="text/javascript"></script>
+   
+
+    
+
+		    
+    <script src="./NCDEX - National Commodity & Derivatives Exchange Limited   Connecting People and Market_files/HomeMinVer-17.00.1.3.js" type="text/javascript"></script>
+
+
+
+   
+  <script language="javascript">
+
+      $(document).ready(
+        function () {
+            GetLatestFutIndexNew(true);
+            GetLatestSpotIndexNew();           
+           
+           $.ajax({
+                type: "POST",
+                url: "ScriptService.asmx/GetSearchScripts",
+                dataType: "json",
+                data: "{}",
+                contentType: "application/json; charset=utf-8",
+                success: function (data) {
+                    var datafromServer = data.d.split(":");
+                    $("[id$='txtSearch']").autocomplete({
+                        source: datafromServer,
+                        minLength: 2
+                    });
+                },
+                error: function (XMLHttpRequest, textStatus, errorThrown) {
+                    alert(textStatus);
+                }
+            });
+
+        }
+
+        );
+      function ChangeDirction(Direction) {
+          $("#divContent").ChangeSpeed(Direction);
+      }
+
+      function PauseTicker() {
+          $("#divContent").Pause();
+      }
+
+      function ChangeIndex(IndexName) {
+
+
+          $("#liSpot").removeClass("TabbedPanelsTabSelected");
+          $("#liFut").removeClass("TabbedPanelsTabSelected");
+
+          if (IndexName == "Fut") {
+              $("#liFut").addClass("TabbedPanelsTabSelected");
+              $("#divContent").ChangeIndex('dvFut');
+          }
+          else {
+              $("#liSpot").addClass("TabbedPanelsTabSelected");
+              $("#divContent").ChangeIndex('dvSpot');
+          }
+
+      }  
+
+
+function disPDP_SMS() {
+            document.body.style.overflow = "hidden";
+            showPopWin('HelpDocuments/PDP_SMS.htm', 711, 330, null);
+            document.getElementById('popupTitle').innerHTML = "&nbsp;&nbsp;NCDEX : SMS";
+}
+
+ function disTickerCode() {
+            document.body.style.overflow = "hidden";
+            showPopWin('HelpDocuments/TickerCode3.htm', 500, 410, null);
+            document.getElementById('popupTitle').innerHTML = "";
+        }
+function LearnMore() {
+            document.body.style.overflow = "hidden";
+            showPopWin('AboutUs/LearnMore.htm', 830, 530, null);
+            document.getElementById('popupTitle').innerHTML = "";
+        }
+
+function MemberdisFeedBack() {
+         document.body.style.overflow = "hidden";
+         //showPopWin('AboutUs/GoldHedgeMemberFeedback.htm', 675, 450, null);
+         showPopWin('AboutUs/Gold_silverHedgeMemberFeedback.htm', 675, 450, null);
+         document.getElementById('popupTitle').innerHTML = "&nbsp;&nbsp;&nbsp;Market Gives a Thumbs Up to NCDEX GOLDHEDGE AND SILVRHEDGE"; 
+     }
+
+function disFeedBack() {
+         document.body.style.overflow = "hidden";
+         showPopWin('AboutUs/FeedBack.aspx', 675, 450, null);
+         document.getElementById('popupTitle').innerHTML = "FeedBack";
+     }
+
+function pageImpMsg() {
+        alert("IMPORTANT UPDATES RELATED TO DELHI STORM  \n\nNCDEX would like to inform depositors that there has been no damage to stocks kept in NCDEX - accredited warehouses in Delhi though in some buildings roofs were ripped off by the massive storm in Delhi on Friday evening. Stocks will be shifted to other warehouses if needed. Repair work has already started and assessment teams are present on the ground to continuously monitor the situation. Members and depositors can call the NCDEX CSG helplines for any help in this matter.");
+    }
+
+  </script>
+
+    <style type="text/css">
+       
+ /*Used for Ticker*/
+        
+        div.divHolder
+        {
+            left: 10px;
+            width: 600px;
+            height: 52px;
+            border: 0px solid green;
+            position: relative;
+            overflow: hidden;
+            
+        }
+        div.divContent
+        {
+        	width: 100px;
+            height: 50px;
+            border: 0px solid green;
+            position: relative;
+            margin-top:10px;
+            /*background-color: #FFF;*/
+        }
+        table.ticktabFut
+        {
+            position: relative;
+        }
+        table.ticktabSpot
+        {
+            position: relative;
+        }           
+        
+        /*End */
+/*Auto Complete Start */
+.ui-autocomplete
+        {
+            position: absolute;
+            cursor: default;
+        }
+        .ui-widget
+        {
+            font-family: Verdana,Arial,sans-serif /*{ffDefault}*/;
+            font-size: 11px /*{fsDefault}*/;
+        }
+        .ui-widget .ui-widget
+        {
+            font-size: 11px;
+        }
+        .ui-widget input, .ui-widget select, .ui-widget textarea, .ui-widget button
+        {
+            font-family: Verdana,Arial,sans-serif /*{ffDefault}*/;
+            font-size: 1em;
+        }
+        .ui-widget-content
+        {
+            border: 1px solid #aaaaaa /*{borderColorContent}*/;
+            background: #ffffff /*{bgColorContent}*/ url(images/ui-bg_flat_75_ffffff_40x100.png) /*{bgImgUrlContent}*/ 50% /*{bgContentXPos}*/ 50% /*{bgContentYPos}*/ repeat-x /*{bgContentRepeat}*/;
+            color: #222222 /*{fcContent}*/;
+        }
+        .ui-menu
+        {
+            list-style: none;
+            padding: 2px;
+            margin: 0;
+            display: block;
+            float: left;
+        }
+        .ui-menu .ui-menu
+        {
+            margin-top: -3px;
+        }
+        .ui-menu .ui-menu-item
+        {
+            margin: 0;
+            padding: 0;
+            zoom: 1;
+            float: left;
+            clear: left;
+            width: 100%;
+        }
+        .ui-menu .ui-menu-item a
+        {
+            text-decoration: none;
+            display: block;
+            padding: .2px .4px;
+            line-height: 1.5;
+        }
+        .ui-menu .ui-menu-item a.ui-state-hover, .ui-menu .ui-menu-item a.ui-state-active
+        {
+            font-weight: normal;
+            margin: -1px;
+            background-color: #FCF6C2;
+        }
+/*Auto Complete End*/
+
+/* DropContent Start */
+      
+.DropContent
+{
+position:absolute; visibility: hidden; margin-top:0px; border: 5px solid #800001; 
+width: 455px; height:315px; padding: 3px; z-index:9999;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+background-color:#FFFFFF;
+background-image:url('images/pagebg.gif');
+background-repeat:repeat-x;
+    }      
+    
+/* DropContent End */
+    </style>
+
+    <link rel="stylesheet" type="text/css" href="./NCDEX - National Commodity & Derivatives Exchange Limited   Connecting People and Market_files/subModal.css">
+
+    <!--  For Light box Ends here   -->
+<!-- Advt head start -->
+    
+    <!-- Advt head ends -->
+
+<!-- dropdown content start -->     
+<script type="text/javascript" src="./NCDEX - National Commodity & Derivatives Exchange Limited   Connecting People and Market_files/dropdowncontent.js">
+  </script>      
+<!-- dropdown content End --> 
+</head>
+<body id="Body1">
+    <form name="form1" method="post" action="./NCDEX - National Commodity & Derivatives Exchange Limited   Connecting People and Market_files/NCDEX - National Commodity & Derivatives Exchange Limited   Connecting People and Market.htm" id="form1">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTE3NzU3NDM0OTgPZBYCAgMPZBYKAgUPDxYCHghJbWFnZVVybAU1RGhhYW55YS9HcmFwaEltYWdlcy9Ib21lUGFnZUlOREVYR3JhcGhfMTdfMTBfMjAxNC5wbmdkZAIJD2QWBgIBDw8WAh4EVGV4dAUcVXBkYXRlIDogT2N0IDE2IDIwMTQgMTE6MzBQTWRkAgMPFgIeC18hSXRlbUNvdW50AgUWCgIBD2QWBgIBDw8WAh8BBQ5Tb3kgQmVhbiAtIE9jdGRkAgMPDxYCHwEFBDMwMTNkZAIFDw8WAh8BBQMyLjdkZAICD2QWBgIBDw8WAh8BBQ5Tb3kgQmVhbiAtIERlY2RkAgMPDxYCHwEFBDMwNzNkZAIFDw8WAh8BBQMyLjRkZAIDD2QWBgIBDw8WAh8BBQ5Tb3kgQmVhbiAtIE5vdmRkAgMPDxYCHwEFBDMwMzNkZAIFDw8WAh8BBQMyLjNkZAIED2QWBgIBDw8WAh8BBQ5Tb3kgQmVhbiAtIEphbmRkAgMPDxYCHwEFBDMxMDRkZAIFDw8WAh8BBQMyLjFkZAIFD2QWBgIBDw8WAh8BBRFDaGlsbGkgVGVqYSAtIE9jdGRkAgMPDxYCHwEFBTEwNDg2ZGQCBQ8PFgIfAQUBMmRkAgUPFgIfAgIFFgoCAQ9kFgYCAQ8PFgIfAQUOR3VhciBHdW0gLSBKYW5kZAIDDw8WAh8BBQUxNjM5MGRkAgUPDxYCHwEFBC0zLjVkZAICD2QWBgIBDw8WAh8BBQ5UdXJtZXJpYyAtIEFwcmRkAgMPDxYCHwEFBDY1NzRkZAIFDw8WAh8BBQQtMi43ZGQCAw9kFgYCAQ8PFgIfAQUTU2hhbmthciBLYXBhcyAtIERlY2RkAgMPDxYCHwEFAzkxNWRkAgUPDxYCHwEFBC0yLjZkZAIED2QWBgIBDw8WAh8BBQtXaGVhdCAtIEZlYmRkAgMPDxYCHwEFBDE2MDBkZAIFDw8WAh8BBQQtMi42ZGQCBQ9kFgYCAQ8PFgIfAQUOVHVybWVyaWMgLSBEZWNkZAIDDw8WAh8BBQQ2MDQwZGQCBQ8PFgIfAQUELTIuNWRkAgsPZBYGAgEPFgIfAgIFFgoCAQ9kFgICAQ8PFgIeC05hdmlnYXRlVXJsBUouLi8uLi9Eb3dubG9hZHMvTmV3c19QcmVzcy9QREYvTkNERVhfbW9kaWZpZXNfUk1fc2VlZF9mdXR1cmVzX2NvbnRyYWN0LnBkZmQWAmYPFQEnTkNERVggbW9kaWZpZXMgUk0gc2VlZCBmdXR1cmVzIGNvbnRyYWN0ZAICD2QWAgIBDw8WAh8DBSouLi8uLi9Eb3dubG9hZHMvTmV3c19QcmVzcy9QREYvU2FuZGVzaC5wZGZkFgJmDxUBKE9wZW4gaW50ZXJlc3Qgb24gTkNERVggdXAgMzElIChHdWphcmF0aSlkAgMPZBYCAgEPDxYCHwMFJy4uLy4uL0Rvd25sb2Fkcy9OZXdzX1ByZXNzL1BERi9GRV8xLnBkZmQWAmYPFQE6T3BlbiBpbnRlcmVzdCBvbiBOQ0RFWCB1cCAzMSUgaW4gQXVndXN0IGF0IFJzLiA2LDkwMSBjcm9yZWQCBA9kFgICAQ8PFgIfAwUpLi4vLi4vRG93bmxvYWRzL05ld3NfUHJlc3MvUERGL1Z5YXBhci5wZGZkFgJmDxUBMk9wZW4gaW50ZXJlc3Qgb24gTkNERVggdXAgMzElIGluIEF1Z3VzdCAoR3VqYXJhdGkpZAIFD2QWAgIBDw8WAh8DBTYuLi8uLi9Eb3dubG9hZHMvTmV3c19QcmVzcy9QREYvTURfU2lyX19JbnRlcnZpZXdfMS5wZGZkFgJmDxUBY0VmZmljaWVudCBjb21tb2RpdHkgbWFya2V0cyBnaXZlIGZhcm1lcnMgYW5kIGNvbXBhbmllcyBjbGVhciBwcmljZSBzaWduYWwtU2FtaXIgU2hhaCxNRCAmIENFTyxOQ0RFWGQCAw8PFgQfAQUVQmhhdkNvcHkgOjE2IE9jdCAyMDE0HwMFOC4uLy4uL0Rvd25sb2Fkcy9CaGF2Y29weV9TdW1tYXJ5X0ZpbGUvZG9jLzEwLTE2LTIwMTQueGxzZGQCBQ8PFgQfAQUaTWFya2V0IFJlcG9ydDogMTggU2VwIDIwMTMfAwUuLi4vLi4vRG93bmxvYWRzL0tub3dsZWRnZS9wZGYvTUZZXzE4MDkyMDEzLnBkZmRkAhEPPCsAEQBkAhMPZBYCZg88KwAJAQAPFgQeCERhdGFLZXlzFgAfAgIMZBYYAgEPZBYCAgEPDxYCHwMFJC9kb3dubG9hZHMvRkFRX1Jpc2ttYW5hZ2VtZW50ZmVlLnBkZmQWAmYPFQGEATxhIGhyZWY9Jy9Eb3dubG9hZHMvRkFRX1Jpc2ttYW5hZ2VtZW50ZmVlLnBkZicgdGFyZ2V0PSdfYmxhbmsnPlJJU0sgTUFOQUdFTUVOVCBGRUUtRkFRczwvYT4gPGltZyBzcmM9ImltYWdlcy9uZXcxLmdpZiIgYm9yZGVyPSIwIiAvPmQCAg9kFgICAQ8PFgIfAwUlL0Rvd25sb2Fkcy9Gb3J3YXJkcy9Gb3J3YXJkc19GQVFzLnBkZmQWAmYPFQF8PGEgaHJlZj0nL0Rvd25sb2Fkcy9Gb3J3YXJkcy9Gb3J3YXJkc19GQVFzLnBkZicgdGFyZ2V0PSdfYmxhbmsnPiBGb3J3YXJkcy1GQVFzPC9hPiAgPGltZyBzcmM9ImltYWdlcy9uZXcxLmdpZiIgYm9yZGVyPSIwIiAvPmQCAw9kFgICAQ8PFgIfAwUhaHR0cDovL3RyYWRlLmZvcndhcmRzdHJhZGluZy5jb20vZBYCZg8VAXo8YSBocmVmPSdodHRwOi8vdHJhZGUuZm9yd2FyZHN0cmFkaW5nLmNvbScgdGFyZ2V0PSdfYmxhbmsnPiBGb3J3YXJkcyBUcmFkaW5nPC9hPiAgPGltZyBzcmM9ImltYWdlcy9uZXcxLmdpZiIgYm9yZGVyPSIwIiAvPmQCBA9kFgICAQ8PFgIfAwUlaHR0cDovL3Bvc3R0cmFkZS5mb3J3YXJkc3RyYWRpbmcuY29tL2QWAmYPFQF/PGEgaHJlZj0naHR0cDovL3Bvc3R0cmFkZS5mb3J3YXJkc3RyYWRpbmcuY29tLycgdGFyZ2V0PSdfYmxhbmsnPiBGb3J3YXJkcyBDbGVhcmluZzwvYT4gPGltZyBzcmM9ImltYWdlcy9uZXcxLmdpZiIgYm9yZGVyPSIwIiAvPmQCBQ9kFgICAQ8PFgIfAwUrL2Rvd25sb2Fkcy9TcHJlYWRfQ29tYmluYXRpb25zXzEzMTAyMDE0LnBkZmQWAmYPFQEUU3ByZWFkIENvbWJpbmF0aW9ucyBkAgYPZBYCAgEPDxYCHwMFGGh0dHA6Ly9jb21tb24ubmNkZXguY29tL2QWAmYPFQEVRXh0cmFuZXQgQ29tbW9uIEZpbGVzZAIHD2QWAgIBDw8WAh8DBS0vQ2xlYXJpbmdTZXJ2aWNlcy9DbGVhcmluZ1NlcnZpY2VzT3RoZXJzLmFzcHhkFgJmDxUBEUNsZWFyaW5nIFNlcnZpY2VzZAIID2QWAgIBDw8WAh8DBRwvTWFya2V0RGF0YS9WZXJpZnlUcmFkZS5hc3B4ZBYCZg8VARJUcmFkZSBWZXJpZmljYXRpb25kAgkPZBYCAgEPDxYCHwMFHC9NYXJrZXREYXRhL0RhaWx5TWFyZ2luLmFzcHhkFgJmDxUBDURhaWx5IE1hcmdpbnNkAgoPZBYCAgEPDxYCHwMFGi9NYXJrZXREYXRhL1Nwb3RQcmljZS5hc3B4ZBYCZg8VAQtTcG90IFByaWNlc2QCCw9kFgICAQ8PFgIfAwUdL01hcmtldERhdGEvRnV0dXJlUHJpY2VzLmFzcHhkFgJmDxUBDUZ1dHVyZSBQcmljZXNkAgwPZBYCAgEPDxYCHwMFIi9NYXJrZXREYXRhL0xpdmVGdXR1cmVzUXVvdGVzLmFzcHhkFgJmDxUBE0xpdmUgRnV0dXJlcyBRdW90ZXNkGAEFCmRnY2lyY3VsYXIPZ2Sy40js56MxHP8lEH3b//ofKY7CGR5+RmRZeFheZu2RHA==">
+</div>
+
+<div>
+
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEWAwLQwYmuBQKZ7YzdCgKM54rGBjoLaDT18XiKlTZX5/1xSAvgsFIY0GDbyIurWXF8EL83">
+</div>
+<!--<script src="peel.js" type="text/javascript"></script>-->
+    <div align="center">
+        <table cellspacing="0" cellpadding="0" width="1000" border="0">
+            <tbody><tr>
+                <td>
+                    <table cellspacing="0" cellpadding="0" width="100%" border="0">
+                        <tbody><tr>
+                            <td valign="top">
+                                <table cellspacing="0" cellpadding="0" width="100%" border="0" height="62">
+                                    <tbody><tr>
+                                        <td width="285" valign="top" align="left">
+                                            <img alt="NCDEX" src="./NCDEX - National Commodity & Derivatives Exchange Limited   Connecting People and Market_files/logo_ani.gif" border="0">
+                                            <div style="border: 0px solid red; padding-left: 60px;" align="left">
+                                                <!-- Start TradeMark -->
+                                                 <div style="border: 0px solid red; padding-left: 5px;" align="left">
+                                                 <img src="./NCDEX - National Commodity & Derivatives Exchange Limited   Connecting People and Market_files/Slo.gif" border="0" alt="slogan">
+                                            </div>
+                                       <!-- End TradeMark -->
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <!-- Ticker start here  -->
+                                            <!-- Ticker start here  -->
+                                           <div style="border-right: red 0px solid; border-top: red 0px solid; float: right;
+                    border-left: red 0px solid; width: 710px; border-bottom: red 0px solid">
+
+                    <div id="tp1">
+                        <div class="VTabbedPanels" id="TabbedPanels2">
+                            <ul class="TabbedPanelsTabGroup">
+                                <li id="liFut" class="TabbedPanelsTab TabbedPanelsTabSelected" onclick="ChangeIndex(&#39;Fut&#39;);">Futures </li>
+                                <li id="liSpot" class="TabbedPanelsTab" onclick="ChangeIndex(&#39;Spot&#39;);">Spot </li>
+                            </ul>
+                            <div class="TabbedPanelsContentGroup">
+                                <div class="TabbedPanelsContent TabbedPanelsContentVisible" style="display: block;">
+                                    <div style="padding-left: 10px; width: 600px; padding-top: 0px; height: 62px; float: left;">
+                                        <div id="divHolder" class="divHolder">
+                                      
+                                            <div id="divContent" class="divContent" style="width: 17656px; left: -4168.86647110101px;"><table width="1%" border="0" cellpadding="0" cellspacing="0" id="ticktabFut" class="ticktabFut"><tbody><tr><td nowrap="" style="text-align:left"><span class="tickSymbol">29 MM COTTON</span><br><span class="tickMontloc">DEC-14</span> <span class="tickColorUp">16300</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">29 MM COTTON</span><br><span class="tickMontloc">JAN-15</span> <span class="tickColorNormal">17500</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">29 MM COTTON</span><br><span class="tickMontloc">OCT-14</span> <span class="tickColorUp">16900</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">29 MM COTTON</span><br><span class="tickMontloc">NOV-14</span> <span class="tickColorDown">16000</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">29 MM COTTON</span><br><span class="tickMontloc">FEB-15</span> <span class="tickColorDown">0</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">29 MM COTTON</span><br><span class="tickMontloc">MAR-15</span> <span class="tickColorDown">0</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">BAJRA</span><br><span class="tickMontloc">DEC-14</span> <span class="tickColorDown">0</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">BAJRA</span><br><span class="tickMontloc">OCT-14</span> <span class="tickColorDown">1176</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">BAJRA</span><br><span class="tickMontloc">NOV-14</span> <span class="tickColorDown">0</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">BARLEY</span><br><span class="tickMontloc">DEC-14</span> <span class="tickColorDown">1611</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">BARLEY</span><br><span class="tickMontloc">JAN-15</span> <span class="tickColorDown">1640</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">BARLEY</span><br><span class="tickMontloc">OCT-14</span> <span class="tickColorUp">1591</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">BARLEY</span><br><span class="tickMontloc">NOV-14</span> <span class="tickColorDown">1586.5</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">BRENT CRUDE OIL</span><br><span class="tickMontloc">DEC-14</span> <span class="tickColorDown">0</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">BRENT CRUDE OIL</span><br><span class="tickMontloc">NOV-14</span> <span class="tickColorDown">0</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">CASTOR SEED</span><br><span class="tickMontloc">JAN-15</span> <span class="tickColorDown">4535</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">CASTOR SEED</span><br><span class="tickMontloc">OCT-14</span> <span class="tickColorDown">4385</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">CASTOR SEED</span><br><span class="tickMontloc">DEC-14</span> <span class="tickColorDown">4489</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">CASTOR SEED</span><br><span class="tickMontloc">NOV-14</span> <span class="tickColorDown">4430</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">CASTOR SEED</span><br><span class="tickMontloc">FEB-15</span> <span class="tickColorDown">4570</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">CASTOR SEED 1 MT</span><br><span class="tickMontloc">DEC-14</span> <span class="tickColorDown">4550</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">CASTOR SEED 1 MT</span><br><span class="tickMontloc">NOV-14</span> <span class="tickColorDown">4432</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">CHANA</span><br><span class="tickMontloc">FEB-15</span> <span class="tickColorDown">3015</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">CHANA</span><br><span class="tickMontloc">NOV-14</span> <span class="tickColorUp">2898</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">CHANA</span><br><span class="tickMontloc">DEC-14</span> <span class="tickColorUp">2953</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">CHANA</span><br><span class="tickMontloc">OCT-14</span> <span class="tickColorUp">2831</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">CHANA</span><br><span class="tickMontloc">JAN-15</span> <span class="tickColorUp">2992</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">CHANA 1 MT</span><br><span class="tickMontloc">DEC-14</span> <span class="tickColorDown">2946</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">CHANA 1 MT</span><br><span class="tickMontloc">NOV-14</span> <span class="tickColorUp">2898</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">CHANA 2 MT</span><br><span class="tickMontloc">JAN-15</span> <span class="tickColorDown">0</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">CHILLI TEJA</span><br><span class="tickMontloc">DEC-14</span> <span class="tickColorDown">0</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">CHILLI TEJA</span><br><span class="tickMontloc">OCT-14</span> <span class="tickColorUp">10486</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">CHILLI TEJA</span><br><span class="tickMontloc">NOV-14</span> <span class="tickColorDown">0</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">COPPER CATHODE</span><br><span class="tickMontloc">FEB-15</span> <span class="tickColorDown">0</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">COPPER CATHODE</span><br><span class="tickMontloc">NOV-14</span> <span class="tickColorDown">425.95</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">CORIANDER</span><br><span class="tickMontloc">DEC-14</span> <span class="tickColorDown">12478</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">CORIANDER</span><br><span class="tickMontloc">JAN-15</span> <span class="tickColorDown">12840</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">CORIANDER</span><br><span class="tickMontloc">NOV-14</span> <span class="tickColorDown">12135</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">CORIANDER</span><br><span class="tickMontloc">OCT-14</span> <span class="tickColorDown">11731</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">COTTON SEED (INDUSTRIAL GRADE)</span><br><span class="tickMontloc">DEC-14</span> <span class="tickColorDown">0</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">COTTON SEED (INDUSTRIAL GRADE)</span><br><span class="tickMontloc">NOV-14</span> <span class="tickColorDown">0</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">COTTON SEED OILCAKE</span><br><span class="tickMontloc">MAR-15</span> <span class="tickColorDown">1444</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">COTTON SEED OILCAKE</span><br><span class="tickMontloc">DEC-14</span> <span class="tickColorDown">1372</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">COTTON SEED OILCAKE</span><br><span class="tickMontloc">FEB-15</span> <span class="tickColorDown">1417</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">COTTON SEED OILCAKE</span><br><span class="tickMontloc">JAN-15</span> <span class="tickColorUp">1391</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">CRUDE PALM OIL</span><br><span class="tickMontloc">JAN-15</span> <span class="tickColorDown">0</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">CRUDE PALM OIL</span><br><span class="tickMontloc">DEC-14</span> <span class="tickColorDown">0</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">CRUDE PALM OIL</span><br><span class="tickMontloc">FEB-15</span> <span class="tickColorDown">0</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">CRUDE PALM OIL</span><br><span class="tickMontloc">OCT-14</span> <span class="tickColorDown">466.2</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">CRUDE PALM OIL</span><br><span class="tickMontloc">NOV-14</span> <span class="tickColorDown">448.1</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">GOLD</span><br><span class="tickMontloc">DEC-14</span> <span class="tickColorDown">0</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">GOLD</span><br><span class="tickMontloc">FEB-15</span> <span class="tickColorDown">0</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">GOLD HEDGE</span><br><span class="tickMontloc">JAN-15</span> <span class="tickColorDown">0</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">GOLD HEDGE</span><br><span class="tickMontloc">MAR-15</span> <span class="tickColorDown">0</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">GOLD HEDGE</span><br><span class="tickMontloc">NOV-14</span> <span class="tickColorUp">24638</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">GOLD HEDGE (100 GMS)</span><br><span class="tickMontloc">NOV-14</span> <span class="tickColorUp">24700</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">GOLD HEDGE (100 GMS)</span><br><span class="tickMontloc">MAR-15</span> <span class="tickColorDown">0</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">GOLD HEDGE (100 GMS)</span><br><span class="tickMontloc">JAN-15</span> <span class="tickColorDown">0</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">GUAR GUM</span><br><span class="tickMontloc">DEC-14</span> <span class="tickColorDown">16160</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">GUAR GUM</span><br><span class="tickMontloc">FEB-15</span> <span class="tickColorDown">0</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">GUAR GUM</span><br><span class="tickMontloc">JAN-15</span> <span class="tickColorDown">16390</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">GUAR GUM</span><br><span class="tickMontloc">OCT-14</span> <span class="tickColorDown">15900</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">GUAR GUM</span><br><span class="tickMontloc">NOV-14</span> <span class="tickColorDown">16010</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">GUAR SEED 10 MT</span><br><span class="tickMontloc">DEC-14</span> <span class="tickColorDown">5652</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">GUAR SEED 10 MT</span><br><span class="tickMontloc">FEB-15</span> <span class="tickColorDown">0</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">GUAR SEED 10 MT</span><br><span class="tickMontloc">JAN-15</span> <span class="tickColorDown">5760</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">GUAR SEED 10 MT</span><br><span class="tickMontloc">NOV-14</span> <span class="tickColorDown">5576</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">GUAR SEED 10 MT</span><br><span class="tickMontloc">OCT-14</span> <span class="tickColorDown">5558</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">GUAR SEED 2 MT</span><br><span class="tickMontloc">JAN-15</span> <span class="tickColorDown">0</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">GUAR SEED 2 MT</span><br><span class="tickMontloc">FEB-15</span> <span class="tickColorDown">0</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">GUAR SEED 2 MT</span><br><span class="tickMontloc">NOV-14</span> <span class="tickColorDown">5638</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">GUAR SEED 2 MT</span><br><span class="tickMontloc">DEC-14</span> <span class="tickColorUp">5940</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">GUR</span><br><span class="tickMontloc">JAN-15</span> <span class="tickColorDown">980</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">GUR</span><br><span class="tickMontloc">NOV-14</span> <span class="tickColorDown">968</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">GUR</span><br><span class="tickMontloc">DEC-14</span> <span class="tickColorUp">964</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">JEERA</span><br><span class="tickMontloc">DEC-14</span> <span class="tickColorDown">11080</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">JEERA</span><br><span class="tickMontloc">JAN-15</span> <span class="tickColorUp">11260</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">JEERA</span><br><span class="tickMontloc">OCT-14</span> <span class="tickColorUp">10920</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">JEERA</span><br><span class="tickMontloc">NOV-14</span> <span class="tickColorDown">10935</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">JEERA</span><br><span class="tickMontloc">FEB-15</span> <span class="tickColorUp">11350</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">KAPAS</span><br><span class="tickMontloc">APR-15</span> <span class="tickColorUp">803.5</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">KAPAS</span><br><span class="tickMontloc">FEB-15</span> <span class="tickColorDown">768</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">KAPAS</span><br><span class="tickMontloc">MAR-15</span> <span class="tickColorNormal">781</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">LIGHT SWEET CRUDE OIL</span><br><span class="tickMontloc">OCT-14</span> <span class="tickColorUp">5535</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">LIGHT SWEET CRUDE OIL</span><br><span class="tickMontloc">NOV-14</span> <span class="tickColorDown">0</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">MAIZE - FEED/INDUSTRIAL GRADE</span><br><span class="tickMontloc">DEC-14</span> <span class="tickColorUp">1105</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">MAIZE - FEED/INDUSTRIAL GRADE</span><br><span class="tickMontloc">JAN-15</span> <span class="tickColorUp">1129</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">MAIZE - FEED/INDUSTRIAL GRADE</span><br><span class="tickMontloc">OCT-14</span> <span class="tickColorUp">1043</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">MAIZE - FEED/INDUSTRIAL GRADE</span><br><span class="tickMontloc">FEB-15</span> <span class="tickColorDown">0</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">MAIZE - FEED/INDUSTRIAL GRADE</span><br><span class="tickMontloc">NOV-14</span> <span class="tickColorUp">1068</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">MUSTARDSEED</span><br><span class="tickMontloc">APR-15</span> <span class="tickColorUp">3260</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">MUSTARDSEED</span><br><span class="tickMontloc">NOV-14</span> <span class="tickColorDown">3639</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">MUSTARDSEED</span><br><span class="tickMontloc">DEC-14</span> <span class="tickColorUp">3679</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">MUSTARDSEED</span><br><span class="tickMontloc">OCT-14</span> <span class="tickColorUp">3685</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">MUSTARDSEED</span><br><span class="tickMontloc">JAN-15</span> <span class="tickColorUp">3706</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">REF SOYA OIL</span><br><span class="tickMontloc">FEB-15</span> <span class="tickColorDown">583.35</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">REF SOYA OIL</span><br><span class="tickMontloc">DEC-14</span> <span class="tickColorDown">581.55</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">REF SOYA OIL</span><br><span class="tickMontloc">OCT-14</span> <span class="tickColorUp">590.9</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">REF SOYA OIL</span><br><span class="tickMontloc">NOV-14</span> <span class="tickColorUp">580.5</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">REF SOYA OIL</span><br><span class="tickMontloc">JAN-15</span> <span class="tickColorDown">583.8</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">REF SOYA OIL</span><br><span class="tickMontloc">APR-15</span> <span class="tickColorDown">591</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">SHANKAR KAPAS</span><br><span class="tickMontloc">DEC-14</span> <span class="tickColorDown">915</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">SHANKAR KAPAS</span><br><span class="tickMontloc">OCT-14</span> <span class="tickColorUp">916.5</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">SHANKAR KAPAS</span><br><span class="tickMontloc">FEB-15</span> <span class="tickColorDown">0</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">SILVER</span><br><span class="tickMontloc">DEC-14</span> <span class="tickColorDown">0</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">SILVER</span><br><span class="tickMontloc">JUL-15</span> <span class="tickColorDown">0</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">SILVER</span><br><span class="tickMontloc">MAY-15</span> <span class="tickColorDown">0</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">SILVER</span><br><span class="tickMontloc">MAR-15</span> <span class="tickColorDown">0</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">SILVER HEDGE</span><br><span class="tickMontloc">FEB-15</span> <span class="tickColorDown">0</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">SILVER HEDGE</span><br><span class="tickMontloc">NOV-14</span> <span class="tickColorUp">3495</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">SOY BEAN</span><br><span class="tickMontloc">APR-15</span> <span class="tickColorUp">3234</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">SOY BEAN</span><br><span class="tickMontloc">FEB-15</span> <span class="tickColorUp">3160</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">SOY BEAN</span><br><span class="tickMontloc">OCT-14</span> <span class="tickColorUp">3013</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">SOY BEAN</span><br><span class="tickMontloc">NOV-14</span> <span class="tickColorUp">3033</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">SOY BEAN</span><br><span class="tickMontloc">DEC-14</span> <span class="tickColorUp">3073</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">SOY BEAN</span><br><span class="tickMontloc">JAN-15</span> <span class="tickColorUp">3104</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">SUGAR M GRADE</span><br><span class="tickMontloc">DEC-15</span> <span class="tickColorDown">2906</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">SUGAR M GRADE</span><br><span class="tickMontloc">MAY-16</span> <span class="tickColorDown">3015</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">SUGAR M GRADE</span><br><span class="tickMontloc">MAR-16</span> <span class="tickColorDown">0</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">SUGAR M GRADE</span><br><span class="tickMontloc">JUL-15</span> <span class="tickColorDown">2964</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">SUGAR M GRADE</span><br><span class="tickMontloc">MAY-15</span> <span class="tickColorDown">2896</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">SUGAR M GRADE</span><br><span class="tickMontloc">DEC-14</span> <span class="tickColorDown">2783</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">SUGAR M GRADE</span><br><span class="tickMontloc">OCT-14</span> <span class="tickColorDown">2949</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">SUGAR M GRADE</span><br><span class="tickMontloc">MAR-15</span> <span class="tickColorDown">2833</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">SUGAR M GRADE</span><br><span class="tickMontloc">OCT-15</span> <span class="tickColorNormal">2980</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">TURMERIC</span><br><span class="tickMontloc">MAY-15</span> <span class="tickColorUp">6516</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">TURMERIC</span><br><span class="tickMontloc">NOV-14</span> <span class="tickColorDown">6158</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">TURMERIC</span><br><span class="tickMontloc">OCT-14</span> <span class="tickColorDown">6302</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">TURMERIC</span><br><span class="tickMontloc">APR-15</span> <span class="tickColorDown">6574</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">TURMERIC</span><br><span class="tickMontloc">DEC-14</span> <span class="tickColorDown">6040</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">WHEAT</span><br><span class="tickMontloc">FEB-15</span> <span class="tickColorDown">1600</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">WHEAT</span><br><span class="tickMontloc">NOV-14</span> <span class="tickColorNormal">1590</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">WHEAT</span><br><span class="tickMontloc">OCT-14</span> <span class="tickColorUp">1653</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">WHEAT</span><br><span class="tickMontloc">JAN-15</span> <span class="tickColorDown">1620</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">WHEAT</span><br><span class="tickMontloc">DEC-14</span> <span class="tickColorDown">1617</span></td><td class="sep"> | </td></tr></tbody></table></div>
+                                        </div>
+                                    </div>
+                                    <div style="float: right; padding-top: 10px;">
+                                        <img id="btnLeft" style="cursor: hand" alt="left" src="./NCDEX - National Commodity & Derivatives Exchange Limited   Connecting People and Market_files/rewind.gif" onclick="ChangeDirction(&#39;left&#39;);">
+                                        <img id="buttonStop" alt="pause" style="cursor: hand" src="./NCDEX - National Commodity & Derivatives Exchange Limited   Connecting People and Market_files/pause.gif" onclick="PauseTicker();">
+                                        <img id="btnRight" style="cursor: hand" alt="right" src="./NCDEX - National Commodity & Derivatives Exchange Limited   Connecting People and Market_files/forward.gif" onclick="ChangeDirction(&#39;right&#39;);">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                   
+                    </div>
+                            <div id="dvSpot" style="display: none"><table width="1%" border="0" cellpadding="0" cellspacing="0" id="ticktabSpot" class="ticktabSpot"><tbody><tr><td nowrap="" style="text-align:left"><span class="tickSymbol">29 MM COTTON</span><br><span class="tickMontloc">RAJ</span> <span class="tickColorDown">16185.5</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">ALMOND</span><br><span class="tickMontloc">DEL</span> <span class="tickColorUp">706</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">ALUMINIUM</span><br><span class="tickMontloc">MUM</span> <span class="tickColorDown">115.15</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">BAJRA</span><br><span class="tickMontloc">JAI</span> <span class="tickColorDown">1154.45</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">BARLEY</span><br><span class="tickMontloc">JAI</span> <span class="tickColorDown">1570.9</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">CASTOR SEED</span><br><span class="tickMontloc">DIS</span> <span class="tickColorUp">4382.15</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">CASTOR SEED 1 MT</span><br><span class="tickMontloc">DIS</span> <span class="tickColorUp">4382.15</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">CHANA</span><br><span class="tickMontloc">BIK</span> <span class="tickColorDown">2770</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">CHANA</span><br><span class="tickMontloc">DEL</span> <span class="tickColorUp">2917.65</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">CHANA</span><br><span class="tickMontloc">IND</span> <span class="tickColorDown">2813.75</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">CHANA 1 MT</span><br><span class="tickMontloc">DEL</span> <span class="tickColorUp">2917.65</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">CHILLI</span><br><span class="tickMontloc">GUN</span> <span class="tickColorUp">7646.15</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">CHILLI TEJA</span><br><span class="tickMontloc">KHM</span> <span class="tickColorUp">10275</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">COPPER CATHODE</span><br><span class="tickMontloc">MUM</span> <span class="tickColorNormal">407.25</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">CORIANDER</span><br><span class="tickMontloc">KOT</span> <span class="tickColorDown">11237.5</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">COTTON</span><br><span class="tickMontloc">KAD</span> <span class="tickColorUp">16100.2</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">COTTON SEED (INDUSTRIAL GRADE)</span><br><span class="tickMontloc">AKO</span> <span class="tickColorNormal">1865</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">COTTON SEED OILCAKE</span><br><span class="tickMontloc">AKO</span> <span class="tickColorDown">1377.5</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">COTTON SEED OILCAKE</span><br><span class="tickMontloc">KAD</span> <span class="tickColorUp">1431.25</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">CRUDE PALM OIL</span><br><span class="tickMontloc">KAK</span> <span class="tickColorDown">460.25</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">CRUDE PALM OIL</span><br><span class="tickMontloc">KAN</span> <span class="tickColorNormal">442.4</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">GOLD</span><br><span class="tickMontloc">AHM</span> <span class="tickColorUp">27571</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">GOLD (100 GMS)</span><br><span class="tickMontloc">AHM</span> <span class="tickColorUp">27571</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">GOLD (100 GMS)</span><br><span class="tickMontloc">MUM</span> <span class="tickColorUp">27500</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">GOLD HEDGE</span><br><span class="tickMontloc">AHM</span> <span class="tickColorUp">24446</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">GOLD HEDGE (100 GMS)</span><br><span class="tickMontloc">AHM</span> <span class="tickColorUp">24446</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">GOLD KG</span><br><span class="tickMontloc">MUM</span> <span class="tickColorUp">27500</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">GROUNDNUT (IN SHELL)</span><br><span class="tickMontloc">JUN</span> <span class="tickColorDown">704.1</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">GROUNDNUT OIL</span><br><span class="tickMontloc">RAJ</span> <span class="tickColorUp">827.2</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">GUAR GUM</span><br><span class="tickMontloc">JOD</span> <span class="tickColorDown">15709.3</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">GUAR SEED 10 MT</span><br><span class="tickMontloc">JOD</span> <span class="tickColorDown">5535.3</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">GUARSEED</span><br><span class="tickMontloc">BIK</span> <span class="tickColorDown">5500</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">GUARSEED</span><br><span class="tickMontloc">JOD</span> <span class="tickColorDown">5535.3</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">GUR</span><br><span class="tickMontloc">MUZ</span> <span class="tickColorUp">1018.65</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">INDIAN 31 MM COTTON</span><br><span class="tickMontloc">GUN</span> <span class="tickColorDown">36500</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">JEERA</span><br><span class="tickMontloc">UNJ</span> <span class="tickColorDown">10900</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">KACHHI GHANI MUSTARD OIL</span><br><span class="tickMontloc">JAI</span> <span class="tickColorDown">712.5</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">LEAD</span><br><span class="tickMontloc">MUM</span> <span class="tickColorDown">120.25</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">LINEAR LOW DENSITY POLYETHYLENE</span><br><span class="tickMontloc">MUM</span> <span class="tickColorDown">116.35</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">MAIZE - FEED/INDUSTRIAL GRADE</span><br><span class="tickMontloc">SAN</span> <span class="tickColorNormal">1210</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">MAIZE - FEED/INDUSTRIAL GRADE</span><br><span class="tickMontloc">DEL</span> <span class="tickColorNormal">1220</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">MAIZE - FEED/INDUSTRIAL GRADE</span><br><span class="tickMontloc">DAV</span> <span class="tickColorNormal">1200</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">MAIZE - FEED/INDUSTRIAL GRADE</span><br><span class="tickMontloc">KAR</span> <span class="tickColorUp">1175</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">MAIZE - FEED/INDUSTRIAL GRADE</span><br><span class="tickMontloc">GUL</span> <span class="tickColorUp">1130.75</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">MAIZE - FEED/INDUSTRIAL GRADE</span><br><span class="tickMontloc">NIZ</span> <span class="tickColorUp">1206</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">MASOOR GRAIN BOLD </span><br><span class="tickMontloc">IND</span> <span class="tickColorNormal">5750</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">MUSTARDSEED</span><br><span class="tickMontloc">JAI</span> <span class="tickColorDown">3679.35</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">MUSTARDSEED</span><br><span class="tickMontloc">ALW</span> <span class="tickColorNormal">3713</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">NICKEL</span><br><span class="tickMontloc">MUM</span> <span class="tickColorDown">941.55</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">PEPPER</span><br><span class="tickMontloc">KOC</span> <span class="tickColorUp">70677.75</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">POLYPROPYLENE</span><br><span class="tickMontloc">MUM</span> <span class="tickColorNormal">115.7</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">POLYVINYL CHLORIDE</span><br><span class="tickMontloc">MUM</span> <span class="tickColorNormal">70000</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">R M OIL</span><br><span class="tickMontloc">SRI</span> <span class="tickColorNormal">685</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">RAW JUTE</span><br><span class="tickMontloc">KOLK</span> <span class="tickColorDown">2926.85</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">RBD PALM OLEIN</span><br><span class="tickMontloc">KAK</span> <span class="tickColorDown">517.45</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">RBD PALMOLEIN</span><br><span class="tickMontloc">KAN</span> <span class="tickColorDown">490</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">REF SOYA OIL</span><br><span class="tickMontloc">NAG</span> <span class="tickColorUp">615.5</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">REF SOYA OIL</span><br><span class="tickMontloc">IND</span> <span class="tickColorDown">598.3</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">REF SOYA OIL</span><br><span class="tickMontloc">MUM</span> <span class="tickColorNormal">610</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">RUBBER_NEW                    </span><br><span class="tickMontloc">KOC</span> <span class="tickColorUp">12286.1</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">SHANKAR KAPAS</span><br><span class="tickMontloc">KAD</span> <span class="tickColorUp">887.9</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">SHANKAR KAPAS</span><br><span class="tickMontloc">RAJ</span> <span class="tickColorDown">883.3</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">SHANKAR KAPAS</span><br><span class="tickMontloc">VIJ</span> <span class="tickColorDown">885.35</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">SHANKAR KAPAS</span><br><span class="tickMontloc">GON</span> <span class="tickColorNormal">882.75</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">SHANKAR KAPAS</span><br><span class="tickMontloc">RAJ</span> <span class="tickColorDown">884.85</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">SILVER</span><br><span class="tickMontloc">DEL</span> <span class="tickColorUp">38743.65</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">SILVER</span><br><span class="tickMontloc">AHM</span> <span class="tickColorUp">38800</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">SILVER (5KG)</span><br><span class="tickMontloc">DEL</span> <span class="tickColorUp">38743.65</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">SILVER 5 KGS AHMEDABAD</span><br><span class="tickMontloc">AHM</span> <span class="tickColorUp">38800</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">SILVER HEDGE</span><br><span class="tickMontloc">AHM</span> <span class="tickColorDown">3455</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">SILVER INTERNATIONAL</span><br><span class="tickMontloc">AHM</span> <span class="tickColorDown">34551</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">SOY BEAN</span><br><span class="tickMontloc">IND</span> <span class="tickColorUp">3010</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">SOY BEAN</span><br><span class="tickMontloc">NAG</span> <span class="tickColorUp">3125</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">SOY BEAN</span><br><span class="tickMontloc">KOT</span> <span class="tickColorDown">2915.15</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">SOYMEAL</span><br><span class="tickMontloc">IND</span> <span class="tickColorNormal">26000</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">STEEL LONG</span><br><span class="tickMontloc">MANG</span> <span class="tickColorNormal">33500</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">STEEL LONG COMMERCIAL</span><br><span class="tickMontloc">THN</span> <span class="tickColorNormal">30450</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">SUGAR M GRADE</span><br><span class="tickMontloc">KOL</span> <span class="tickColorDown">3004.15</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">SUGAR M GRADE</span><br><span class="tickMontloc">ERO</span> <span class="tickColorNormal">3110.5</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">SUGAR M GRADE</span><br><span class="tickMontloc">KOL</span> <span class="tickColorNormal">2975</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">SUGAR M GRADE</span><br><span class="tickMontloc">KANP</span> <span class="tickColorDown">3154.45</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">SUGAR M GRADE</span><br><span class="tickMontloc">DEL</span> <span class="tickColorNormal">3185</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">SUGAR M GRADE</span><br><span class="tickMontloc">KOLK</span> <span class="tickColorDown">3250</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">SUGAR M GRADE</span><br><span class="tickMontloc">MUZ</span> <span class="tickColorNormal">3136.65</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">SUGAR S</span><br><span class="tickMontloc">VAS</span> <span class="tickColorDown">3019.8</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">SUGAR S</span><br><span class="tickMontloc">KOL</span> <span class="tickColorDown">2870</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">SUGAR S</span><br><span class="tickMontloc">ERO</span> <span class="tickColorNormal">3053</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">THERMAL COAL</span><br><span class="tickMontloc">WAN</span> <span class="tickColorNormal">3408</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">THERMAL COAL</span><br><span class="tickMontloc">NAG</span> <span class="tickColorNormal">3890</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">TURMERIC</span><br><span class="tickMontloc">NIZ</span> <span class="tickColorUp">6288.85</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">WHEAT</span><br><span class="tickMontloc">DEL</span> <span class="tickColorNormal">1620</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">WHEAT NEW</span><br><span class="tickMontloc">BAR</span> <span class="tickColorNormal">1542.5</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">WHEAT NEW</span><br><span class="tickMontloc">KANP</span> <span class="tickColorDown">1532.5</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">WHEAT NEW</span><br><span class="tickMontloc">IND</span> <span class="tickColorUp">1575</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">WHEAT NEW</span><br><span class="tickMontloc">KOT</span> <span class="tickColorUp">1605</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">WHEAT NEW</span><br><span class="tickMontloc">RAJ</span> <span class="tickColorUp">1555</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">YELLOW PEAS</span><br><span class="tickMontloc">KANP</span> <span class="tickColorDown">2800</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">YELLOW PEAS</span><br><span class="tickMontloc">MUM</span> <span class="tickColorDown">2410.5</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">YELLOW SOYBEAN MEAL (EXPORT)</span><br><span class="tickMontloc">KAN</span> <span class="tickColorNormal">29100</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">ZINC</span><br><span class="tickMontloc">MUM</span> <span class="tickColorDown">135.55</span></td><td class="sep"> | </td></tr></tbody></table></div>
+                             <div id="dvFut" style="display: none"><table width="1%" border="0" cellpadding="0" cellspacing="0" id="ticktabFut" class="ticktabFut"><tbody><tr><td nowrap="" style="text-align:left"><span class="tickSymbol">29 MM COTTON</span><br><span class="tickMontloc">DEC-14</span> <span class="tickColorUp">16300</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">29 MM COTTON</span><br><span class="tickMontloc">JAN-15</span> <span class="tickColorNormal">17500</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">29 MM COTTON</span><br><span class="tickMontloc">OCT-14</span> <span class="tickColorUp">16900</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">29 MM COTTON</span><br><span class="tickMontloc">NOV-14</span> <span class="tickColorDown">16000</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">29 MM COTTON</span><br><span class="tickMontloc">FEB-15</span> <span class="tickColorDown">0</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">29 MM COTTON</span><br><span class="tickMontloc">MAR-15</span> <span class="tickColorDown">0</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">BAJRA</span><br><span class="tickMontloc">DEC-14</span> <span class="tickColorDown">0</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">BAJRA</span><br><span class="tickMontloc">OCT-14</span> <span class="tickColorDown">1176</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">BAJRA</span><br><span class="tickMontloc">NOV-14</span> <span class="tickColorDown">0</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">BARLEY</span><br><span class="tickMontloc">DEC-14</span> <span class="tickColorDown">1611</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">BARLEY</span><br><span class="tickMontloc">JAN-15</span> <span class="tickColorDown">1640</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">BARLEY</span><br><span class="tickMontloc">OCT-14</span> <span class="tickColorUp">1591</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">BARLEY</span><br><span class="tickMontloc">NOV-14</span> <span class="tickColorDown">1586.5</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">BRENT CRUDE OIL</span><br><span class="tickMontloc">DEC-14</span> <span class="tickColorDown">0</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">BRENT CRUDE OIL</span><br><span class="tickMontloc">NOV-14</span> <span class="tickColorDown">0</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">CASTOR SEED</span><br><span class="tickMontloc">JAN-15</span> <span class="tickColorDown">4535</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">CASTOR SEED</span><br><span class="tickMontloc">OCT-14</span> <span class="tickColorDown">4385</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">CASTOR SEED</span><br><span class="tickMontloc">DEC-14</span> <span class="tickColorDown">4489</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">CASTOR SEED</span><br><span class="tickMontloc">NOV-14</span> <span class="tickColorDown">4430</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">CASTOR SEED</span><br><span class="tickMontloc">FEB-15</span> <span class="tickColorDown">4570</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">CASTOR SEED 1 MT</span><br><span class="tickMontloc">DEC-14</span> <span class="tickColorDown">4550</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">CASTOR SEED 1 MT</span><br><span class="tickMontloc">NOV-14</span> <span class="tickColorDown">4432</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">CHANA</span><br><span class="tickMontloc">FEB-15</span> <span class="tickColorDown">3015</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">CHANA</span><br><span class="tickMontloc">NOV-14</span> <span class="tickColorUp">2898</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">CHANA</span><br><span class="tickMontloc">DEC-14</span> <span class="tickColorUp">2953</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">CHANA</span><br><span class="tickMontloc">OCT-14</span> <span class="tickColorUp">2831</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">CHANA</span><br><span class="tickMontloc">JAN-15</span> <span class="tickColorUp">2992</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">CHANA 1 MT</span><br><span class="tickMontloc">DEC-14</span> <span class="tickColorDown">2946</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">CHANA 1 MT</span><br><span class="tickMontloc">NOV-14</span> <span class="tickColorUp">2898</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">CHANA 2 MT</span><br><span class="tickMontloc">JAN-15</span> <span class="tickColorDown">0</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">CHILLI TEJA</span><br><span class="tickMontloc">DEC-14</span> <span class="tickColorDown">0</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">CHILLI TEJA</span><br><span class="tickMontloc">OCT-14</span> <span class="tickColorUp">10486</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">CHILLI TEJA</span><br><span class="tickMontloc">NOV-14</span> <span class="tickColorDown">0</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">COPPER CATHODE</span><br><span class="tickMontloc">FEB-15</span> <span class="tickColorDown">0</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">COPPER CATHODE</span><br><span class="tickMontloc">NOV-14</span> <span class="tickColorDown">425.95</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">CORIANDER</span><br><span class="tickMontloc">DEC-14</span> <span class="tickColorDown">12478</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">CORIANDER</span><br><span class="tickMontloc">JAN-15</span> <span class="tickColorDown">12840</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">CORIANDER</span><br><span class="tickMontloc">NOV-14</span> <span class="tickColorDown">12135</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">CORIANDER</span><br><span class="tickMontloc">OCT-14</span> <span class="tickColorDown">11731</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">COTTON SEED (INDUSTRIAL GRADE)</span><br><span class="tickMontloc">DEC-14</span> <span class="tickColorDown">0</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">COTTON SEED (INDUSTRIAL GRADE)</span><br><span class="tickMontloc">NOV-14</span> <span class="tickColorDown">0</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">COTTON SEED OILCAKE</span><br><span class="tickMontloc">MAR-15</span> <span class="tickColorDown">1444</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">COTTON SEED OILCAKE</span><br><span class="tickMontloc">DEC-14</span> <span class="tickColorDown">1372</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">COTTON SEED OILCAKE</span><br><span class="tickMontloc">FEB-15</span> <span class="tickColorDown">1417</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">COTTON SEED OILCAKE</span><br><span class="tickMontloc">JAN-15</span> <span class="tickColorUp">1391</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">CRUDE PALM OIL</span><br><span class="tickMontloc">JAN-15</span> <span class="tickColorDown">0</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">CRUDE PALM OIL</span><br><span class="tickMontloc">DEC-14</span> <span class="tickColorDown">0</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">CRUDE PALM OIL</span><br><span class="tickMontloc">FEB-15</span> <span class="tickColorDown">0</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">CRUDE PALM OIL</span><br><span class="tickMontloc">OCT-14</span> <span class="tickColorDown">466.2</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">CRUDE PALM OIL</span><br><span class="tickMontloc">NOV-14</span> <span class="tickColorDown">448.1</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">GOLD</span><br><span class="tickMontloc">DEC-14</span> <span class="tickColorDown">0</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">GOLD</span><br><span class="tickMontloc">FEB-15</span> <span class="tickColorDown">0</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">GOLD HEDGE</span><br><span class="tickMontloc">JAN-15</span> <span class="tickColorDown">0</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">GOLD HEDGE</span><br><span class="tickMontloc">MAR-15</span> <span class="tickColorDown">0</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">GOLD HEDGE</span><br><span class="tickMontloc">NOV-14</span> <span class="tickColorUp">24638</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">GOLD HEDGE (100 GMS)</span><br><span class="tickMontloc">NOV-14</span> <span class="tickColorUp">24700</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">GOLD HEDGE (100 GMS)</span><br><span class="tickMontloc">MAR-15</span> <span class="tickColorDown">0</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">GOLD HEDGE (100 GMS)</span><br><span class="tickMontloc">JAN-15</span> <span class="tickColorDown">0</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">GUAR GUM</span><br><span class="tickMontloc">DEC-14</span> <span class="tickColorDown">16160</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">GUAR GUM</span><br><span class="tickMontloc">FEB-15</span> <span class="tickColorDown">0</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">GUAR GUM</span><br><span class="tickMontloc">JAN-15</span> <span class="tickColorDown">16390</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">GUAR GUM</span><br><span class="tickMontloc">OCT-14</span> <span class="tickColorDown">15900</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">GUAR GUM</span><br><span class="tickMontloc">NOV-14</span> <span class="tickColorDown">16010</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">GUAR SEED 10 MT</span><br><span class="tickMontloc">DEC-14</span> <span class="tickColorDown">5652</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">GUAR SEED 10 MT</span><br><span class="tickMontloc">FEB-15</span> <span class="tickColorDown">0</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">GUAR SEED 10 MT</span><br><span class="tickMontloc">JAN-15</span> <span class="tickColorDown">5760</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">GUAR SEED 10 MT</span><br><span class="tickMontloc">NOV-14</span> <span class="tickColorDown">5576</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">GUAR SEED 10 MT</span><br><span class="tickMontloc">OCT-14</span> <span class="tickColorDown">5558</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">GUAR SEED 2 MT</span><br><span class="tickMontloc">JAN-15</span> <span class="tickColorDown">0</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">GUAR SEED 2 MT</span><br><span class="tickMontloc">FEB-15</span> <span class="tickColorDown">0</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">GUAR SEED 2 MT</span><br><span class="tickMontloc">NOV-14</span> <span class="tickColorDown">5638</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">GUAR SEED 2 MT</span><br><span class="tickMontloc">DEC-14</span> <span class="tickColorUp">5940</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">GUR</span><br><span class="tickMontloc">JAN-15</span> <span class="tickColorDown">980</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">GUR</span><br><span class="tickMontloc">NOV-14</span> <span class="tickColorDown">968</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">GUR</span><br><span class="tickMontloc">DEC-14</span> <span class="tickColorUp">964</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">JEERA</span><br><span class="tickMontloc">DEC-14</span> <span class="tickColorDown">11080</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">JEERA</span><br><span class="tickMontloc">JAN-15</span> <span class="tickColorUp">11260</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">JEERA</span><br><span class="tickMontloc">OCT-14</span> <span class="tickColorUp">10920</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">JEERA</span><br><span class="tickMontloc">NOV-14</span> <span class="tickColorDown">10935</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">JEERA</span><br><span class="tickMontloc">FEB-15</span> <span class="tickColorUp">11350</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">KAPAS</span><br><span class="tickMontloc">APR-15</span> <span class="tickColorUp">803.5</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">KAPAS</span><br><span class="tickMontloc">FEB-15</span> <span class="tickColorDown">768</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">KAPAS</span><br><span class="tickMontloc">MAR-15</span> <span class="tickColorNormal">781</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">LIGHT SWEET CRUDE OIL</span><br><span class="tickMontloc">OCT-14</span> <span class="tickColorUp">5535</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">LIGHT SWEET CRUDE OIL</span><br><span class="tickMontloc">NOV-14</span> <span class="tickColorDown">0</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">MAIZE - FEED/INDUSTRIAL GRADE</span><br><span class="tickMontloc">DEC-14</span> <span class="tickColorUp">1105</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">MAIZE - FEED/INDUSTRIAL GRADE</span><br><span class="tickMontloc">JAN-15</span> <span class="tickColorUp">1129</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">MAIZE - FEED/INDUSTRIAL GRADE</span><br><span class="tickMontloc">OCT-14</span> <span class="tickColorUp">1043</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">MAIZE - FEED/INDUSTRIAL GRADE</span><br><span class="tickMontloc">FEB-15</span> <span class="tickColorDown">0</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">MAIZE - FEED/INDUSTRIAL GRADE</span><br><span class="tickMontloc">NOV-14</span> <span class="tickColorUp">1068</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">MUSTARDSEED</span><br><span class="tickMontloc">APR-15</span> <span class="tickColorUp">3260</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">MUSTARDSEED</span><br><span class="tickMontloc">NOV-14</span> <span class="tickColorDown">3639</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">MUSTARDSEED</span><br><span class="tickMontloc">DEC-14</span> <span class="tickColorUp">3679</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">MUSTARDSEED</span><br><span class="tickMontloc">OCT-14</span> <span class="tickColorUp">3685</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">MUSTARDSEED</span><br><span class="tickMontloc">JAN-15</span> <span class="tickColorUp">3706</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">REF SOYA OIL</span><br><span class="tickMontloc">FEB-15</span> <span class="tickColorDown">583.35</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">REF SOYA OIL</span><br><span class="tickMontloc">DEC-14</span> <span class="tickColorDown">581.55</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">REF SOYA OIL</span><br><span class="tickMontloc">OCT-14</span> <span class="tickColorUp">590.9</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">REF SOYA OIL</span><br><span class="tickMontloc">NOV-14</span> <span class="tickColorUp">580.5</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">REF SOYA OIL</span><br><span class="tickMontloc">JAN-15</span> <span class="tickColorDown">583.8</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">REF SOYA OIL</span><br><span class="tickMontloc">APR-15</span> <span class="tickColorDown">591</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">SHANKAR KAPAS</span><br><span class="tickMontloc">DEC-14</span> <span class="tickColorDown">915</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">SHANKAR KAPAS</span><br><span class="tickMontloc">OCT-14</span> <span class="tickColorUp">916.5</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">SHANKAR KAPAS</span><br><span class="tickMontloc">FEB-15</span> <span class="tickColorDown">0</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">SILVER</span><br><span class="tickMontloc">DEC-14</span> <span class="tickColorDown">0</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">SILVER</span><br><span class="tickMontloc">JUL-15</span> <span class="tickColorDown">0</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">SILVER</span><br><span class="tickMontloc">MAY-15</span> <span class="tickColorDown">0</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">SILVER</span><br><span class="tickMontloc">MAR-15</span> <span class="tickColorDown">0</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">SILVER HEDGE</span><br><span class="tickMontloc">FEB-15</span> <span class="tickColorDown">0</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">SILVER HEDGE</span><br><span class="tickMontloc">NOV-14</span> <span class="tickColorUp">3495</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">SOY BEAN</span><br><span class="tickMontloc">APR-15</span> <span class="tickColorUp">3234</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">SOY BEAN</span><br><span class="tickMontloc">FEB-15</span> <span class="tickColorUp">3160</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">SOY BEAN</span><br><span class="tickMontloc">OCT-14</span> <span class="tickColorUp">3013</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">SOY BEAN</span><br><span class="tickMontloc">NOV-14</span> <span class="tickColorUp">3033</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">SOY BEAN</span><br><span class="tickMontloc">DEC-14</span> <span class="tickColorUp">3073</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">SOY BEAN</span><br><span class="tickMontloc">JAN-15</span> <span class="tickColorUp">3104</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">SUGAR M GRADE</span><br><span class="tickMontloc">DEC-15</span> <span class="tickColorDown">2906</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">SUGAR M GRADE</span><br><span class="tickMontloc">MAY-16</span> <span class="tickColorDown">3015</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">SUGAR M GRADE</span><br><span class="tickMontloc">MAR-16</span> <span class="tickColorDown">0</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">SUGAR M GRADE</span><br><span class="tickMontloc">JUL-15</span> <span class="tickColorDown">2964</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">SUGAR M GRADE</span><br><span class="tickMontloc">MAY-15</span> <span class="tickColorDown">2896</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">SUGAR M GRADE</span><br><span class="tickMontloc">DEC-14</span> <span class="tickColorDown">2783</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">SUGAR M GRADE</span><br><span class="tickMontloc">OCT-14</span> <span class="tickColorDown">2949</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">SUGAR M GRADE</span><br><span class="tickMontloc">MAR-15</span> <span class="tickColorDown">2833</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">SUGAR M GRADE</span><br><span class="tickMontloc">OCT-15</span> <span class="tickColorNormal">2980</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">TURMERIC</span><br><span class="tickMontloc">MAY-15</span> <span class="tickColorUp">6516</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">TURMERIC</span><br><span class="tickMontloc">NOV-14</span> <span class="tickColorDown">6158</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">TURMERIC</span><br><span class="tickMontloc">OCT-14</span> <span class="tickColorDown">6302</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">TURMERIC</span><br><span class="tickMontloc">APR-15</span> <span class="tickColorDown">6574</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">TURMERIC</span><br><span class="tickMontloc">DEC-14</span> <span class="tickColorDown">6040</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">WHEAT</span><br><span class="tickMontloc">FEB-15</span> <span class="tickColorDown">1600</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">WHEAT</span><br><span class="tickMontloc">NOV-14</span> <span class="tickColorNormal">1590</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">WHEAT</span><br><span class="tickMontloc">OCT-14</span> <span class="tickColorUp">1653</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">WHEAT</span><br><span class="tickMontloc">JAN-15</span> <span class="tickColorDown">1620</span></td><td class="sep"> | </td><td nowrap="" style="text-align:left"><span class="tickSymbol">WHEAT</span><br><span class="tickMontloc">DEC-14</span> <span class="tickColorDown">1617</span></td><td class="sep"> | </td></tr></tbody></table></div>                    
+                </div>
+                                            <!-- Ticker ends here -->
+                                            <!-- Ticker ends here -->
+                                        </td>
+                                    </tr>
+                                </tbody></table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td valign="top">
+                                 
+<table cellspacing="0" cellpadding="0" width="100%" border="0">
+    <tbody><tr>
+            <td style="background-image: ~/Images/MENUBG.gif" nowrap="" height="31">
+            <div id="wrapper">
+                <div id="info">
+                    <div id="dropList">
+                        <ul id="menu">
+  			<li class="level1-li sub"><a class="level1-a" href="http://www.ncdex.com/index.aspx#" onmouseover="ShowMenu(&#39;For&#39;);" onmouseout="ChangeImg(0);">
+                                <img src="./NCDEX - National Commodity & Derivatives Exchange Limited   Connecting People and Market_files/forward_button.gif" id="ImgForward" alt="" border="0" style="display: block;
+                                    float: left; margin-top: 4px;">
+                            </a>
+                                <div id="dvFor" class="listHolder col1For"><ul class="atoz" style="width:545px;"><li><a href="http://www.ncdex.com/index.aspx#url" onmouseover="ChangeImg(1);" onmouseout="ChangeImg(0);">About Forwards</a><div class="subListHolder col3" style="width:545px;" onmouseover="ChangeImg(1);" onmouseout="ChangeImg(0);"><div class="sublistCol"><ul><li><a href="http://www.ncdex.com/Forwards/About_Forwards.aspx?Type=AboutForward" target="_self" onmouseover="ChangeImg(1);" onmouseout="ChangeImg(0);">Introduction</a></li><li><a href="http://www.ncdex.com/Forwards/Benefits_Forwards.aspx?Type=AboutForward" target="_self" '="" onmouseover="ChangeImg(1);" onmouseout="ChangeImg(0);">NCDEX Forwards</a></li></ul></div></div></li><li><a href="http://www.ncdex.com/index.aspx#url" onmouseover="ChangeImg(1);" onmouseout="ChangeImg(0);">Membership</a><div class="subListHolder col3" style="width:545px;" onmouseover="ChangeImg(1);" onmouseout="ChangeImg(0);"><div class="sublistCol" onmouseover="ChangeImg(1);" onmouseout="ChangeImg(0);"><ul><li><a href="http://www.ncdex.com/Forwards/Membership_Forward.aspx?Type=Membership" target="_self" onmouseover="ChangeImg(1);" onmouseout="ChangeImg(0);">New Membership</a></li><li><a href="http://www.ncdex.com/Membership/Forward.aspx" target="_self">Membership Forms and Documents</a></li><li><a href="http://www.ncdex.com/Membership/MemDirectory.aspx" target="_self">Members Directory</a></li><li><a href="http://www.ncdex.com/Downloads/Forwards/Forwards_FAQs.pdf#page=10" target="_blank">Forwards-FAQs</a></li></ul></div></div></li><li><a href="http://www.ncdex.com/index.aspx#url" onmouseover="ChangeImg(1);" onmouseout="ChangeImg(0);">Products</a><div class="subListHolder col3" style="width:545px;" onmouseover="ChangeImg(1);" onmouseout="ChangeImg(0);"><div class="sublistCol"><ul><li><a href="http://www.ncdex.com/Downloads/Forwards/Forwards_Sugar_CS_23092014.pdf" target="_blank" onmouseover="ChangeImg(1);" onmouseout="ChangeImg(0);">Sugar</a></li><li><a href="http://www.ncdex.com/Downloads/Forwards/Forwards_Maize_CS_23092014.pdf" target="_blank" onmouseover="ChangeImg(1);" onmouseout="ChangeImg(0);">Maize</a></li></ul></div></div></li><li><a href="http://www.ncdex.com/index.aspx#url" onmouseover="ChangeImg(1);" onmouseout="ChangeImg(0);">Trading and Operations</a><div class="subListHolder col3" style="width:545px;" onmouseover="ChangeImg(1);" onmouseout="ChangeImg(0);"><div class="sublistCol" onmouseover="ChangeImg(1);" onmouseout="ChangeImg(0);"><ul><li><a href="http://trade.forwardstrading.com/" target="_blank">Trading</a></li><li><a href="http://posttrade.forwardstrading.com/" target="_self">Clearing</a></li><li><a href="http://www.ncdex.com/Circulars/CircularHome.aspx?SearchText=Forward" target="_self">Circulars</a></li><li><a href="http://www.ncdex.com/Forwards/BhavCopy_Forward.aspx?Type=Trading" target="_self">Market Data</a></li><li><a href="http://www.ncdex.com/Downloads/Forwards/ForwardsTradingHelp.pdf" target="_blank">Trading Manual</a></li><li><a href="http://www.ncdex.com/Downloads/Forwards/ForwardsClearingHelpDoc.pdf" target="_blank">Clearing Manual</a></li><li><a href="http://www.ncdex.com/ClearingServices/ClearingServicesOthers.aspx" target="_self">Indicative Charges of Assayers Nominated for Forwards Segment</a></li></ul></div></div></li><li><a href="http://www.ncdex.com/index.aspx#url" onmouseover="ChangeImg(1);" onmouseout="ChangeImg(0);">Knowledge Center</a><div class="subListHolder col3" style="width:545px;" onmouseover="ChangeImg(1);" onmouseout="ChangeImg(0);"><div class="sublistCol" onmouseover="ChangeImg(1);" onmouseout="ChangeImg(0);"><ul><li><a href="http://www.ncdex.com/Downloads/Forwards/ForwardsBrochure.pdf" target="_blank">Brochure</a></li><li><a href="http://www.ncdex.com/Downloads/Forwards/Forwards_FAQs.pdf" target="_blank">Forwards-FAQs</a></li><li><a href="http://www.ncdex.com/Downloads/Forwards/ForwardsProcessFlow_23Sep2014.pdf" target="_blank">Forwards- Process Flow</a></li><li><a href="http://www.ncdex.com/Downloads/Forwards/NCDEXAgrimSaudaPresentation.pdf" target="_blank">Forwards Presentation</a></li></ul></div></div></li></ul></div>
+                            </li>
+                            <li class="level1-li sub"><a class="level1-a" href="http://www.ncdex.com/index.aspx#" onmouseover="ShowMenu(&#39;Ind&#39;);">
+                                Indices</a>
+                                <div id="dvInd" class="listHolder col1"> <div class="listCol"><ul><li><a href="http://www.ncdex.com/Dhaanya/DhaanyaIntro.aspx">Dhaanya</a></li> </ul></div></div>
+                            </li>
+                            <li class="level1-li sub"><a class="level1-a" href="http://www.ncdex.com/index.aspx#" onmouseover="ShowMenu(&#39;Mem&#39;);">
+                                Membership</a>
+                                <div id="dvMem" class="listHolder col1Mem"><div class="listCol"><ul><li><a href="http://www.ncdex.com/Membership/MembershipIntro.aspx">Introduction</a></li><li><a href="http://www.ncdex.com/Membership/TypeofMembership.aspx">New Membership</a></li><li><a href="http://www.ncdex.com/Membership/Membership_ACR_AR.aspx">Ongoing Compliance</a></li><li><a href="http://www.ncdex.com/Membership/ReconstitutionofFirm.aspx">Reconstitution</a></li><li><a href="http://www.ncdex.com/Membership/ConverMembershipCategory.aspx">Conversion of membership category</a></li><li><a href="http://www.ncdex.com/Membership/Forward.aspx">Forward</a></li><li><a href="http://www.ncdex.com/Membership/MemDirectory.aspx">Members Directory</a></li><li><a href="http://www.ncdex.com/Membership/AuthorisedPerson.aspx">Authorised Person's Directory</a></li><li><a href="http://www.ncdex.com/Membership/MemberComplianceGuide.aspx">Compliance</a></li><li><a href="http://www.ncdex.com/Membership/TerminalDisablement.aspx">Terminal disablement</a></li><li><a href="http://www.ncdex.com/Membership/MemberPropPositionmargins.aspx">Members Proprietary Position &amp; Margins</a></li><li><a href="http://www.ncdex.com/Membership/SurrenderOfMembership.aspx">Surrender of Membership</a></li><li><a href="http://www.ncdex.com/Membership/SuspendedMembers.aspx">Suspended / Debarred Members</a></li><li><a href="http://www.nseindia.com/content/members/mem_currency_futures.htm" target="_blank">NSE'S Currency Derivaties</a></li> </ul></div></div>
+                            </li>
+                            <li class="level1-li sub"><a class="level1-a" href="http://www.ncdex.com/index.aspx#" onmouseover="ShowMenu(&#39;Mkd&#39;);">
+                                Market Data</a>
+                                <div id="dvMkd" class="listHolder col1"> <div class="listCol"><ul><li><a href="http://www.ncdex.com/MarketData/BhavCopy.aspx">Bhav Copy</a></li><li><a href="http://www.ncdex.com/MarketData/LiveFuturesQuotes.aspx">Live Futures Quotes</a></li><li><a href="http://www.ncdex.com/MarketData/FuturePrices.aspx">Future Prices</a></li><li><a href="http://www.ncdex.com/MarketData/LiveSpotQuotes.aspx">Live Spot Quotes</a></li><li><a href="http://www.ncdex.com/MarketData/VolumeDetails.aspx">Volume Details</a></li><li><a href="http://www.ncdex.com/MarketData/DailyMargin.aspx">Daily Margins</a></li><li><a href="http://www.ncdex.com/MarketData/Premium_Discount.aspx">Premium/Discount</a></li><li><a href="http://www.ncdex.com/MarketData/MISReport.aspx">MIS Reports</a></li><li><a href="http://www.ncdex.com/MarketData/VerifyTrade.aspx">Trade Verification</a></li><li><a href="http://www.ncdex.com/MarketData/Nchart.aspx">Advanced Chart/NChart</a></li><li><a href="http://www.ncdex.com/MarketData/ContractExpiryDetails.aspx">Contract Expired Details</a></li><li><a href="http://www.ncdex.com/MarketData/ProprietaryClientTrades.aspx">Percentage of Proprietary<br>and Client Trades</a></li><li><a href="http://www.ncdex.com/MarketData/EFP_Trade.aspx">EFP Trade Details</a></li> </ul></div></div>
+                            </li>
+                            <li class="level1-li sub"><a class="level1-a" href="http://www.ncdex.com/index.aspx#" onmouseover="ShowMenu(&#39;Prd&#39;);">
+                                Products</a>
+                                <div id="dvPrd" class="listHolder col3"><ul class="atoz"><li><a href="http://www.ncdex.com/index.aspx#url">Agri Products</a><div class="subListHolder col3"><div class="sublistCol"><h5>Cereals and Pulses</h5><ul><li><a href="http://www.ncdex.com/GlobalSearch/Search.aspx?SearchText=BAJRA&SearchTitle=BAJRA">Bajra</a></li><li><a href="http://www.ncdex.com/GlobalSearch/Search.aspx?SearchText=BARLEYJPR&SearchTitle=BARLEY">Barley</a></li><li><a href="http://www.ncdex.com/GlobalSearch/Search.aspx?SearchText=CHARJDDEL&SearchTitle=CHANA">Chana</a></li><li><a href="http://www.ncdex.com/GlobalSearch/Search.aspx?SearchText=CHANA1MT&SearchTitle=Chana%201%20MT/2%20MT">Chana 1 MT/2 MT</a></li><li><a href="http://www.ncdex.com/GlobalSearch/Search.aspx?SearchText=MAIZEKHRF&SearchTitle=MAIZE">Maize - Feed/Industrial Grade</a></li><li><a href="http://www.ncdex.com/GlobalSearch/Search.aspx?SearchText=WHTSMQDELI&SearchTitle=WHEAT">Wheat</a></li></ul><br><h5>Fibres</h5><ul><li><a href="http://www.ncdex.com/GlobalSearch/Search.aspx?SearchText=KAPASSRNR&SearchTitle=KAPAS">V-797 kapas</a></li><li><a href="http://www.ncdex.com/GlobalSearch/Search.aspx?SearchText=SHANKRKPAS&SearchTitle=SHANKAR%20KAPAS">Shankar kapas</a></li><li><a href="http://www.ncdex.com/GlobalSearch/Search.aspx?SearchText=COTTON&SearchTitle=29%20mm%20Cotton">29 mm Cotton</a></li></ul><br><h5>Guar Complex</h5><ul><li><a href="http://www.ncdex.com/GlobalSearch/Search.aspx?SearchText=GUARSEED&SearchTitle=GUARSEED">Guar Seeds</a></li><li><a href="http://www.ncdex.com/GlobalSearch/Search.aspx?SearchText=GUARSEED10&SearchTitle=Guar%20Seed%2010%20MT">Guar Seed 10 MT</a></li><li><a href="http://www.ncdex.com/GlobalSearch/Search.aspx?SearchText=GUARGUM&SearchTitle=GUAR%20GUM">Guar Gum</a></li></ul><br><h5>Plantation Products</h5><ul><li><a href="http://www.ncdex.com/GlobalSearch/Search.aspx?SearchText=RBRRS4KOC&SearchTitle=RUBBER">Rubber</a></li></ul><br><h5>Others</h5><ul><li><a href="http://www.ncdex.com/GlobalSearch/Search.aspx?SearchText=POTATO&SearchTitle=POTATO">Potato</a></li></ul></div><div class="sublistCol"><h5>Oil and Oil seeds</h5><ul><li><a href="http://www.ncdex.com/GlobalSearch/Search.aspx?SearchText=CASTORSEED&SearchTitle=CASTOR%20SEED">Castor seeds</a></li><li><a href="http://www.ncdex.com/GlobalSearch/Search.aspx?SearchText=CASTOR1MT&SearchTitle=Castor%20seeds%201%20MT/2%20MT">Castor seeds 1 MT/2 MT</a></li><li><a href="http://www.ncdex.com/GlobalSearch/Search.aspx?SearchText=COCUDAKL&SearchTitle=COTTON%20SEED%20OILCAKE">Cotton seed oilcake</a></li><li><a href="http://www.ncdex.com/GlobalSearch/Search.aspx?SearchText=SYBEANIDR&SearchTitle=SOYBEAN">Soy Bean</a></li><li><a href="http://www.ncdex.com/GlobalSearch/Search.aspx?SearchText=SYOREFIDR&SearchTitle=REFINED%20SOYA%20OIL"> Refined soy oil</a></li><li><a href="http://www.ncdex.com/GlobalSearch/Search.aspx?SearchText=RMSEED&SearchTitle=MUSTARD%20SEED"> Mustard Seed</a></li><li><a href="http://www.ncdex.com/GlobalSearch/Search.aspx?SearchText=RBDPALMOLN&SearchTitle=RBD%20PALMOLEIN">RBD Palmolein</a></li><li><a href="http://www.ncdex.com/GlobalSearch/Search.aspx?SearchText=SBMEALIDR&SearchTitle=SOYBEAN%20MEAL">Soybean Meal</a></li><li><a href="http://www.ncdex.com/GlobalSearch/Search.aspx?SearchText=CPO&SearchTitle=Crude%20Palm%20Oil">Crude Palm Oil</a></li><li><a href="http://www.ncdex.com/GlobalSearch/Search.aspx?SearchText=COTTONSEED&SearchTitle=Cotton%20Seed%20(Industrial%20Grade)">Cotton Seed (Industrial Grade)</a></li></ul><br><h5>Soft</h5><ul><li><a href="http://www.ncdex.com/GlobalSearch/Search.aspx?SearchText=SUGARM200&SearchTitle=SUGAR">Sugar</a></li><li><a href="http://www.ncdex.com/GlobalSearch/Search.aspx?SearchText=GURCHMUZR&SearchTitle=GUR">Gur</a></li></ul><br><h5>Spices</h5><ul><li><a href="http://www.ncdex.com/GlobalSearch/Search.aspx?SearchText=PPRMLGKOC&SearchTitle=PEPPER">Pepper</a></li><li><a href="http://www.ncdex.com/GlobalSearch/Search.aspx?SearchText=TMCFGRNZM&SearchTitle=TURMERIC">Turmeric</a></li><li><a href="http://www.ncdex.com/GlobalSearch/Search.aspx?SearchText=JEERAUNJHA&SearchTitle=JEERA">JEERA</a></li><li><a href="http://www.ncdex.com/GlobalSearch/Search.aspx?SearchText=CHLL334GTR&SearchTitle=CHILLI">Chilli</a></li><li><a href="http://www.ncdex.com/GlobalSearch/Search.aspx?SearchText=DHANIYA&SearchTitle=CORIANDER">Coriander</a></li></ul></div></div></li><li><a href="http://www.ncdex.com/index.aspx#url">Non Agri Products</a><div class="subListHolder col3"><div class="sublistCol"><h5>Metals</h5><ul><li><a href="http://www.ncdex.com/GlobalSearch/Search.aspx?SearchText=STEELCOMM&SearchTitle=Steel%20long%20Commercial">Steel long Commercial</a></li><li><a href="http://www.ncdex.com/GlobalSearch/Search.aspx?SearchText=STEELLONG&SearchTitle=STEEL%20LONG">Steel</a></li><li><a href="http://www.ncdex.com/GlobalSearch/Search.aspx?SearchText=COPPER&SearchTitle=COPPER%20CATHODE">Copper</a></li></ul></div><div class="sublistCol"><h5>Precious Metals</h5><ul><li><a href="http://www.ncdex.com/GlobalSearch/Search.aspx?SearchText=GOLD&SearchTitle=GOLD">Gold</a></li><li><a href="http://www.ncdex.com/GlobalSearch/Search.aspx?SearchText=GOLDHEDGE&SearchTitle=GOLD%20HEDGE">Gold Hedge</a></li><li><a href="http://www.ncdex.com/GlobalSearch/Search.aspx?SearchText=GOLDH100&SearchTitle=GOLD%20HEDGE%20(100%20GMS)">Gold Hedge (100 gms)</a></li><li><a href="http://www.ncdex.com/GlobalSearch/Search.aspx?SearchText=SILVER&SearchTitle=SILVER">Silver</a></li><li><a href="http://www.ncdex.com/GlobalSearch/Search.aspx?SearchText=SILVRHEDGE&SearchTitle=SILVER%20Hedge">Silver Hedge</a></li></ul></div><div class="sublistCol"><h5>Energy</h5><ul><li><a href="http://www.ncdex.com/GlobalSearch/Search.aspx?SearchText=CRUDEOIL&SearchTitle=LIGHT%20SWEET%20CRUDE%20OIL">Crude Oil</a></li><li><a href="http://www.ncdex.com/GlobalSearch/Search.aspx?SearchText=BRENTCRUDE&SearchTitle=BRENT%20CRUDE%20OIL">Brent Crude Oil</a></li></ul></div><div class="sublistCol"><h5>Others</h5><ul><li><a href="http://www.ncdex.com/GlobalSearch/Search.aspx?SearchText=PVC&SearchTitle=POLYVINYL%20CHLORIDE">Polyvinyl Chloride</a></li></ul></div></div></li><li><a href="http://www.ncdex.com/index.aspx#url">Brochures</a><div class="subListHolder col3"><div class="sublistCol"><h5>Product Brochures</h5><ul><li><a href="http://www.ncdex.com/Downloads/Brochures/caster_brochure_web.pdf">Castor</a></li><li><a href="http://www.ncdex.com/Downloads/Brochures/Brochures_Cereals.pdf">Cereals</a></li><li><a href="http://www.ncdex.com/Downloads/Brochures/Brochures_Chana.pdf">Chana</a></li><li><a href="http://www.ncdex.com/Downloads/Brochures/Brochures_Cotton.pdf">Cotton</a></li><li><a href="http://www.ncdex.com/Downloads/Brochures/cotton_seed_brochure_web.pdf">Cotton Seed Oil Cake</a></li><li><a href="http://www.ncdex.com/Downloads/Brochures/Brochures_CrudeOil.pdf">Crude Oil</a></li><li><a href="http://www.ncdex.com/Downloads/Brochures/Brochures_Gold.pdf">Gold</a></li><li><a href="http://www.ncdex.com/Downloads/Brochures/guar_final.pdf">Guar Complex</a></li><li><a href="http://www.ncdex.com/Downloads/Brochures/Brochures_RapeMustardSeed_28May12.pdf">Rape Mustard Seed</a></li><li><a href="http://www.ncdex.com/Downloads/Brochures/Brochures_RefinedSoyaOil.pdf">Refined Soya Oil</a></li><li><a href="http://www.ncdex.com/Downloads/Brochures/Brochures_Silver.pdf">Silver</a></li><li><a href="http://www.ncdex.com/Downloads/Brochures/Brochures_Spice.pdf">Spices Complex</a></li><li><a href="http://www.ncdex.com/Downloads/Brochures/Brochures_Sugar.pdf">Sugar</a></li><li><a href="http://www.ncdex.com/Downloads/Brochures/Brochures_SoyBean.pdf">Soya Bean</a></li><li><a href="http://www.ncdex.com/Downloads/Brochures/Brochures_PVC.pdf">PVC</a></li><li><a href="http://www.ncdex.com/Downloads/Brochures/CPO_broucher_web.pdf">Crude Palm oil</a></li></ul></div><div class="sublistCol"><h5>Fundamental Brochures</h5><ul><li><a href="http://www.ncdex.com/Downloads/Brochures/fundametal1.pdf">Fundamental Brochures - Part 1</a></li><li><a href="http://www.ncdex.com/Downloads/Brochures/fundametal2.pdf">Fundamental Brochures - Part 2</a></li></ul></div><div class="sublistCol"><h5>Launch and Crop Calendar</h5><ul><li><a href="http://www.ncdex.com/Downloads/Brochures/Launch_and_crop_calendar_2013.pdf" target="_blank">Launch and Crop Calendar</a></li></ul></div><div class="sublistCol"><h5>Limit Spread Order Type</h5><ul><li><a href="http://www.ncdex.com/Downloads/Brochures/Limit_Spread_Order_Type_Brochure_web.pdf" target="_blank">Limit Spread Order Type</a></li></ul></div></div></li><li><a href="http://www.ncdex.com/index.aspx#url">Instrumental Codes</a><div class="subListHolder col3"><div class="sublistCol"><ul><li><a href="http://www.ncdex.com/Downloads/IntrCode/RIC_BIC.xls">Reuters Instrumental Codes</a></li><li><a href="http://www.ncdex.com/Downloads/IntrCode/RIC_BIC.xls">Bloomberg Instrumental Codes</a></li></ul></div></div></li><li><a href="http://www.ncdex.com/Downloads/Produc_Manager_List_10072014.pdf" target="_blank">Product Manager</a></li></ul></div>
+                            </li>
+                            <li class="level1-li sub"><a class="level1-a" href="http://www.ncdex.com/index.aspx#" onmouseover="ShowMenu(&#39;Clr&#39;);">
+                                Clearing</a>
+                                <div id="dvClr" class="listHolder col1Mem">
+                                </div>
+                            </li>
+                            <li class="level1-li sub"><a class="level1-a" href="http://www.ncdex.com/index.aspx#" onmouseover="ShowMenu(&#39;Rsh&#39;);">
+                                Research</a>
+                                <div id="dvRsh" class="listHolder col1">
+                                </div>
+                            </li>
+                            <li class="level1-li sub"><a class="level1-a" href="http://www.ncdex.com/Circulars/CircularHome.aspx">
+                                Circular</a>
+                               
+                            </li>
+                            <li class="level1-li sub"><a class="level1-a" href="http://www.ncdex.com/index.aspx#" onmouseover="ShowMenu(&#39;Csm&#39;);">
+                                Customer Services</a>
+                                <div id="dvCsm" class="listHolder col1">
+                                </div>
+                            </li>
+                            <li class="level1-li sub"><a class="level1-a" href="http://www.ncdex.com/index.aspx#" onmouseover="ShowMenu(&#39;Inv&#39;);">
+                                Investors</a>
+                                <div id="dvInv" class="listHolder col1">
+                                </div>
+                            </li>
+		            <li class="level1-li sub"><a class="level1-a" target="_blank" href="https://comtrack.in/">
+                                Comtrack</a>
+                               
+                            </li>
+		            
+			<li class="level1-li sub"><a class="level1-a" href="http://www.ncdex.com/index.aspx#" onmouseover="ShowMenu(&#39;NCDEXImpact&#39;);">
+                                NCDEX Impact</a>
+                                <div id="dvNCDEXImpact" class="listHolder col1">
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </td>
+    </tr>
+</tbody></table>
+
+                            </td>
+                        </tr>
+                    </tbody></table>
+                </td>
+            </tr>
+            <tr>
+                <td valign="top" background="./NCDEX - National Commodity & Derivatives Exchange Limited   Connecting People and Market_files/contentbg.gif">
+
+                    <table cellspacing="0" cellpadding="0" width="100%" border="0">
+                        <tbody><tr>
+                            <td valign="top" width="379">
+                                <table cellspacing="0" cellpadding="0" width="378" border="0">
+                                    <tbody><tr>
+                                        <td>
+                                            <img alt="trp" height="18" src="./NCDEX - National Commodity & Derivatives Exchange Limited   Connecting People and Market_files/trp.gif" width="379">
+                                        </td>
+                                    </tr>
+<!-- Product Graph -->
+                                         
+<tr>
+                                        <td background="./NCDEX - National Commodity & Derivatives Exchange Limited   Connecting People and Market_files/graph_bg.gif" height="184" align="center" valign="middle">
+                                            <div class="Graph" align="left">
+                                                &nbsp;&nbsp;&nbsp; <a href="http://www.ncdex.com/index.aspx#" id="IndImage"></a>
+                                                        <img id="ImgHomeGraphFutIndex" src="./NCDEX - National Commodity & Derivatives Exchange Limited   Connecting People and Market_files/HomePageINDEXGraph_17_10_2014.png" alt="Click here for more Information" style="border-width:0px;">
+                                                    
+                                                
+                                            </div>
+<span id="lblHomeGraph"></span>
+                                        </td>
+                                    </tr>
+
+
+<!-- Dhaanya Graph -->
+ 
+
+                                 
+                                    <tr>
+                                        <td>
+                                            <img alt="trp11" height="3" src="./NCDEX - National Commodity & Derivatives Exchange Limited   Connecting People and Market_files/trp.gif" width="10" border="0">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td align="center">
+                                            
+<div style="font-weight: normal; margin-left: 22px; color: #ababab" align="left">
+    <span id="GainersLoosers1_lblDateTime">Update : Oct 16 2014 11:30PM</span></div>
+<div id="info">
+	<div id="Tab">
+		<ul>
+			<li id="selected">
+				<a href="http://www.ncdex.com/index.aspx#" style="color:#368B22;">Top Gainers<!--[if gte IE 7]><!--></a><!--<![endif]--> <!--[if lte IE 6]> 
+
+  <TABLE>
+    <TBODY>
+    <TR>
+      <TD><![endif]-->
+				<ul>
+					<li>
+					
+								<table cellspacing="0" cellpadding="2" border="0" class="gridTableHome" width="315px" align="center">
+									<tbody><tr class="gridHeadHome" style="border-bottom:1px solid black;">
+										<td align="left" width="157px">
+											Contract
+										</td>
+										<td align="center">
+											LTP
+										</td>
+										<td align="center">
+											Chg(%)
+										</td>
+									</tr>
+							
+								<tr>
+									<td class="gridRow1Home" align="left">
+										<span id="GainersLoosers1_rptGainers_ctl01_Label1">Soy Bean - Oct</span>
+									</td>
+									<td class="gridRow1Home" align="right">
+										<span id="GainersLoosers1_rptGainers_ctl01_Label2">3013</span>
+									</td>
+									<td class="gridRow1Home" align="right">
+										<span id="GainersLoosers1_rptGainers_ctl01_Label3">2.7</span>
+									</td>
+								</tr>
+							
+								<tr>
+									<td class="gridRow1Home" align="left">
+										<span id="GainersLoosers1_rptGainers_ctl02_Label4">Soy Bean - Dec</span>
+									</td>
+									<td class="gridRow1Home" align="right">
+										<span id="GainersLoosers1_rptGainers_ctl02_Label5">3073</span>
+									</td>
+									<td class="gridRow1Home" align="right">
+										<span id="GainersLoosers1_rptGainers_ctl02_Label6">2.4</span>
+									</td>
+								</tr>
+							
+								<tr>
+									<td class="gridRow1Home" align="left">
+										<span id="GainersLoosers1_rptGainers_ctl03_Label1">Soy Bean - Nov</span>
+									</td>
+									<td class="gridRow1Home" align="right">
+										<span id="GainersLoosers1_rptGainers_ctl03_Label2">3033</span>
+									</td>
+									<td class="gridRow1Home" align="right">
+										<span id="GainersLoosers1_rptGainers_ctl03_Label3">2.3</span>
+									</td>
+								</tr>
+							
+								<tr>
+									<td class="gridRow1Home" align="left">
+										<span id="GainersLoosers1_rptGainers_ctl04_Label4">Soy Bean - Jan</span>
+									</td>
+									<td class="gridRow1Home" align="right">
+										<span id="GainersLoosers1_rptGainers_ctl04_Label5">3104</span>
+									</td>
+									<td class="gridRow1Home" align="right">
+										<span id="GainersLoosers1_rptGainers_ctl04_Label6">2.1</span>
+									</td>
+								</tr>
+							
+								<tr>
+									<td class="gridRow1Home" align="left">
+										<span id="GainersLoosers1_rptGainers_ctl05_Label1">Chilli Teja - Oct</span>
+									</td>
+									<td class="gridRow1Home" align="right">
+										<span id="GainersLoosers1_rptGainers_ctl05_Label2">10486</span>
+									</td>
+									<td class="gridRow1Home" align="right">
+										<span id="GainersLoosers1_rptGainers_ctl05_Label3">2</span>
+									</td>
+								</tr>
+							
+								</tbody></table>
+							 					
+					</li></ul> <!--[if lte IE 6]></TD></TR></TBODY></TABLE></A><![endif]-->
+			</li><li>
+				<a href="http://www.ncdex.com/index.aspx#" style="color:#B34746;">Top Losers<!--[if gte IE 7]><!--></a><!--<![endif]--> <!--[if lte IE 6]> 
+
+  <TABLE>
+    <TBODY>
+    <TR>
+      <TD><![endif]-->
+				<ul>
+					<li>
+					
+								<table cellspacing="0" cellpadding="2" border="0" class="gridTableHome" width="315px" align="center">
+									<tbody><tr class="gridHeadHome" style="border-bottom:1px solid black;">
+										<td align="left" width="157px">
+											Contract
+										</td>
+										<td align="center">
+											LTP
+										</td>
+										<td align="center">
+											Chg(%)
+										</td>
+									</tr>
+							
+								<tr>
+									<td class="gridRow1Home" align="left">
+										<span id="GainersLoosers1_rptLoosers_ctl01_Label7">Guar Gum - Jan</span>
+									</td>
+									<td class="gridRow1Home" align="right">
+										<span id="GainersLoosers1_rptLoosers_ctl01_Label8">16390</span>
+									</td>
+									<td class="gridRow1Home" align="right">
+										<span id="GainersLoosers1_rptLoosers_ctl01_Label9">-3.5</span>
+									</td>
+								</tr>
+							
+								<tr>
+									<td class="gridRow1Home" align="left">
+										<span id="GainersLoosers1_rptLoosers_ctl02_Label10">Turmeric - Apr</span>
+									</td>
+									<td class="gridRow1Home" align="right">
+										<span id="GainersLoosers1_rptLoosers_ctl02_Label11">6574</span>
+									</td>
+									<td class="gridRow1Home" align="right">
+										<span id="GainersLoosers1_rptLoosers_ctl02_Label12">-2.7</span>
+									</td>
+								</tr>
+							
+								<tr>
+									<td class="gridRow1Home" align="left">
+										<span id="GainersLoosers1_rptLoosers_ctl03_Label7">Shankar Kapas - Dec</span>
+									</td>
+									<td class="gridRow1Home" align="right">
+										<span id="GainersLoosers1_rptLoosers_ctl03_Label8">915</span>
+									</td>
+									<td class="gridRow1Home" align="right">
+										<span id="GainersLoosers1_rptLoosers_ctl03_Label9">-2.6</span>
+									</td>
+								</tr>
+							
+								<tr>
+									<td class="gridRow1Home" align="left">
+										<span id="GainersLoosers1_rptLoosers_ctl04_Label10">Wheat - Feb</span>
+									</td>
+									<td class="gridRow1Home" align="right">
+										<span id="GainersLoosers1_rptLoosers_ctl04_Label11">1600</span>
+									</td>
+									<td class="gridRow1Home" align="right">
+										<span id="GainersLoosers1_rptLoosers_ctl04_Label12">-2.6</span>
+									</td>
+								</tr>
+							
+								<tr>
+									<td class="gridRow1Home" align="left">
+										<span id="GainersLoosers1_rptLoosers_ctl05_Label7">Turmeric - Dec</span>
+									</td>
+									<td class="gridRow1Home" align="right">
+										<span id="GainersLoosers1_rptLoosers_ctl05_Label8">6040</span>
+									</td>
+									<td class="gridRow1Home" align="right">
+										<span id="GainersLoosers1_rptLoosers_ctl05_Label9">-2.5</span>
+									</td>
+								</tr>
+							
+								</tbody></table>
+							 
+					</li>
+				</ul> <!--[if lte IE 6]></TD></TR></TBODY></TABLE></A><![endif]--></li></ul>
+	</div>
+</div>
+<!-- end of info -->
+
+
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <img alt="trp2" height="12" src="./NCDEX - National Commodity & Derivatives Exchange Limited   Connecting People and Market_files/trp.gif" width="10">
+                                        </td>
+                                    </tr>
+                                     <tr>
+                                        <td><div align="center" style="margin-top: 10px;">
+                                                    <a href="http://www.ncdex.com/Membership/TypeofMembership.aspx">
+                                                    <img alt="membership" height="51" src="./NCDEX - National Commodity & Derivatives Exchange Limited   Connecting People and Market_files/ncdex_Advantage.jpg" width="181" border="0"></a>
+                                                     <a href="http://www.ncdex.com/MarketData/Ncharts_Pro.aspx">
+                                                    <img src="./NCDEX - National Commodity & Derivatives Exchange Limited   Connecting People and Market_files/nchart_nchartpro_ani.gif" border="0" alt="nchart"></a>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody></table>
+                            </td>
+                            <td valign="top">
+                                <table cellspacing="0" cellpadding="0" width="100%" border="0">
+                                    <tbody><tr>
+                                        <td>
+                                            <img alt="trp12" height="20" src="./NCDEX - National Commodity & Derivatives Exchange Limited   Connecting People and Market_files/trp.gif" width="10">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td valign="top">
+                                            <table cellspacing="3" cellpadding="0" width="100%" border="0">
+                                                <tbody><tr>
+                                                    <td valign="top">
+                                                        
+<table width="100%" border="0" cellspacing="0" cellpadding="0" id="Tableh">
+    <tbody>
+        <tr>
+            <th>
+                News and Events
+            </th>
+            <th width="208">
+                Downloads
+            </th>
+        </tr>
+        <tr>
+            <td valign="top">
+                
+                        <table width="100%" border="0" cellspacing="0" cellpadding="0" id="TableNws">
+                    
+                        <tbody><tr>
+                            <td>
+                                <a id="News1_rptNews_ctl01_Hyperlink1" href="http://www.ncdex.com/Downloads/News_Press/PDF/NCDEX_modifies_RM_seed_futures_contract.pdf" target="_blank" style="display:inline-block;border-width:0px;">NCDEX modifies RM seed futures contract</a>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td>
+                                <a id="News1_rptNews_ctl02_Hyperlink2" href="http://www.ncdex.com/Downloads/News_Press/PDF/Sandesh.pdf" target="_blank" style="display:inline-block;border-width:0px;">Open interest on NCDEX up 31% (Gujarati)</a>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td>
+                                <a id="News1_rptNews_ctl03_Hyperlink1" href="http://www.ncdex.com/Downloads/News_Press/PDF/FE_1.pdf" target="_blank" style="display:inline-block;border-width:0px;">Open interest on NCDEX up 31% in August at Rs. 6,901 crore</a>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td>
+                                <a id="News1_rptNews_ctl04_Hyperlink2" href="http://www.ncdex.com/Downloads/News_Press/PDF/Vyapar.pdf" target="_blank" style="display:inline-block;border-width:0px;">Open interest on NCDEX up 31% in August (Gujarati)</a>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td>
+                                <a id="News1_rptNews_ctl05_Hyperlink1" href="http://www.ncdex.com/Downloads/News_Press/PDF/MD_Sir__Interview_1.pdf" target="_blank" style="display:inline-block;border-width:0px;">Efficient commodity markets give farmers and companies clear price signal-Samir Shah,MD &amp; CEO,NCDEX</a>
+                            </td>
+                        </tr>
+                    
+                        </tbody></table>
+                    
+            </td>
+            <td valign="top">
+                <table width="100%" border="0" cellspacing="0" cellpadding="0" id="Tabled">
+                    <tbody><tr>
+                        <td class="white">
+                            <a id="News1_hylBhCopy" href="http://www.ncdex.com/Downloads/Bhavcopy_Summary_File/doc/10-16-2014.xls" target="_blank">BhavCopy :16 Oct 2014</a>
+                        </td>
+                    </tr>
+
+                        <tr><td class="white">
+                            <a href="http://www.ncdex.com/Downloads/Download/PDF/Trading_holidays_calendar_year_2014_27122013.pdf" target="_blank">NCDEX Trading
+                                Holidays</a>
+                        </td>
+                    </tr>
+                    <tr style="display:none">
+                        <td class="white">
+                             <a id="News1_hylMarketReport" href="http://www.ncdex.com/Downloads/Knowledge/pdf/MFY_18092013.pdf" target="_blank">Market Report: 18 Sep 2013</a>
+                        </td>
+                    </tr>
+		 
+                     <tr>
+                       <td class="white">
+                            <a href="http://www.ncdex.com/NewsVideo/VideoNews.aspx" target="_blank">Video News <img src="./NCDEX - National Commodity & Derivatives Exchange Limited   Connecting People and Market_files/tv.gif" border="0/"></a>
+                        </td>
+                    </tr>
+			<tr>
+                        <td class="white">
+                            <a href="http://www.ncdex.com/Downloads/Settlement_Guarantee_Fund_30092014_.pdf" target="_blank">Settlement Guarantee Fund</a>&nbsp;<img src="./NCDEX - National Commodity & Derivatives Exchange Limited   Connecting People and Market_files/new1.gif" border="0">
+                        </td>
+                    </tr>
+		    <tr>
+                        <td class="white">
+                            <a href="http://www.ncdex.com/Downloads/NCDEXScreenSaver.zip" target="_blank">NCDEX Screensaver</a>&nbsp;<img src="./NCDEX - National Commodity & Derivatives Exchange Limited   Connecting People and Market_files/new1.gif" border="0">
+                        </td>
+                    </tr>
+		   
+<tr>
+                        <td class="white">
+                            <a href="http://www.ncdex.com/Downloads/Submission_Annual_Return_2013_14_18072014.doc" target="_blank">Annual Return 2013-2014</a></td>
+                    </tr>
+<tr>
+                        <td class="white">
+                            <a href="http://www.ncdex.com/Downloads/Margin_reporting_FAQ_version_1.pdf" target="_blank">FAQs - Margin Collection &amp; Reporting   </a>&nbsp;<img src="./NCDEX - National Commodity & Derivatives Exchange Limited   Connecting People and Market_files/new1.gif" border="0"></td>
+                    </tr>
+                    <tr>
+                        <td class="white">
+                            <a id="News1_hylMR" target="_blank"></a>
+                        </td>
+                    </tr>
+ 
+                </tbody></table>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+                                                    </td>
+                                                </tr>
+                                            </tbody></table>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <table cellspacing="4" cellpadding="0" width="100%" border="0">
+                                                <tbody><tr>
+                                                    <td>
+                                                        <div class="searchbox">
+                                                            <table cellspacing="1" cellpadding="0" width="100%" border="0" align="center" height="55px;">
+                                                                <tbody><tr>
+                                                                    <td>
+                                                                        <div class="searchboxin">
+                                                                            <input name="txtSearch" type="text" value="Enter Product or Symbol" maxlength="20" id="txtSearch" class="searchtextbox ui-autocomplete-input" onfocus="ClearTextBox(&#39;N&#39;);" onblur="ClearTextBox(&#39;Y&#39;);" autocomplete="off" role="textbox" aria-autocomplete="list" aria-haspopup="true">
+                                                                            <input type="submit" name="Button1" value="" onclick="return Validate();" id="Button1" class="searchbutton1">
+                                                                            <div>
+
+</div>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td align="right">
+                                                                     <a href="http://www.ncdex.com/index.aspx#" onclick="LearnMore();">
+                                                       <img src="./NCDEX - National Commodity & Derivatives Exchange Limited   Connecting People and Market_files/callnow_yellow_ani_2.gif" alt="Connect@Commodities Call NOW" border="0"></a>
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody></table>
+                                                        </div>
+                                                    </td>
+                                                    <td rowspan="2" valign="top" align="right">
+                                                        <div style="margin-top:25px;">
+                                                            
+                                                            <!--start of script-->
+  
+                                               <div id="slider1" class="sliderwrapper">
+
+ <div class="contentdiv" style="display: none; z-index: 1; opacity: 1; visibility: visible;">
+	<a href="http://www.ncdex.com/Downloads/Forwards/ForwardsBrochure.pdf" target="_blank"><img src="./NCDEX - National Commodity & Derivatives Exchange Limited   Connecting People and Market_files/agrim_sauda_launch.gif" alt="Click here for more details" border="0"></a>
+    </div>
+<div class="contentdiv" style="display: none; z-index: 2; opacity: 1; visibility: visible;">
+<img src="./NCDEX - National Commodity & Derivatives Exchange Limited   Connecting People and Market_files/agrim_toolfree1.gif" border="0" alt="">
+    </div>
+<div class="contentdiv" style="display: none; z-index: 3; opacity: 1; visibility: visible;">
+<img src="./NCDEX - National Commodity & Derivatives Exchange Limited   Connecting People and Market_files/tollfree1.gif" border="0" alt="">
+    </div>
+<!-- <div class="contentdiv">
+	<img src="Images/CSG_Extend.gif" alt="" border="0"/>
+    </div> 
+<div class="contentdiv">
+<a href="Circulars/CircularHome.aspx" target="_blank"><img src="Images/oi_banner.gif" border="0" alt=""/></a>
+    </div>-->
+<div class="contentdiv" style="display: none; z-index: 4; opacity: 1; visibility: visible;">
+	
+		<img src="./NCDEX - National Commodity & Derivatives Exchange Limited   Connecting People and Market_files/Submit_Annual_Compliance_Report_banner_2014.gif" border="0" alt="">
+</div>
+<!--
+<div class="contentdiv">
+	<img src="Images/cotton_banner.gif" alt="" border="0"/>
+    </div>-->
+<div class="contentdiv" style="display: none; z-index: 5; opacity: 1; visibility: visible;">
+<a href="http://www.ncdex.com/Footer/TrainingRequest_New.aspx" target="_blank"><img src="./NCDEX - National Commodity & Derivatives Exchange Limited   Connecting People and Market_files/request1.gif" border="0" alt="Click here for more details"></a>
+    </div>
+
+<div class="contentdiv" style="display: block; z-index: 6; opacity: 1; visibility: visible;">
+	<a href="http://www.ncdex.com/index.aspx#" onclick="disPDP_SMS();"><img src="./NCDEX - National Commodity & Derivatives Exchange Limited   Connecting People and Market_files/PDP_SMS_Banner.gif" alt="Click here for more details" border="0"></a>
+    </div>
+
+
+<!-- <div class="contentdiv">
+	<a href="../Downloads/Details_of_Settlement_Guarantee_Fund_20052014.pdf" target="_blank"><img src="Images/SGF_210514.gif" border="0"/></a>
+</div> 
+
+<div class="contentdiv">
+        <div id="flashcontent1">
+        </div>
+        <script type="text/javascript">
+            var so = new SWFObject("../Images/physicals_13122013.swf", "customRightClick", "205", "174", "9", "#FFFFFF");
+            so.addParam("quality", "high");
+            so.addParam("name", "customRightClick");
+            so.addParam("id", "customRightClick");
+            so.addParam("AllowScriptAccess", "always");
+            so.addParam("wmode", "opaque");
+            so.addParam("menu", "false");
+            so.addVariable("variable1", "value1");
+            so.write("flashcontent1");
+        </script>
+    </div>
+-->
+
+
+</div>
+
+                                                            <div id="paginate-slider1" class="pagination"><a href="http://www.ncdex.com/index.aspx#1" class="toc" rel="1">1</a> <a href="http://www.ncdex.com/index.aspx#2" class="toc" rel="2">2</a> <a href="http://www.ncdex.com/index.aspx#3" class="toc" rel="3">3</a> <a href="http://www.ncdex.com/index.aspx#4" class="toc" rel="4">4</a> <a href="http://www.ncdex.com/index.aspx#5" class="toc" rel="5">5</a> <a href="http://www.ncdex.com/index.aspx#6" class="toc selected" rel="6">6</a> </div>
+                                                            
+                                                            <!--endofscript-->
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td valign="top">
+                                                        <table id="BannerLink1_dlBanner" cellspacing="0" cellpadding="0" border="0" style="border-style:None;width:100%;border-collapse:collapse;">
+	<tbody><tr>
+		<td colspan="2" class="thBan">
+			Quick Links
+	</td>
+	</tr><tr>
+		<td>
+		 </td><td class="tdBan">
+			 <a id="BannerLink1_dlBanner_ctl01_Hyperlink3" href="http://www.ncdex.com/downloads/FAQ_Riskmanagementfee.pdf" style="display:inline-block;border-width:0px;"></a><a href="http://www.ncdex.com/Downloads/FAQ_Riskmanagementfee.pdf" target="_blank">RISK MANAGEMENT FEE-FAQs</a> <img src="./NCDEX - National Commodity & Derivatives Exchange Limited   Connecting People and Market_files/new1.gif" border="0">
+		</td>
+        
+	<td>
+		 </td><td class="tdBan">
+			 <a id="BannerLink1_dlBanner_ctl07_Hyperlink3" href="http://www.ncdex.com/ClearingServices/ClearingServicesOthers.aspx" style="display:inline-block;border-width:0px;">Clearing Services</a>
+		</td>
+        
+	
+	</tr><tr>
+		<td>
+		 </td><td class="tdBan">
+			 <a id="BannerLink1_dlBanner_ctl02_Hyperlink3" href="http://www.ncdex.com/Downloads/Forwards/Forwards_FAQs.pdf" style="display:inline-block;border-width:0px;"></a><a href="http://www.ncdex.com/Downloads/Forwards/Forwards_FAQs.pdf" target="_blank"> Forwards-FAQs</a>  <img src="./NCDEX - National Commodity & Derivatives Exchange Limited   Connecting People and Market_files/new1.gif" border="0">
+		</td>
+        
+	<td>
+		 </td><td class="tdBan">
+			 <a id="BannerLink1_dlBanner_ctl08_Hyperlink3" href="http://www.ncdex.com/MarketData/VerifyTrade.aspx" style="display:inline-block;border-width:0px;">Trade Verification</a>
+		</td>
+        
+	
+	</tr><tr>
+		<td>
+		 </td><td class="tdBan">
+			 <a id="BannerLink1_dlBanner_ctl03_Hyperlink3" href="http://trade.forwardstrading.com/" style="display:inline-block;border-width:0px;"></a><a href="http://trade.forwardstrading.com/" target="_blank"> Forwards Trading</a>  <img src="./NCDEX - National Commodity & Derivatives Exchange Limited   Connecting People and Market_files/new1.gif" border="0">
+		</td>
+        
+	<td>
+		 </td><td class="tdBan">
+			 <a id="BannerLink1_dlBanner_ctl09_Hyperlink3" href="http://www.ncdex.com/MarketData/DailyMargin.aspx" style="display:inline-block;border-width:0px;">Daily Margins</a>
+		</td>
+        
+	
+	</tr><tr>
+		<td>
+		 </td><td class="tdBan">
+			 <a id="BannerLink1_dlBanner_ctl04_Hyperlink3" href="http://posttrade.forwardstrading.com/" style="display:inline-block;border-width:0px;"></a><a href="http://posttrade.forwardstrading.com/" target="_blank"> Forwards Clearing</a> <img src="./NCDEX - National Commodity & Derivatives Exchange Limited   Connecting People and Market_files/new1.gif" border="0">
+		</td>
+        
+	<td>
+		 </td><td class="tdBan">
+			 <a id="BannerLink1_dlBanner_ctl10_Hyperlink3" href="http://www.ncdex.com/MarketData/SpotPrice.aspx" style="display:inline-block;border-width:0px;">Spot Prices</a>
+		</td>
+        
+	
+	</tr><tr>
+		<td>
+		 </td><td class="tdBan">
+			 <a id="BannerLink1_dlBanner_ctl05_Hyperlink3" href="http://www.ncdex.com/downloads/Spread_Combinations_13102014.pdf" style="display:inline-block;border-width:0px;">Spread Combinations </a>
+		</td>
+        
+	<td>
+		 </td><td class="tdBan">
+			 <a id="BannerLink1_dlBanner_ctl11_Hyperlink3" href="http://www.ncdex.com/MarketData/FuturePrices.aspx" style="display:inline-block;border-width:0px;">Future Prices</a>
+		</td>
+        
+	
+	</tr><tr>
+		<td>
+		 </td><td class="tdBan">
+			 <a id="BannerLink1_dlBanner_ctl06_Hyperlink3" href="http://common.ncdex.com/" style="display:inline-block;border-width:0px;">Extranet Common Files</a>
+		</td>
+        
+	<td>
+		 </td><td class="tdBan">
+			 <a id="BannerLink1_dlBanner_ctl12_Hyperlink3" href="http://www.ncdex.com/MarketData/LiveFuturesQuotes.aspx" style="display:inline-block;border-width:0px;">Live Futures Quotes</a>
+		</td>
+        
+	
+	</tr><tr>
+		<td colspan="2">
+		
+	</td>
+	</tr>
+</tbody></table>
+
+                                                    </td>
+                                                </tr>
+                                            </tbody></table>
+                                        </td>
+                                    </tr>
+                                </tbody></table>
+                            </td>
+                        </tr>
+                    </tbody></table>
+                </td>
+            </tr>
+            <tr>
+                <td>
+   <div class="NewFooter">
+                    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                            <tbody><tr align="center">
+                                <td>
+                                &nbsp;
+                                </td>
+                                <td>
+                                <a href="http://www.ncdex.com/AboutUs/Profile.aspx">About us</a>
+                                </td>
+                                 <td>
+                                |
+                                </td>
+                                 <td>
+                                <a href="http://www.ncdex.com/Downloads/PrivacyPolicy.pdf" target="_blank">Privacy Policy</a>
+                                </td>
+                                 <td>
+                                |
+                                </td>
+                                <td>
+                                <a href="http://www.ncdex.com/News/PressRelease.aspx">News &amp; Press</a>
+                                </td>
+                                <td>
+                                |
+                                </td>
+                                <td>
+                                <a href="http://www.ncdex.com/Footer/Careers.aspx">Careers</a>
+                                </td>
+                                <td>
+                                |
+                                </td>
+                                <td>
+                                <a href="http://www.ncdex.com/Technology/Technology.aspx">Technology</a>
+                                </td>
+                                <td>
+                                |
+                                </td>
+                                <td>
+                                <a href="http://www.ncdex.com/Footer/Download.aspx">Downloads</a>
+                                </td>
+                                <td>
+                                |
+                                </td>
+                                <td>
+                                <a href="http://www.ncdex.com/Footer/TrainingRequest_New.aspx">Training Request</a>
+                                </td>
+                                <td>
+                                |
+                                </td>
+                                <td>
+                                <a href="http://www.ncdex.com/index.aspx#" onclick="disFeedBack();">FeedBack</a>
+                                </td>
+                                <td>
+                                |
+                                </td>
+                                <td>
+                                <a href="http://www.ncdex.com/Technology/DOs_DONTs.aspx">Do's &amp; Don'ts</a>
+                                </td>
+                                <td>
+                                |
+                                </td>
+                                <td>
+                                <a href="http://www.ncdex.com/Footer/Disclaimer.aspx">Disclaimer</a>
+                                </td>
+                                <td>
+                                |
+                                </td>
+                                <td>
+                                <a href="http://www.ncdexspot.com/" target="_blank">NCDEXSPOT.com</a>
+                                </td>
+                                <td>
+                                |
+                                </td>
+                                <td>
+                                <a href="http://www.nicrindia.com/" target="_blank">NICR.com</a>
+                                </td>
+				<td>
+                                |
+                                </td>
+				 <td>
+                			<a href="http://www.ncdex.com/Footer/ContactUs.aspx">Contact Us</a>
+            			</td>
+                                 <td>
+                                &nbsp;
+                                </td>
+                             </tr>
+                            <tr align="center">
+                                <td>
+                                    &nbsp;</td>
+                                <td colspan="25">
+                                  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                        <tbody><tr valign="middle">
+                                            
+                                            <td align="left" style="width: 110px;"><span> Connect With NCDEX</span> &nbsp;</td>
+                                            <td align="left">
+                                            <table width="80%" cellpadding="0" cellspacing="0" border="0" class="ZoomIt">
+                                                <tbody><tr>
+                                                    <td><a href="http://www.twitter.com/ncdex" target="_blank"><img src="./NCDEX - National Commodity & Derivatives Exchange Limited   Connecting People and Market_files/Connect_t.png" height="18" border="0" class="zit"></a></td>
+                                                    <td><a href="http://www.linkedin.com/company/ncdex" target="_blank"><img src="./NCDEX - National Commodity & Derivatives Exchange Limited   Connecting People and Market_files/Connect_l.png" height="18" border="0" class="zit"></a></td>
+                                                    
+                                                    <td><a href="http://www.slideshare.net/ncdex" target="_blank"><img src="./NCDEX - National Commodity & Derivatives Exchange Limited   Connecting People and Market_files/Connect_SS.png" height="18" border="0" class="zit"></a></td>
+                                                    <td><a href="https://www.youtube.com/user/trustncdex" target="_blank"><img src="./NCDEX - National Commodity & Derivatives Exchange Limited   Connecting People and Market_files/Connect_YT.png" height="18" border="0" class="zit"></a></td>
+                                                </tr>
+                                                </tbody></table>
+                                            </td>
+                                            <td width="525">&nbsp;</td>
+                                             <td align="right" width="120"><span> Connect With FMC</span> &nbsp;</td>
+                                            <td align="left" style="height:30px;">    
+
+                                                <table width="90%" cellpadding="0" cellspacing="0" border="0" class="ZoomIt">
+                                                <tbody><tr>
+                                                    <td><a href="http://www.facebook.com/fmcmumbai" target="_blank"><img src="./NCDEX - National Commodity & Derivatives Exchange Limited   Connecting People and Market_files/facebook_FMC.png" height="18" border="0" class="zit"></a></td>
+                                                </tr>
+                                                </tbody></table>
+                                             </td>
+                                        </tr>
+                                        <tr>
+                                         <td align="left" colspan="4">&nbsp;© 2003 - 2014 National Commodity &amp; Derivatives Exchange Ltd. </td>
+                                        </tr>
+                                    </tbody></table>
+                                    </td>
+                                 <td>
+                                     &nbsp;</td>
+                             </tr>
+                    </tbody></table>
+                </div>
+
+                      
+                </td>
+            </tr>
+        </tbody></table>
+
+
+
+
+
+
+
+
+    </div>
+
+<!-- Test for fixed content starts -->
+
+    <style>
+
+div.fixed-position {
+    
+    border: 0px solid #CCCCCC ;
+    height: 110px ;              /* 48 */
+    line-height: 32px ;         /* 50 */
+    position: fixed ;
+    text-align: center ;
+    width: 172px ;              /* 148 */
+    z-index: 1000 ;
+    margin-right:35px;
+    }
+
+ div.fixed-positionCustCorn {
+    
+    border: 0px solid #CCCCCC ;
+    height: 68px ;              
+    line-height: 32px ;         
+    position: fixed ;
+    text-align: center ;
+    width: 100px ;              
+    z-index: 1000 ;
+    margin-right:0px;
+    }
+
+
+ div.fixed-n-e {
+right: 0px ;
+top: 0px ;
+}
+
+   	
+div.fixed-e {
+    margin-top: -25px ;
+    right: 0px ;
+    top: 50% ;
+    }
+
+div.fixed-position {
+    _position: absolute ;
+    }
+
+div.fixed-e,
+div.fixed-w {
+    _top: expression( ie6 = (document.documentElement.scrollTop + (document.documentElement.clientHeight / 2) + "px") ) ;
+    }
+    
+ div.fixed-s-e {
+bottom: 0px ;
+right: 0px ;
+}
+    
+div.fixed-s-e {
+_bottom: auto ;
+_top: expression( ie6 = (document.documentElement.scrollTop + document.documentElement.clientHeight - 52 + "px") ) ;
+}
+
+div.fixed-n-w,
+div.fixed-n,
+div.fixed-n-e {
+_top: expression( ie6 = (document.documentElement.scrollTop + "px") ) ;
+}
+
+</style>
+
+
+
+
+<div class="fixed-positionCustCorn fixed-n-e">
+     <img src="./NCDEX - National Commodity & Derivatives Exchange Limited   Connecting People and Market_files/cust_spk.png" id="searchlink" rel="subcontent" border="0">
+</div>
+ 
+
+<div id="subcontent" class="DropContent" style="top: 0px; left: 0px;">
+    <div align="right"> <img src="./NCDEX - National Commodity & Derivatives Exchange Limited   Connecting People and Market_files/close.gif" border="0" onclick="javascript:dropdowncontent.hidediv(&#39;subcontent&#39;)"></div>
+    
+<iframe src="./NCDEX - National Commodity & Derivatives Exchange Limited   Connecting People and Market_files/Customer.htm" width="450" height="290" allowtransparency="true" frameborder="0"></iframe>
+</div>
+
+<script type="text/javascript">
+    //Call dropdowncontent.init("anchorID", "positionString", glideduration, "revealBehavior") at the end of the page:
+    dropdowncontent.init("searchlink", "left-bottom", 500, "mouseover")
+</script>
+
+
+
+
+  <!--
+
+   <div class="fixed-position fixed-s-e">
+   <image onclick="disFeedBack();" src="Images/thumbsup_gold_silverhedge.gif" border="0" / >
+    </div>-->
+
+
+<!-- Test for fixed content Ends -->
+    </form>
+    
+    
+
+<script language="JavaScript" type="text/javascript">var tp1=new Spry.Widget.TabbedPanels("tp1",{defaultTab:1});var TabbedPanels2=new Spry.Widget.TabbedPanels("TabbedPanels2");</script><script type="text/javascript">featuredcontentslider.init({id:"slider1",contentsource:["inline",""],toc:"#increment",nextprev:["",""],revealtype:"click",enablefade:[true,0.2],autorotate:[true,12000],onChange:function(previndex,curindex){}})</script><script type="text/javascript">var gaJsHost=(("https:"==document.location.protocol)?"https://ssl.":"http://www.");document.write(unescape("%3Cscript src='"+gaJsHost+"google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));</script><script src="./NCDEX - National Commodity & Derivatives Exchange Limited   Connecting People and Market_files/ga.js" type="text/javascript"></script><script type="text/javascript">try{var pageTracker=_gat._getTracker("UA-13122686-1");pageTracker._trackPageview();}
+catch(err){}</script>
+
+
+
+<ul class="ui-autocomplete ui-menu ui-widget ui-widget-content ui-corner-all" role="listbox" aria-activedescendant="ui-active-menuitem" style="z-index: 1; top: 0px; left: 0px; display: none;"></ul><div id="popupMask"></div><div id="popupContainer"><div id="popupInner"><div id="popupTitleBar1"><div id="popupControls"><img src="./NCDEX - National Commodity & Derivatives Exchange Limited   Connecting People and Market_files/close.gif" onclick="hidePopWin(false);" id="popCloseBox"></div></div><iframe src="./NCDEX - National Commodity & Derivatives Exchange Limited   Connecting People and Market_files/loading.htm" style="width:100%;height:100%;background-color:transparent;" scrolling="auto" frameborder="0" allowtransparency="true" id="popupFrame" name="popupFrame" width="100%" height="100%"></iframe></div></div></body></html>

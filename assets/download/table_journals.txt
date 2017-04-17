@@ -1,0 +1,760 @@
+coverage	name	issn	ranking	category	update
+VIETNAM	Journal of Economics and development	1859-0020	0	General Economics, General Management	2014
+INTERNATIONAL	The Accounting Review	0001-4826	1	Accounting and Auditing	2014
+INTERNATIONAL	Accounting, Organization and Society	0361-3682	1	Accounting and Auditing	2014
+INTERNATIONAL	Journal of Accounting and Economics	0165-4101	1	Accounting and Auditing	2014
+INTERNATIONAL	Journal of Accounting Research	0021-8456	1	Accounting and Auditing	2014
+INTERNATIONAL	Review of Accounting Studies	1380-6653	1	Accounting and Auditing	2014
+INTERNATIONAL	Accounting Auditing and Accountability Journal	0951-3574	2	Accounting and Auditing	2014
+INTERNATIONAL	Auditing, A Journal of Practice and Theory	0278-0380	2	Accounting and Auditing	2014
+INTERNATIONAL	Comptabilité Contrôle Audit	1262-2788	2	Accounting and Auditing	2014
+INTERNATIONAL	Contemporary Accounting Research	0823-9150	2	Accounting and Auditing	2014
+INTERNATIONAL	European Accounting Review	0963-8180	2	Accounting and Auditing	2014
+INTERNATIONAL	Journal of Accounting and Public Policy	0278-4254	2	Accounting and Auditing	2014
+INTERNATIONAL	Journal of Business Finance and Accounting	0306-686X	2	Accounting and Auditing	2014
+INTERNATIONAL	Management Accounting Research	1044-5005	2	Accounting and Auditing	2014
+INTERNATIONAL	Abacus	0001-3072	3	Accounting and Auditing	2014
+INTERNATIONAL	Accounting and Business Research	0001-4788	3	Accounting and Auditing	2014
+INTERNATIONAL	Accounting Horizons	0888-7993	3	Accounting and Auditing	2014
+INTERNATIONAL	Advances in International Accounting	0897-3660	3	Accounting and Auditing	2014
+INTERNATIONAL	Behavioral Research in Accounting	1050-4753	3	Accounting and Auditing	2014
+INTERNATIONAL	British Accounting Review	0890-8389	3	Accounting and Auditing	2014
+INTERNATIONAL	Critical Perspectives on Accounting	1045-2354	3	Accounting and Auditing	2014
+INTERNATIONAL	Financial Accountability and Management	0267-4424	3	Accounting and Auditing	2014
+INTERNATIONAL	International Journal of Accounting	0020-7063	3	Accounting and Auditing	2014
+INTERNATIONAL	International Journal of Auditing	1090-6738	3	Accounting and Auditing	2014
+INTERNATIONAL	Journal of Accounting Literature	0737-4607	3	Accounting and Auditing	2014
+INTERNATIONAL	Journal of Accounting, Auditing and Finance	0148-558X	3	Accounting and Auditing	2014
+INTERNATIONAL	Journal of Applied Accounting Research	0967-5426	3	Accounting and Auditing	2014
+INTERNATIONAL	Journal of International Accounting Research	1542-6297	3	Accounting and Auditing	2014
+INTERNATIONAL	Journal of Management Accounting Research	1044-5005	3	Accounting and Auditing	2014
+INTERNATIONAL	Accounting and Finance	0810-5391	4	Accounting and Auditing	2014
+INTERNATIONAL	Management Accounting Quarterly	1528-5359	4	Accounting and Auditing	2014
+INTERNATIONAL	Managerial Auditing Journal	0268-6902	4	Accounting and Auditing	2014
+INTERNATIONAL	Review of Accounting and Finance	1475-7702	4	Accounting and Auditing	2014
+INTERNATIONAL	American Journal of Agricultural Economics	0002-9092	1	Agricultural, Environmental and Energy Economics	2014
+INTERNATIONAL	Ecological Economics	0921-8009	1	Agricultural, Environmental and Energy Economics	2014
+INTERNATIONAL	Energy Journal	0195-6574	1	Agricultural, Environmental and Energy Economics	2014
+INTERNATIONAL	Journal of Environmental Economics and Management	0095-0696	1	Agricultural, Environmental and Energy Economics	2014
+INTERNATIONAL	Climate Policy	1469-3062	2	Agricultural, Environmental and Energy Economics	2014
+INTERNATIONAL	Energy Economics	0140-9883	2	Agricultural, Environmental and Energy Economics	2014
+INTERNATIONAL	Energy Policy	0301-4215	2	Agricultural, Environmental and Energy Economics	2014
+INTERNATIONAL	Environment and Planning (B, C, D)	0308-518X	2	Agricultural, Environmental and Energy Economics	2014
+INTERNATIONAL	Environmental and Resource Economics	0924-6460	2	Agricultural, Environmental and Energy Economics	2014
+INTERNATIONAL	Environmental Modelling and Assessment	1420-2026	2	Agricultural, Environmental and Energy Economics	2014
+INTERNATIONAL	European Review of Agricultural Economics	0165-1587	2	Agricultural, Environmental and Energy Economics	2014
+INTERNATIONAL	Resource and Energy Economics	0928-7655	2	Agricultural, Environmental and Energy Economics	2014
+INTERNATIONAL	Agricultural Economics	0169-5150	3	Agricultural, Environmental and Energy Economics	2014
+INTERNATIONAL	AMBIO: A Journal of the Human Environment	0044-7447	3	Agricultural, Environmental and Energy Economics	2014
+INTERNATIONAL	Australian Journal of Agricultural and Resource Economics	1364-985X	3	Agricultural, Environmental and Energy Economics	2014
+INTERNATIONAL	Canadian Journal of Agricultural Economics	0008-3976	3	Agricultural, Environmental and Energy Economics	2014
+INTERNATIONAL	Climatic Change	0165-0009	3	Agricultural, Environmental and Energy Economics	2014
+INTERNATIONAL	Ecological Modelling	0304-3800	3	Agricultural, Environmental and Energy Economics	2014
+INTERNATIONAL	Energy Studies Review	0843-4379	3	Agricultural, Environmental and Energy Economics	2014
+INTERNATIONAL	Environment and Development Economics	1355-770X	3	Agricultural, Environmental and Energy Economics	2014
+INTERNATIONAL	Environmental Science and Policy	1462-9011	3	Agricultural, Environmental and Energy Economics	2014
+INTERNATIONAL	Environmental Values	0963-2719	3	Agricultural, Environmental and Energy Economics	2014
+INTERNATIONAL	Food Policy	0306-9192	3	Agricultural, Environmental and Energy Economics	2014
+INTERNATIONAL	Global Environmental Change	0959-3780	3	Agricultural, Environmental and Energy Economics	2014
+INTERNATIONAL	Journal of Agricultural and Food Industrial Organization	1542-0485	3	Agricultural, Environmental and Energy Economics	2014
+INTERNATIONAL	Journal of Agricultural and Resource Economics	1068-5502	3	Agricultural, Environmental and Energy Economics	2014
+INTERNATIONAL	Journal of Agricultural Economics	0021-857X	3	Agricultural, Environmental and Energy Economics	2014
+INTERNATIONAL	Journal of Energy and Development	0361-4476	3	Agricultural, Environmental and Energy Economics	2014
+INTERNATIONAL	Journal of Environmental Management	0301-4797	3	Agricultural, Environmental and Energy Economics	2014
+INTERNATIONAL	Journal of Environmental Planning and Management	0964-0568	3	Agricultural, Environmental and Energy Economics	2014
+INTERNATIONAL	Journal of Wine Economics	1931-4361	3	Agricultural, Environmental and Energy Economics	2014
+INTERNATIONAL	Natural Resources Forum	0165-0203	3	Agricultural, Environmental and Energy Economics	2014
+INTERNATIONAL	Natural Resources Journal	0028-0739	3	Agricultural, Environmental and Energy Economics	2014
+INTERNATIONAL	Resources Policy	0301-4207	3	Agricultural, Environmental and Energy Economics	2014
+INTERNATIONAL	Review of Agricultural Economics	1058-7195	3	Agricultural, Environmental and Energy Economics	2014
+INTERNATIONAL	Society and Natural Resources	0894-1920	3	Agricultural, Environmental and Energy Economics	2014
+INTERNATIONAL	Water Resources Research	0043-1397	3	Agricultural, Environmental and Energy Economics	2014
+INTERNATIONAL	Agribusiness	0742-4477	4	Agricultural, Environmental and Energy Economics	2014
+INTERNATIONAL	Agricultural and Resource Economics Review	1068-2805	4	Agricultural, Environmental and Energy Economics	2014
+INTERNATIONAL	Business Strategy and the Environment	0964-4733	4	Agricultural, Environmental and Energy Economics	2014
+INTERNATIONAL	Environmental Economics and Policy Studies	1432-847X	4	Agricultural, Environmental and Energy Economics	2014
+INTERNATIONAL	Integrated Assessment	1389-5176	4	Agricultural, Environmental and Energy Economics	2014
+INTERNATIONAL	International Environmental Agreements: Politics, Law and Economics	1567-9764	4	Agricultural, Environmental and Energy Economics	2014
+INTERNATIONAL	International Journal of Agricultural Resources, Governance and Ecology	1462-4605	4	Agricultural, Environmental and Energy Economics	2014
+INTERNATIONAL	International Journal of Environment and Pollution	0957-4352	4	Agricultural, Environmental and Energy Economics	2014
+INTERNATIONAL	International Journal of Global Energy Issues	0954-7118	4	Agricultural, Environmental and Energy Economics	2014
+INTERNATIONAL	International Journal of Sustainable Development	0960-1406	4	Agricultural, Environmental and Energy Economics	2014
+INTERNATIONAL	Journal of Agribusiness	0738-8950	4	Agricultural, Environmental and Energy Economics	2014
+INTERNATIONAL	Journal of Agricultural Education and Extension	1389-224X	4	Agricultural, Environmental and Energy Economics	2014
+INTERNATIONAL	Strategic Management Journal	0143-2095	1	Business Strategy and International Management	2014
+INTERNATIONAL	Journal of Economics and Management Strategy	1058-6407	1	Business Strategy and International Management	2014
+INTERNATIONAL	Journal of International Business Studies	0047-2506	1	Business Strategy and International Management	2014
+INTERNATIONAL	Advances in Strategic Management	0742-3322	2	Business Strategy and International Management	2014
+INTERNATIONAL	Journal of World Business	1090-9516	2	Business Strategy and International Management	2014
+INTERNATIONAL	Long Range Planning	0024-6301	2	Business Strategy and International Management	2014
+INTERNATIONAL	Asia Pacific Business Review	1360-2381	3	Business Strategy and International Management	2014
+INTERNATIONAL	International Business Review	0969-5931	3	Business Strategy and International Management	2014
+INTERNATIONAL	Journal of Business Strategy	0275-6668	3	Business Strategy and International Management	2014
+INTERNATIONAL	Journal of International Management	1075-4253	3	Business Strategy and International Management	2014
+INTERNATIONAL	Management International	1206-1697	3	Business Strategy and International Management	2014
+INTERNATIONAL	Management International Review	0025-181X	3	Business Strategy and International Management	2014
+INTERNATIONAL	Strategic Change	1086-1718	3	Business Strategy and International Management	2014
+INTERNATIONAL	Strategic Organization	1476-1270	3	Business Strategy and International Management	2014
+INTERNATIONAL	Technology Analysis and Strategic Management	0953-7325	3	Business Strategy and International Management	2014
+INTERNATIONAL	Business and Society	1467-8594	4	Business Strategy and International Management	2014
+INTERNATIONAL	Communications & Strategies	1157-8637	4	Business Strategy and International Management	2014
+INTERNATIONAL	Critical Perspectives on International Business	1742-2043	4	Business Strategy and International Management	2014
+INTERNATIONAL	Cross-Cultural Management: An International Journal	1352-7606	4	Business Strategy and International Management	2014
+INTERNATIONAL	International Journal of Cross Cultural Management	1470-5958	4	Business Strategy and International Management	2014
+INTERNATIONAL	Journal of Change Management	1469-7017	4	Business Strategy and International Management	2014
+INTERNATIONAL	Multinational Business Review	1525-383X	4	Business Strategy and International Management	2014
+INTERNATIONAL	Thunderbird International Business Review	1096-4762	4	Business Strategy and International Management	2014
+INTERNATIONAL	Economic Development and Cultural Change	0013-0079	1	Development and Transition Economics	2014
+INTERNATIONAL	Journal of Comparative Economics	0147-5967	1	Development and Transition Economics	2014
+INTERNATIONAL	Journal of Development Economics	0304-3878	1	Development and Transition Economics	2014
+INTERNATIONAL	World Bank Economic Review	0258-6770	1	Development and Transition Economics	2014
+INTERNATIONAL	World Development	0305-750X	1	Development and Transition Economics	2014
+INTERNATIONAL	China Economic Review	1043-951X	2	Development and Transition Economics	2014
+INTERNATIONAL	Development and Change	0012-155X	2	Development and Transition Economics	2014
+INTERNATIONAL	Economics of Transition	0967-0750	2	Development and Transition Economics	2014
+INTERNATIONAL	Journal of African Economies	0963-8024	2	Development and Transition Economics	2014
+INTERNATIONAL	Journal of Development Studies	0022-0388	2	Development and Transition Economics	2014
+INTERNATIONAL	Population and Development Review	0098-7921	2	Development and Transition Economics	2014
+INTERNATIONAL	Post-Communist Economies	1463-1377	2	Development and Transition Economics	2014
+INTERNATIONAL	Comparative Economic Studies	0888-7233	3	Development and Transition Economics	2014
+INTERNATIONAL	Economic Systems	0939-3625	3	Development and Transition Economics	2014
+INTERNATIONAL	Emerging Markets Review	1566-0141	3	Development and Transition Economics	2014
+INTERNATIONAL	European Journal of Comparative Economics	1824-2979	3	Development and Transition Economics	2014
+INTERNATIONAL	Europe-Asia Studies	0966-8136	3	Development and Transition Economics	2014
+INTERNATIONAL	Journal of International Development	0954-1748	3	Development and Transition Economics	2014
+INTERNATIONAL	Journal of International Trade and Economic Development	0963-8199	3	Development and Transition Economics	2014
+INTERNATIONAL	MOCT-MOST Economic Policy in Transitional Economies	1120-7388	3	Development and Transition Economics	2014
+INTERNATIONAL	Oxford Development Studies	1360-0818	3	Development and Transition Economics	2014
+INTERNATIONAL	Revue d'Économie du Développement	1245-4060	3	Development and Transition Economics	2014
+INTERNATIONAL	Third World Quarterly	0143-6597	3	Development and Transition Economics	2014
+INTERNATIONAL	African Development Review	1017-6772	4	Development and Transition Economics	2014
+INTERNATIONAL	Asian Development Review	0116-1105	4	Development and Transition Economics	2014
+INTERNATIONAL	Autrepart	1278-3986	4	Development and Transition Economics	2014
+INTERNATIONAL	Cepal Review	0251-2920	4	Development and Transition Economics	2014
+INTERNATIONAL	Economic History of Developing Regions	2078-0389	4	Development and Transition Economics	2014
+INTERNATIONAL	European Journal of Development Research	0957-8811	4	Development and Transition Economics	2014
+INTERNATIONAL	Journal of Asian Economics	1049-0078	4	Development and Transition Economics	2014
+INTERNATIONAL	Journal of Economic Development	0254-8372	4	Development and Transition Economics	2014
+INTERNATIONAL	Mondes en Développement	0302-3052	4	Development and Transition Economics	2014
+INTERNATIONAL	Review of African Political Economy	0305-6244	4	Development and Transition Economics	2014
+INTERNATIONAL	Review of Development Economics	1363-6669	4	Development and Transition Economics	2014
+INTERNATIONAL	Revue Canadienne d’Études du Développement / Canadian Journal of Development Studies	0225-5189	4	Development and Transition Economics	2014
+INTERNATIONAL	Revue d'Études Comparatives Est-Ouest	0338-0599	4	Development and Transition Economics	2014
+INTERNATIONAL	Savings and Development	0393-4551	4	Development and Transition Economics	2014
+INTERNATIONAL	Econometric Theory	0266-4666	1	Econometrics	2014
+INTERNATIONAL	Journal of Business and Economic Statistics	0735-0015	1	Econometrics	2014
+INTERNATIONAL	Journal of Econometrics	0304-4076	1	Econometrics	2014
+INTERNATIONAL	Econometric Reviews	0747-4938	2	Econometrics	2014
+INTERNATIONAL	Econometrics Journal	1368-4221	2	Econometrics	2014
+INTERNATIONAL	Journal of Applied Econometrics	0883-7252	2	Econometrics	2014
+INTERNATIONAL	Journal of the Royal Statistical Society, Series B-Statistical Methodology	1369-7412	2	Econometrics	2014
+INTERNATIONAL	Journal of the Royal Statistical Society, Series C-Applied Statistics	0035-9254	3	Econometrics	2014
+INTERNATIONAL	International Journal of Forecasting	0169-2070	3	Econometrics	2014
+INTERNATIONAL	Journal of Applied Statistics	0266-4763	3	Econometrics	2014
+INTERNATIONAL	Journal of Financial Econometrics	1479-8409	3	Econometrics	2014
+INTERNATIONAL	Journal of Forecasting	0277-6693	3	Econometrics	2014
+INTERNATIONAL	Journal of Multivariate Analysis	0047-259X	3	Econometrics	2014
+INTERNATIONAL	Journal of Quantitative Economics	0971-1554	3	Econometrics	2014
+INTERNATIONAL	Journal of Time Series Analysis	0143-9782	3	Econometrics	2014
+INTERNATIONAL	Studies in Nonlinear Dynamics and Econometrics	1081-1826	3	Econometrics	2014
+INTERNATIONAL	Empirical Economics	0377-7332	4	Econometrics	2014
+INTERNATIONAL	International Review of Applied Economics	0269-2171	4	Econometrics	2014
+INTERNATIONAL	Economic Theory	0938-2259	1	Economic Theory, Game and Decision Theory and Experimental Economics	2014
+INTERNATIONAL	Experimental Economics	1386-4157	1	Economic Theory, Game and Decision Theory and Experimental Economics	2014
+INTERNATIONAL	Games and Economic Behavior	0899-8256	1	Economic Theory, Game and Decision Theory and Experimental Economics	2014
+INTERNATIONAL	Journal of Mathematical Economics	0304-4068	1	Economic Theory, Game and Decision Theory and Experimental Economics	2014
+INTERNATIONAL	International Journal of Game Theory	0020-7276	2	Economic Theory, Game and Decision Theory and Experimental Economics	2014
+INTERNATIONAL	Mathematical Social Sciences	0165-4896	2	Economic Theory, Game and Decision Theory and Experimental Economics	2014
+INTERNATIONAL	Theoretical Economics	1555-7561	2	Economic Theory, Game and Decision Theory and Experimental Economics	2014
+INTERNATIONAL	Theory and Decision	0040-5833	2	Economic Theory, Game and Decision Theory and Experimental Economics	2014
+INTERNATIONAL	The B.E. Journal of Theoretical Economics. Frontiers	1935-1704	2	Economic Theory, Game and Decision Theory and Experimental Economics	2014
+INTERNATIONAL	American Behavioral Scientist	0002-7642	3	Economic Theory, Game and Decision Theory and Experimental Economics	2014
+INTERNATIONAL	Computational Economics	0927-7099	3	Economic Theory, Game and Decision Theory and Experimental Economics	2014
+INTERNATIONAL	Decisions in Economics and Finance	1593-8883	3	Economic Theory, Game and Decision Theory and Experimental Economics	2014
+INTERNATIONAL	International Game Theory Review	0219-1989	3	Economic Theory, Game and Decision Theory and Experimental Economics	2014
+INTERNATIONAL	International Journal of Economic Theory	1742-7355	3	Economic Theory, Game and Decision Theory and Experimental Economics	2014
+INTERNATIONAL	Journal of Applied Behavioral Analysis	0021-8855	3	Economic Theory, Game and Decision Theory and Experimental Economics	2014
+INTERNATIONAL	Journal of Behavioral Decision Making	0894-3257	3	Economic Theory, Game and Decision Theory and Experimental Economics	2014
+INTERNATIONAL	Journal of Economic Psychology	0167-4870	3	Economic Theory, Game and Decision Theory and Experimental Economics	2014
+INTERNATIONAL	Review of Economic Design	1434-4742	3	Economic Theory, Game and Decision Theory and Experimental Economics	2014
+INTERNATIONAL	The B.E. Journal of Theoretical Economics. Advances	1935-1704	3	Economic Theory, Game and Decision Theory and Experimental Economics	2014
+INTERNATIONAL	Journal of Economic Interaction and Coordination	1860-7128	4	Economic Theory, Game and Decision Theory and Experimental Economics	2014
+INTERNATIONAL	Mathématiques et Sciences Humaines	0987-6936	4	Economic Theory, Game and Decision Theory and Experimental Economics	2014
+INTERNATIONAL	Journal of Finance	0022-1082	1	Finance and Insurance	2014
+INTERNATIONAL	Journal of Financial and Quantitative Analysis	0022-1090	1	Finance and Insurance	2014
+INTERNATIONAL	Journal of Financial Economics	0304-405X	1	Finance and Insurance	2014
+INTERNATIONAL	Review of Finance	1382-6662	1	Finance and Insurance	2014
+INTERNATIONAL	Review of Financial Studies	0893-9454	1	Finance and Insurance	2014
+INTERNATIONAL	Finance	0752-6180	2	Finance and Insurance	2014
+INTERNATIONAL	Financial Management	0046-3892	2	Finance and Insurance	2014
+INTERNATIONAL	Geneva Risk and Insurance Review	1554-964X	2	Finance and Insurance	2014
+INTERNATIONAL	Journal of Banking and Finance	0378-4266	2	Finance and Insurance	2014
+INTERNATIONAL	Journal of Business Finance and Accounting	0306-686X	2	Finance and Insurance	2014
+INTERNATIONAL	Journal of Corporate Finance: Contracting, Governance and Organization	0929-1199	2	Finance and Insurance	2014
+INTERNATIONAL	Journal of Financial Intermediation	1042-9573	2	Finance and Insurance	2014
+INTERNATIONAL	Journal of Risk and Insurance	0022-4367	2	Finance and Insurance	2014
+INTERNATIONAL	Journal of Risk and Uncertainty	0895-5646	2	Finance and Insurance	2014
+INTERNATIONAL	Mathematical Finance	0960-1627	2	Finance and Insurance	2014
+INTERNATIONAL	ASTIN Bulletin	0515-0361	3	Finance and Insurance	2014
+INTERNATIONAL	Bankers, Markets & Investors (ex-Banque & Marchés)	1167-4946	3	Finance and Insurance	2014
+INTERNATIONAL	Corporate Governance	0964-8410	3	Finance and Insurance	2014
+INTERNATIONAL	European Financial Management	1354-7798	3	Finance and Insurance	2014
+INTERNATIONAL	Finance and Stochastics	0949-2984	3	Finance and Insurance	2014
+INTERNATIONAL	Finance Research Letters	1544-6123	3	Finance and Insurance	2014
+INTERNATIONAL	Financial Markets, Institutions and Instruments	0963-8008	3	Finance and Insurance	2014
+INTERNATIONAL	Geneva Papers on Risk and Insurance: Issues and Practices	1018-5895	3	Finance and Insurance	2014
+INTERNATIONAL	Insurance: Mathematics and Economics	0167-6687	3	Finance and Insurance	2014
+INTERNATIONAL	International Journal of Theoretical and Applied Finance	0219-0249	3	Finance and Insurance	2014
+INTERNATIONAL	International Review of Financial Analysis	1057-5219	3	Finance and Insurance	2014
+INTERNATIONAL	Journal of Derivatives	1074-1240	3	Finance and Insurance	2014
+INTERNATIONAL	Journal of Empirical Finance	0927-5398	3	Finance and Insurance	2014
+INTERNATIONAL	Journal of Financial Markets	1386-4181	3	Finance and Insurance	2014
+INTERNATIONAL	Journal of Financial Research	0270-2592	3	Finance and Insurance	2014
+INTERNATIONAL	Journal of Financial Services Research	0920-8550	3	Finance and Insurance	2014
+INTERNATIONAL	Journal of Fixed Income	1059-8596	3	Finance and Insurance	2014
+INTERNATIONAL	Journal of Futures Markets	0270-7314	3	Finance and Insurance	2014
+INTERNATIONAL	Journal of Portfolio Management	0095-4918	3	Finance and Insurance	2014
+INTERNATIONAL	Journal of Real Estate Finance and Economics	0895-5638	3	Finance and Insurance	2014
+INTERNATIONAL	Quantitative Finance	1469-7688	3	Finance and Insurance	2014
+INTERNATIONAL	Quarterly Review of Economics and Finance	1062-9769	3	Finance and Insurance	2014
+INTERNATIONAL	Real Estate Economics	1080-8620	3	Finance and Insurance	2014
+INTERNATIONAL	Review of Quantitative Finance and Accounting	0924-865X	3	Finance and Insurance	2014
+INTERNATIONAL	Annals of Finance	1614-2446	4	Finance and Insurance	2014
+INTERNATIONAL	Applied Financial Economics	0960-3107	4	Finance and Insurance	2014
+INTERNATIONAL	Bulletin Français d'Actuariat	1779-7160	4	Finance and Insurance	2014
+INTERNATIONAL	Financial Review	0732-8516	4	Finance and Insurance	2014
+INTERNATIONAL	Journal of Asset Management	1470-8272	4	Finance and Insurance	2014
+INTERNATIONAL	Journal of Multinational Financial Management	1042-444X	4	Finance and Insurance	2014
+INTERNATIONAL	Managerial Finance	0307-4358	4	Finance and Insurance	2014
+INTERNATIONAL	Multinational Finance Journal	1096-1879	4	Finance and Insurance	2014
+INTERNATIONAL	North American Actuarial Journal	1092-0277	4	Finance and Insurance	2014
+INTERNATIONAL	Pacific Basin Finance Journal	0927-538X	4	Finance and Insurance	2014
+INTERNATIONAL	Research in International Business and Finance	0275-5319	4	Finance and Insurance	2014
+INTERNATIONAL	Review of Derivatives Research	1380-6645	4	Finance and Insurance	2014
+INTERNATIONAL	Review of Financial Economics	1058-3300	4	Finance and Insurance	2014
+INTERNATIONAL	Revue d'Économie Financière	1777-5744	4	Finance and Insurance	2014
+INTERNATIONAL	The European Journal of Finance	1351-847X	4	Finance and Insurance	2014
+INTERNATIONAL	Academy of Management Review	0363-7425	1	General Economics, General Management	2014
+INTERNATIONAL	American Economic Review	0002-8282	1	General Economics, General Management	2014
+INTERNATIONAL	Econometrica	0012-9682	1	General Economics, General Management	2014
+INTERNATIONAL	Journal of Economic Literature	0022-0515	1	General Economics, General Management	2014
+INTERNATIONAL	Journal of Political Economy	0022-3808	1	General Economics, General Management	2014
+INTERNATIONAL	Management Science	0025-1909	1	General Economics, General Management	2014
+INTERNATIONAL	Quarterly Journal of Economics	0033-5533	1	General Economics, General Management	2014
+INTERNATIONAL	Review of Economic Studies	0034-6527	1	General Economics, General Management	2014
+INTERNATIONAL	Academy of Management Journal	0001-4273	1	General Economics, General Management	2014
+INTERNATIONAL	Brookings Papers on Economic Activity	0007-2303	1	General Economics, General Management	2014
+INTERNATIONAL	Economic Journal	0013-0133	1	General Economics, General Management	2014
+INTERNATIONAL	European Economic Review	0014-2921	1	General Economics, General Management	2014
+INTERNATIONAL	International Economic Review	0020-6598	1	General Economics, General Management	2014
+INTERNATIONAL	Journal of Economic Perspectives	0895-3309	1	General Economics, General Management	2014
+INTERNATIONAL	Journal of Economic Theory	0022-0531	1	General Economics, General Management	2014
+INTERNATIONAL	Journal of Management Studies	0022-2380	1	General Economics, General Management	2014
+INTERNATIONAL	Journal of the European Economic Association	1542-4766	1	General Economics, General Management	2014
+INTERNATIONAL	Review of Economics and Statistics	0034-6535	1	General Economics, General Management	2014
+INTERNATIONAL	Annales d'Économie et Statistiques	0769-489X	2	General Economics, General Management	2014
+INTERNATIONAL	Applied Economics	0003-6846	2	General Economics, General Management	2014
+INTERNATIONAL	BEJ Economic Analysis & Policy Frontiers	1555-0494	2	General Economics, General Management	2014
+INTERNATIONAL	British Journal of Management	1045-3172	2	General Economics, General Management	2014
+INTERNATIONAL	Cambridge Journal of Economics	0309-166X	2	General Economics, General Management	2014
+INTERNATIONAL	Canadian Journal of Economics / Revue Canadienne d'Économique	0008-4085	2	General Economics, General Management	2014
+INTERNATIONAL	Economic Inquiry	0095-2583	2	General Economics, General Management	2014
+INTERNATIONAL	Economic Policy	0266-4658	2	General Economics, General Management	2014
+INTERNATIONAL	Economica	0013-0427	2	General Economics, General Management	2014
+INTERNATIONAL	Economy and Society	0308-5147	2	General Economics, General Management	2014
+INTERNATIONAL	European Management Review	1740-4754	2	General Economics, General Management	2014
+INTERNATIONAL	International Journal of Management Reviews	1460-8545	2	General Economics, General Management	2014
+INTERNATIONAL	Journal of Economic Behavior and Organization	0167-2681	2	General Economics, General Management	2014
+INTERNATIONAL	Journal of Economic Surveys	0950-0804	2	General Economics, General Management	2014
+INTERNATIONAL	Journal of Institutional and Theoretical Economics	0932-4569	2	General Economics, General Management	2014
+INTERNATIONAL	Journal of Institutional Economics	1744-1374	2	General Economics, General Management	2014
+INTERNATIONAL	Journal of Management	0149-2063	2	General Economics, General Management	2014
+INTERNATIONAL	Journal of Post-Keynesian Economics	0160-3477	2	General Economics, General Management	2014
+INTERNATIONAL	Kyklos	0023-5962	2	General Economics, General Management	2014
+INTERNATIONAL	M@na@gement	1286-4892	2	General Economics, General Management	2014
+INTERNATIONAL	Oxford Bulletin of Economics and Statistics	0305-9049	2	General Economics, General Management	2014
+INTERNATIONAL	Oxford Economic Papers	0030-7653	2	General Economics, General Management	2014
+INTERNATIONAL	Review of International Political Economy	0969-2290	2	General Economics, General Management	2014
+INTERNATIONAL	Scandinavian Journal of Economics	0347-0520	2	General Economics, General Management	2014
+INTERNATIONAL	Southern Economic Journal	0038-4038	2	General Economics, General Management	2014
+INTERNATIONAL	Australian Economic Papers	0004-900X	3	General Economics, General Management	2014
+INTERNATIONAL	BEJ Economic Analysis & Policy Advances	1555-0494	3	General Economics, General Management	2014
+INTERNATIONAL	Bulletin of Economic Research	0307-3378	3	General Economics, General Management	2014
+INTERNATIONAL	Competition and Change	1024-5294	3	General Economics, General Management	2014
+INTERNATIONAL	Corporate Governance	0964-8410	3	General Economics, General Management	2014
+INTERNATIONAL	De Economist	0013-063X	3	General Economics, General Management	2014
+INTERNATIONAL	Health Economics	1057-9230	1	Health Economics and Management	2014
+INTERNATIONAL	Journal of Health Economics	0167-6296	1	Health Economics and Management	2014
+INTERNATIONAL	Medical Care	0025-7079	1	Health Economics and Management	2014
+INTERNATIONAL	Social Science and Medicine	0277-9536	1	Health Economics and Management	2014
+INTERNATIONAL	BMJ Quality and safety (Original research)	1475-3898	2	Health Economics and Management	2014
+INTERNATIONAL	European Journal of Health Economics	1439-3972	2	Health Economics and Management	2014
+INTERNATIONAL	Health Policy	0168-8510	2	Health Economics and Management	2014
+INTERNATIONAL	Health Services Research	0017-9124	2	Health Economics and Management	2014
+INTERNATIONAL	International Journal of Health Care, Finance and Economics	1389-6563	2	Health Economics and Management	2014
+INTERNATIONAL	Medical Decision Making	0272-989X	2	Health Economics and Management	2014
+INTERNATIONAL	Milbank Memorial Fund Quarterly - The Milbank Quarterly	0887-378X	2	Health Economics and Management	2014
+INTERNATIONAL	Pharmacoeconomics	1170-7690	2	Health Economics and Management	2014
+INTERNATIONAL	Value in Health	1098-3015	2	Health Economics and Management	2014
+INTERNATIONAL	American Journal of Medical Quality	1062-8606	3	Health Economics and Management	2014
+INTERNATIONAL	BMC Health Services Research	1472-6963	3	Health Economics and Management	2014
+INTERNATIONAL	Bulletin of the World Health Organization	0042-9686	3	Health Economics and Management	2014
+INTERNATIONAL	European Journal of Public Health	1101-1262	3	Health Economics and Management	2014
+INTERNATIONAL	Health Care Financing Review	0195-8631	3	Health Economics and Management	2014
+INTERNATIONAL	Health Care Management Review	0361-6274	3	Health Economics and Management	2014
+INTERNATIONAL	Health Economics Policy and Law	1744-1331	3	Health Economics and Management	2014
+INTERNATIONAL	Journal of Health Politics, Policy and Law	0361-6878	3	Health Economics and Management	2014
+INTERNATIONAL	Medical Care Research and Review	1077-5587	3	Health Economics and Management	2014
+INTERNATIONAL	Public Health	0033-3506	3	Health Economics and Management	2014
+INTERNATIONAL	Quality of Life Research	0962-9343	3	Health Economics and Management	2014
+INTERNATIONAL	The International Journal of Technology Assessment in Health	0266-4623	3	Health Economics and Management	2014
+INTERNATIONAL	Applied Health Economics and Policy	1175-5652	4	Health Economics and Management	2014
+INTERNATIONAL	Health Care Management Science	1386-9620	4	Health Economics and Management	2014
+INTERNATIONAL	Health Policy and Planning	0268-1080	4	Health Economics and Management	2014
+INTERNATIONAL	Health Services Management Research	0951-4848	4	Health Economics and Management	2014
+INTERNATIONAL	International Journal of Health Planning and Management	0749-6753	4	Health Economics and Management	2014
+INTERNATIONAL	International Journal of Quality in Health Care	1353-4505	4	Health Economics and Management	2014
+INTERNATIONAL	Journal d’Économie Médicale	0294-0736	4	Health Economics and Management	2014
+INTERNATIONAL	Journal of Health Services Research and Policy	1355-8196	4	Health Economics and Management	2014
+INTERNATIONAL	Sciences Sociales et Santé	0294-0337	4	Health Economics and Management	2014
+INTERNATIONAL	Economic History Review	0013-0117	1	History of Economic Thought, Economic and Business History, Methodology	2014
+INTERNATIONAL	Economics and Philosophy	0266-2671	1	History of Economic Thought, Economic and Business History, Methodology	2014
+INTERNATIONAL	History of Political Economy	0018-2702	1	History of Economic Thought, Economic and Business History, Methodology	2014
+INTERNATIONAL	Journal of Economic History	0022-0507	1	History of Economic Thought, Economic and Business History, Methodology	2014
+INTERNATIONAL	Business History	0007-6791	2	History of Economic Thought, Economic and Business History, Methodology	2014
+INTERNATIONAL	European Journal of the History of Economic Thought	0967-2567	2	History of Economic Thought, Economic and Business History, Methodology	2014
+INTERNATIONAL	European Review of Economic History	1361-4916	2	History of Economic Thought, Economic and Business History, Methodology	2014
+INTERNATIONAL	Explorations in Economic History	0014-4983	2	History of Economic Thought, Economic and Business History, Methodology	2014
+INTERNATIONAL	Journal of Economic Methodology	1350-178X	2	History of Economic Thought, Economic and Business History, Methodology	2014
+INTERNATIONAL	Journal of the History of Economic Thought	1042-7716	2	History of Economic Thought, Economic and Business History, Methodology	2014
+INTERNATIONAL	Politics, Philosophy & Economics	1470-594X	2	History of Economic Thought, Economic and Business History, Methodology	2014
+INTERNATIONAL	Accounting Historians Journal	0148-4184	3	History of Economic Thought, Economic and Business History, Methodology	2014
+INTERNATIONAL	Accounting History Review (ex Accounting Business and Financial History)	2155-2851	3	History of Economic Thought, Economic and Business History, Methodology	2014
+INTERNATIONAL	Australian Economic History Review	0004-8992	3	History of Economic Thought, Economic and Business History, Methodology	2014
+INTERNATIONAL	Business History Review	0007-6805	3	History of Economic Thought, Economic and Business History, Methodology	2014
+INTERNATIONAL	Cahiers d'Économie Politique	0154-8344	3	History of Economic Thought, Economic and Business History, Methodology	2014
+INTERNATIONAL	Cliometrica	1863-2513	3	History of Economic Thought, Economic and Business History, Methodology	2014
+INTERNATIONAL	Enterprise & Society	1467-2235	3	History of Economic Thought, Economic and Business History, Methodology	2014
+INTERNATIONAL	Financial History Review	0968-5650	3	History of Economic Thought, Economic and Business History, Methodology	2014
+INTERNATIONAL	History of Economic Ideas	1122-8792	3	History of Economic Thought, Economic and Business History, Methodology	2014
+INTERNATIONAL	Research in Economic History	1054-1098	3	History of Economic Thought, Economic and Business History, Methodology	2014
+INTERNATIONAL	Revue de Philosophie Économique	1376-0971	3	History of Economic Thought, Economic and Business History, Methodology	2014
+INTERNATIONAL	Accounting History	1032-3732	4	History of Economic Thought, Economic and Business History, Methodology	2014
+INTERNATIONAL	Business and Economic History	0849-6825	4	History of Economic Thought, Economic and Business History, Methodology	2014
+INTERNATIONAL	Économies et Sociétés série "Histoire de la Pensée Économique"	0013-0567	4	History of Economic Thought, Economic and Business History, Methodology	2014
+INTERNATIONAL	Entreprises et Histoire	1161-2770	4	History of Economic Thought, Economic and Business History, Methodology	2014
+INTERNATIONAL	Histoire Économie et Société	0752-5702	4	History of Economic Thought, Economic and Business History, Methodology	2014
+INTERNATIONAL	Histoire Économique Quantitative (E&S, série AF)	0013-0567	4	History of Economic Thought, Economic and Business History, Methodology	2014
+INTERNATIONAL	History of Economics Review	1037-0196	4	History of Economic Thought, Economic and Business History, Methodology	2014
+INTERNATIONAL	Journal of European Economic History	0391-5115	4	History of Economic Thought, Economic and Business History, Methodology	2014
+INTERNATIONAL	Journal of Historical Research in Marketing	1755-750X	4	History of Economic Thought, Economic and Business History, Methodology	2014
+INTERNATIONAL	Labor History	0023-656X	4	History of Economic Thought, Economic and Business History, Methodology	2014
+INTERNATIONAL	Management and Organizational History	1744-9359	4	History of Economic Thought, Economic and Business History, Methodology	2014
+INTERNATIONAL	Oeconomia	2113-5207	4	History of Economic Thought, Economic and Business History, Methodology	2014
+INTERNATIONAL	Research in the History of Economic Thought and Methodology	0743-4154	4	History of Economic Thought, Economic and Business History, Methodology	2014
+INTERNATIONAL	Scandinavian Economic History Review	0358-5522	4	History of Economic Thought, Economic and Business History, Methodology	2014
+INTERNATIONAL	Industrial and Labor Relations Review	0019-7939	1	Human Resources Management	2014
+INTERNATIONAL	Industrial Relations	0019-8676	1	Human Resources Management	2014
+INTERNATIONAL	Organizational Behavior and Human Decision Processes	0749-5978	1	Human Resources Management	2014
+INTERNATIONAL	Personnel Psychology	0031-5826	1	Human Resources Management	2014
+INTERNATIONAL	British Journal of Industrial Relations	0007-1080	2	Human Resources Management	2014
+INTERNATIONAL	Human Relations	0018-7267	2	Human Resources Management	2014
+INTERNATIONAL	Human Resource Management	0090-4848	2	Human Resources Management	2014
+INTERNATIONAL	Journal of Business Ethics	0167-4544	2	Human Resources Management	2014
+INTERNATIONAL	Journal of Occupational and Organizational Psychology	0963-1798	2	Human Resources Management	2014
+INTERNATIONAL	Journal of Organizational Behavior	0894-3796	2	Human Resources Management	2014
+INTERNATIONAL	Journal of Vocational Behavior	0001-8791	2	Human Resources Management	2014
+INTERNATIONAL	Leadership Quarterly	1048-9843	2	Human Resources Management	2014
+INTERNATIONAL	European Journal of Industrial Relations	0959-6801	3	Human Resources Management	2014
+INTERNATIONAL	Group and Organization Management	1059-6011	3	Human Resources Management	2014
+INTERNATIONAL	Human Resource Management Journal	0954-5395	3	Human Resources Management	2014
+INTERNATIONAL	Human Resource Management Review	1053-4822	3	Human Resources Management	2014
+INTERNATIONAL	Industrial and Economic Democracy	0143-831X	3	Human Resources Management	2014
+INTERNATIONAL	International Journal of Human Resource Management	0958-5192	3	Human Resources Management	2014
+INTERNATIONAL	International Labour Review	0020-7780	3	Human Resources Management	2014
+INTERNATIONAL	Personnel Review	0048-3486	3	Human Resources Management	2014
+INTERNATIONAL	Relations Industrielles / Industrial Relations	0034-379X	3	Human Resources Management	2014
+INTERNATIONAL	Revue de Gestion des Ressources Humaines	1163-913X	3	Human Resources Management	2014
+INTERNATIONAL	Work and Occupations	0730-8884	3	Human Resources Management	2014
+INTERNATIONAL	Work and Stress	0267-8373	3	Human Resources Management	2014
+INTERNATIONAL	Work Employment and Society	0950-0170	3	Human Resources Management	2014
+INTERNATIONAL	Asia Pacific Journal of Human Resources	1038-4111	4	Human Resources Management	2014
+INTERNATIONAL	Business Ethics Quarterly	1052-150X	4	Human Resources Management	2014
+INTERNATIONAL	Business Ethics: A European Review	0007-6503	4	Human Resources Management	2014
+INTERNATIONAL	Employee Relations	0142-5455	4	Human Resources Management	2014
+INTERNATIONAL	European Journal of Work & Organizational Psychology	1359-432X	4	Human Resources Management	2014
+INTERNATIONAL	Gender, Work and Organization	0968-6673	4	Human Resources Management	2014
+INTERNATIONAL	Human System Management	0167-2533	4	Human Resources Management	2014
+INTERNATIONAL	Journal of Management Development	0262-1711	4	Human Resources Management	2014
+INTERNATIONAL	Journal of Managerial Psychology	0268-3946	4	Human Resources Management	2014
+INTERNATIONAL	Management & Avenir	1768-5958	4	Human Resources Management	2014
+INTERNATIONAL	Review of Public Personnel Administration	0734-371X	4	Human Resources Management	2014
+INTERNATIONAL	International Journal of Industrial Organization	0167-7187	1	Industrial Organization	2014
+INTERNATIONAL	Journal of Economics and Management Strategy	1058-6407	1	Industrial Organization	2014
+INTERNATIONAL	Journal of Industrial Economics	0022-1821	1	Industrial Organization	2014
+INTERNATIONAL	RAND Journal of Economics	0741-6261	1	Industrial Organization	2014
+INTERNATIONAL	Industrial and Corporate Change	0960-6491	2	Industrial Organization	2014
+INTERNATIONAL	Information Economics and Policy	0167-6245	2	Industrial Organization	2014
+INTERNATIONAL	Journal of Evolutionary Economics	0936-9937	2	Industrial Organization	2014
+INTERNATIONAL	Journal of Regulatory Economics	0922-680X	2	Industrial Organization	2014
+INTERNATIONAL	Review of Industrial Organization	0889-938X	2	Industrial Organization	2014
+INTERNATIONAL	Small Business Economics	0921-898X	2	Industrial Organization	2014
+INTERNATIONAL	Business and Politics	1369-5258	3	Industrial Organization	2014
+INTERNATIONAL	Industry and Innovation	1366-2716	3	Industrial Organization	2014
+INTERNATIONAL	International Journal of the Economics of Business	1357-1516	3	Industrial Organization	2014
+INTERNATIONAL	Journal of Cultural Economics	0885-2545	3	Industrial Organization	2014
+INTERNATIONAL	Managerial and Decision Economics	0143-6570	3	Industrial Organization	2014
+INTERNATIONAL	Review of Network Economics	1446-9022	3	Industrial Organization	2014
+INTERNATIONAL	Revue d'Économie Industrielle	0154-3229	3	Industrial Organization	2014
+INTERNATIONAL	Journal of Media Economics	0899-7764	4	Industrial Organization	2014
+INTERNATIONAL	Telecommunications Policy	0308-5961	4	Industrial Organization	2014
+INTERNATIONAL	Utilities Policy	0957-1787	4	Industrial Organization	2014
+INTERNATIONAL	Entrepreneurship: Theory and Practice	1042-2587	1	Innovation and Entrepreneurship	2014
+INTERNATIONAL	Journal of Business Venturing	0883-9026	1	Innovation and Entrepreneurship	2014
+INTERNATIONAL	Journal of Product Innovation Management	0737-6782	1	Innovation and Entrepreneurship	2014
+INTERNATIONAL	Research Policy	0048-7333	1	Innovation and Entrepreneurship	2014
+INTERNATIONAL	Economics of Innovation and New Technology	1043-8599	2	Innovation and Entrepreneurship	2014
+INTERNATIONAL	Familly Business Review	0894-4865	2	Innovation and Entrepreneurship	2014
+INTERNATIONAL	International Small Business Journal	0266-2426	2	Innovation and Entrepreneurship	2014
+INTERNATIONAL	Journal of Small Business Management	0047-2778	2	Innovation and Entrepreneurship	2014
+INTERNATIONAL	Small Business Economics	0921-898X	2	Innovation and Entrepreneurship	2014
+INTERNATIONAL	Strategic Entrepreneurship Journal	1932-4391	2	Innovation and Entrepreneurship	2014
+INTERNATIONAL	Technological Forecasting and Social Change	0040-1625	2	Innovation and Entrepreneurship	2014
+INTERNATIONAL	Entrepreneurship and Regional Development	0898-5626	3	Innovation and Entrepreneurship	2014
+INTERNATIONAL	Industry and Innovation	1366-2716	3	Innovation and Entrepreneurship	2014
+INTERNATIONAL	International Journal of Technology Management	0267-5730	3	Innovation and Entrepreneurship	2014
+INTERNATIONAL	Journal of Engineering and Technology Management	0923-4748	3	Innovation and Entrepreneurship	2014
+INTERNATIONAL	Journal of International Entrepreneurship	1570-7385	3	Innovation and Entrepreneurship	2014
+INTERNATIONAL	Journal of Technology Transfer	0892-9912	3	Innovation and Entrepreneurship	2014
+INTERNATIONAL	R&D Management	0033-6807	3	Innovation and Entrepreneurship	2014
+INTERNATIONAL	Technovation	0166-4972	3	Innovation and Entrepreneurship	2014
+INTERNATIONAL	Creativity and Innovation Management	0963-1690	4	Innovation and Entrepreneurship	2014
+INTERNATIONAL	European Journal of Innovation Management	1460-1060	4	Innovation and Entrepreneurship	2014
+INTERNATIONAL	IJEIM	1368-275X	4	Innovation and Entrepreneurship	2014
+INTERNATIONAL	International Entrepreneurship and Management Journal	1554-7191	4	Innovation and Entrepreneurship	2014
+INTERNATIONAL	International Journal of Entrepreneurial Behaviour and Research	1355-2554	4	Innovation and Entrepreneurship	2014
+INTERNATIONAL	International Journal of Entrepreneurship and Innovation	1465-7503	4	Innovation and Entrepreneurship	2014
+INTERNATIONAL	International Journal of Entrepreneurship and Small Business	1476-1297	4	Innovation and Entrepreneurship	2014
+INTERNATIONAL	International Journal of Innovation Management	1363-9196	4	Innovation and Entrepreneurship	2014
+INTERNATIONAL	Journal of Enterprising Culture	0218-4958	4	Innovation and Entrepreneurship	2014
+INTERNATIONAL	Journal of High Technology Management Research	1047-8310	4	Innovation and Entrepreneurship	2014
+INTERNATIONAL	Journal of Private Enterprise	0890-913X	4	Innovation and Entrepreneurship	2014
+INTERNATIONAL	Journal of Small Business and Enterprise Development	1462-6004	4	Innovation and Entrepreneurship	2014
+INTERNATIONAL	Revue de l'Entreprenariat	1630-7542	4	Innovation and Entrepreneurship	2014
+INTERNATIONAL	Revue Internationale PME	0776-5436	4	Innovation and Entrepreneurship	2014
+INTERNATIONAL	Demography	0070-3370	1	Labor and population Economics	2014
+INTERNATIONAL	Industrial and Labor Relations Review	0019-7939	1	Labor and population Economics	2014
+INTERNATIONAL	Journal of Human Resources	0022-166X	1	Labor and population Economics	2014
+INTERNATIONAL	Journal of Labor Economics	0734-306X	1	Labor and population Economics	2014
+INTERNATIONAL	Economics of Education Review	0272-7757	2	Labor and population Economics	2014
+INTERNATIONAL	Journal of Human Capital	1932-8575	2	Labor and population Economics	2014
+INTERNATIONAL	Journal of Population Economics	0933-1433	2	Labor and population Economics	2014
+INTERNATIONAL	Labour Economics	0927-5371	2	Labor and population Economics	2014
+INTERNATIONAL	Population	0032-4663	2	Labor and population Economics	2014
+INTERNATIONAL	Review of Income and Wealth	0034-6586	2	Labor and population Economics	2014
+INTERNATIONAL	Education Economics	0964-5292	3	Labor and population Economics	2014
+INTERNATIONAL	European Journal of Population	0168-6577	3	Labor and population Economics	2014
+INTERNATIONAL	International Journal of Manpower	0143-7720	3	Labor and population Economics	2014
+INTERNATIONAL	International Labour Review	0020-7780	3	Labor and population Economics	2014
+INTERNATIONAL	Journal of Economic Education	0022-0485	3	Labor and population Economics	2014
+INTERNATIONAL	Labour: Review of Labour Economics and Industrial Relations	1121-7081	3	Labor and population Economics	2014
+INTERNATIONAL	Review of Economics of the Household	1569-5239	3	Labor and population Economics	2014
+INTERNATIONAL	Formation Emploi	0759-6340	4	Labor and population Economics	2014
+INTERNATIONAL	Journal of Income Distribution	0926-6437	4	Labor and population Economics	2014
+INTERNATIONAL	Journal of Labor Research	0195-3613	4	Labor and population Economics	2014
+INTERNATIONAL	Monthly Labor Review	0098-1818	4	Labor and population Economics	2014
+INTERNATIONAL	Population Research and Policy Review	0167-5923	4	Labor and population Economics	2014
+INTERNATIONAL	Socio-Économie du Travail (E&S, série AB)	0013-0567	4	Labor and population Economics	2014
+INTERNATIONAL	Travail et Emploi	0224-4365	4	Labor and population Economics	2014
+INTERNATIONAL	International Review of Law and Economics	0144-8188	1	Law and Economics	2014
+INTERNATIONAL	Journal of Law and Economics	0022-2186	1	Law and Economics	2014
+INTERNATIONAL	Journal of Law, Economics, and Organization	8756-6222	1	Law and Economics	2014
+INTERNATIONAL	Journal of Legal Studies	0047-2530	1	Law and Economics	2014
+INTERNATIONAL	American Law and Economics Review	1465-7252	2	Law and Economics	2014
+INTERNATIONAL	Antitrust Bulletin	0003-603X	2	Law and Economics	2014
+INTERNATIONAL	European Journal of Law and Economics	0929-1261	2	Law and Economics	2014
+INTERNATIONAL	Journal of Competition Law and Economics	1744-6422	2	Law and Economics	2014
+INTERNATIONAL	Review of Law and Economics	1555-5879	2	Law and Economics	2014
+INTERNATIONAL	Antitrust Law and Economics Review	0003-6048	3	Law and Economics	2014
+INTERNATIONAL	Antitrust Law Journal	0003-6056	3	Law and Economics	2014
+INTERNATIONAL	Common Market Law Review	0165-0750	3	Law and Economics	2014
+INTERNATIONAL	Journal of International Economic Law	1369-3034	3	Law and Economics	2014
+INTERNATIONAL	Journal of Legal Economics	1054-3023	3	Law and Economics	2014
+INTERNATIONAL	Law and Contemporary Problems	0023-9186	3	Law and Economics	2014
+INTERNATIONAL	Research in Law and Economics	0193-5895	3	Law and Economics	2014
+INTERNATIONAL	Revue Internationale de Droit Économique	1010-8831	3	Law and Economics	2014
+INTERNATIONAL	World Competition. Law and Economics Review	1011-4548	3	Law and Economics	2014
+INTERNATIONAL	Yale Journal on Regulation	0741-9457	3	Law and Economics	2014
+INTERNATIONAL	Concurrences (articles)	1773-9578	4	Law and Economics	2014
+INTERNATIONAL	Journal of World Trade	1011-6702	4	Law and Economics	2014
+INTERNATIONAL	Review of Economic Research on Copyright Issues	1698-1359	4	Law and Economics	2014
+INTERNATIONAL	Journal of Economic Dynamics and Control	0165-1889	1	Macroeconomics, International and Monetary Economics	2014
+INTERNATIONAL	Journal of Economic Growth	1381-4338	1	Macroeconomics, International and Monetary Economics	2014
+INTERNATIONAL	Journal of International Economics	0022-1996	1	Macroeconomics, International and Monetary Economics	2014
+INTERNATIONAL	Journal of Monetary Economics	0304-3932	1	Macroeconomics, International and Monetary Economics	2014
+INTERNATIONAL	Journal of Money, Credit and Banking	0022-2879	1	Macroeconomics, International and Monetary Economics	2014
+INTERNATIONAL	Economic Modelling	0264-9993	2	Macroeconomics, International and Monetary Economics	2014
+INTERNATIONAL	International Tax and Public Finance	0927-5940	2	Macroeconomics, International and Monetary Economics	2014
+INTERNATIONAL	Journal of International Money and Finance	0261-5606	2	Macroeconomics, International and Monetary Economics	2014
+INTERNATIONAL	Journal of Macroeconomics	0164-0704	2	Macroeconomics, International and Monetary Economics	2014
+INTERNATIONAL	Macroeconomic Dynamics	1365-1005	2	Macroeconomics, International and Monetary Economics	2014
+INTERNATIONAL	Review of Economic Dynamics	1094-2025	2	Macroeconomics, International and Monetary Economics	2014
+INTERNATIONAL	Review of International Economics	0965-7576	2	Macroeconomics, International and Monetary Economics	2014
+INTERNATIONAL	Review of World Economics	1610-2878	2	Macroeconomics, International and Monetary Economics	2014
+INTERNATIONAL	The B.E. Journal of Macroeconomics. Frontiers	1935-1690	2	Macroeconomics, International and Monetary Economics	2014
+INTERNATIONAL	World Economy	0378-5920	2	Macroeconomics, International and Monetary Economics	2014
+INTERNATIONAL	Économie Internationale / International Economics	1240-8093	3	Macroeconomics, International and Monetary Economics	2014
+INTERNATIONAL	International Journal of Central Banking	1815-4654	3	Macroeconomics, International and Monetary Economics	2014
+INTERNATIONAL	International Journal of Finance and Economics	1076-9307	3	Macroeconomics, International and Monetary Economics	2014
+INTERNATIONAL	International Monetary Fund Staff Papers	1020-7635	3	Macroeconomics, International and Monetary Economics	2014
+INTERNATIONAL	International Organization	0020-8183	3	Macroeconomics, International and Monetary Economics	2014
+INTERNATIONAL	Journal of Common Market Studies	0021-9886	3	Macroeconomics, International and Monetary Economics	2014
+INTERNATIONAL	Journal of Economic Integration	1225-651X	3	Macroeconomics, International and Monetary Economics	2014
+INTERNATIONAL	Journal of International Financial Markets, Institutions and Money	1042-4431	3	Macroeconomics, International and Monetary Economics	2014
+INTERNATIONAL	Journal of International Trade and Economic Development	0963-8199	3	Macroeconomics, International and Monetary Economics	2014
+INTERNATIONAL	Journal of the Japanese and International Economies	0889-1583	3	Macroeconomics, International and Monetary Economics	2014
+INTERNATIONAL	Open Economies Review	0923-7992	3	Macroeconomics, International and Monetary Economics	2014
+INTERNATIONAL	Pacific Economic Review	1361-374X	3	Macroeconomics, International and Monetary Economics	2014
+INTERNATIONAL	The B.E. Journal of Macroeconomics. Advances	1935-1690	3	Macroeconomics, International and Monetary Economics	2014
+INTERNATIONAL	Asian Economic Journal	1351-3958	4	Macroeconomics, International and Monetary Economics	2014
+INTERNATIONAL	International Economic Journal	1016-8737	4	Macroeconomics, International and Monetary Economics	2014
+INTERNATIONAL	International Trade Journal	0885-3908	4	Macroeconomics, International and Monetary Economics	2014
+INTERNATIONAL	Revue de l’OFCE	1265-9576	4	Macroeconomics, International and Monetary Economics	2014
+INTERNATIONAL	Structural Change and Economic Dynamics	0954-349X	4	Macroeconomics, International and Monetary Economics	2014
+INTERNATIONAL	World Trade Review	1474-7456	4	Macroeconomics, International and Monetary Economics	2014
+INTERNATIONAL	MIS Quarterly	0276-7783	1	Management Information Systems	2014
+INTERNATIONAL	European Journal of Information Systems	0960-085X	1	Management Information Systems	2014
+INTERNATIONAL	Information Systems Research	1047-7047	1	Management Information Systems	2014
+INTERNATIONAL	Journal of MIS	0742-1222	1	Management Information Systems	2014
+INTERNATIONAL	Decision Support Systems	0167-9236	2	Management Information Systems	2014
+INTERNATIONAL	IEEE Transactions on Engineering Management	0018-9391	2	Management Information Systems	2014
+INTERNATIONAL	IEEE Transactions on Knowledge and Data Engineering	1041-4347	2	Management Information Systems	2014
+INTERNATIONAL	IEEE Transactions on Software Engineering	0098-5589	2	Management Information Systems	2014
+INTERNATIONAL	Information and Management	0378-7206	2	Management Information Systems	2014
+INTERNATIONAL	Information and Organization	1471-7727	2	Management Information Systems	2014
+INTERNATIONAL	Information Systems Journal	1350-1917	2	Management Information Systems	2014
+INTERNATIONAL	International Journal of Electronic Commerce	1086-4415	2	Management Information Systems	2014
+INTERNATIONAL	Journal of the Association for Information Systems	1536-9323	2	Management Information Systems	2014
+INTERNATIONAL	Journal of Global Information Management	1062-7375	2	Management Information Systems	2014
+INTERNATIONAL	Journal of Strategic Information Systems	0963-8687	2	Management Information Systems	2014
+INTERNATIONAL	Systèmes d’Information et Management	1260-4984	2	Management Information Systems	2014
+INTERNATIONAL	Business Process Management Journal	1463-7154	3	Management Information Systems	2014
+INTERNATIONAL	Database for Advances in Information Systems	1532-0936	3	Management Information Systems	2014
+INTERNATIONAL	Electronic Markets	1019-6781	3	Management Information Systems	2014
+INTERNATIONAL	IEEE Transaction on Systems, Man and Cybernetics - A	1083-4427	3	Management Information Systems	2014
+INTERNATIONAL	IEEE Transaction on Systems, Man and Cybernetics - C	1094-6977	3	Management Information Systems	2014
+INTERNATIONAL	Information Technology and People	0959-3845	3	Management Information Systems	2014
+INTERNATIONAL	International Journal of Human Computer Studies	1071-5819	3	Management Information Systems	2014
+INTERNATIONAL	International Journal of Information Management	0268-4012	3	Management Information Systems	2014
+INTERNATIONAL	Journal of Information Technology	0268-3962	3	Management Information Systems	2014
+INTERNATIONAL	Journal of Organizational and End User Computing	1546-2234	3	Management Information Systems	2014
+INTERNATIONAL	Knowledge Management Research & Practice	1477-8238	3	Management Information Systems	2014
+INTERNATIONAL	ACM Transactions on Human Computer Interactions	1073-0516	4	Management Information Systems	2014
+INTERNATIONAL	Business and Information Systems Engineering	1867-0202	4	Management Information Systems	2014
+INTERNATIONAL	Communications of the AIS	1529-3181	4	Management Information Systems	2014
+INTERNATIONAL	Electronic Journal of Information Systems Evaluation	1566-6379	4	Management Information Systems	2014
+INTERNATIONAL	International Journal of Technology and Human Interaction	1548-3908	4	Management Information Systems	2014
+INTERNATIONAL	Journal of Decision Systems	1246-0125	4	Management Information Systems	2014
+INTERNATIONAL	Journal of Enterprise Information Management	1741-0398	4	Management Information Systems	2014
+INTERNATIONAL	Réseaux	0751-7971	4	Management Information Systems	2014
+INTERNATIONAL	Journal of Marketing	0022-2429	1	Marketing	2014
+INTERNATIONAL	Journal of Consumer Psychology	1057-7408	1	Marketing	2014
+INTERNATIONAL	Journal of Consumer Research	0093-5301	1	Marketing	2014
+INTERNATIONAL	Journal of Marketing Research	0022-2437	1	Marketing	2014
+INTERNATIONAL	Marketing Science	0732-2399	1	Marketing	2014
+INTERNATIONAL	Industrial Marketing Management	0019-8501	2	Marketing	2014
+INTERNATIONAL	International Journal of Research in Marketing	0167-8116	2	Marketing	2014
+INTERNATIONAL	Journal of Business Research	0148-2963	2	Marketing	2014
+INTERNATIONAL	Journal of Retailing	0022-4359	2	Marketing	2014
+INTERNATIONAL	Journal of Service Research	1094-6705	2	Marketing	2014
+INTERNATIONAL	Journal of the Academy of Marketing Science	0092-0703	2	Marketing	2014
+INTERNATIONAL	Marketing Letters	0923-0645	2	Marketing	2014
+INTERNATIONAL	Recherche et Application en Marketing	0767-3701	2	Marketing	2014
+INTERNATIONAL	European Journal of Marketing	0309-0566	3	Marketing	2014
+INTERNATIONAL	International Journal of Advertising	0265-0487	3	Marketing	2014
+INTERNATIONAL	International Journal of Market Research	1470-7853	3	Marketing	2014
+INTERNATIONAL	International Journal of Retail and Distribution Management	0959-0552	3	Marketing	2014
+INTERNATIONAL	International Marketing Review	0265-1335	3	Marketing	2014
+INTERNATIONAL	Journal of Advertising	0091-3367	3	Marketing	2014
+INTERNATIONAL	Journal of Advertising Research	0021-8499	3	Marketing	2014
+INTERNATIONAL	Journal of Business & Industrial Marketing	0885-8624	3	Marketing	2014
+INTERNATIONAL	Journal of Interactive Marketing	1094-9968	3	Marketing	2014
+INTERNATIONAL	Journal of International Marketing	1069-031X	3	Marketing	2014
+INTERNATIONAL	Journal of Marketing Management	0267-257X	3	Marketing	2014
+INTERNATIONAL	Journal of Public Policy and Marketing	0743-9156	3	Marketing	2014
+INTERNATIONAL	Journal of Retailing and Customer Services	0969-6989	3	Marketing	2014
+INTERNATIONAL	Journal of Services Marketing	0887-6045	3	Marketing	2014
+INTERNATIONAL	Psychology and Marketing	0742-6046	3	Marketing	2014
+INTERNATIONAL	Quantitative Marketing & Economics	1570-7156	3	Marketing	2014
+INTERNATIONAL	Consumption, Markets & Cultures	1025-3866	4	Marketing	2014
+INTERNATIONAL	Décisions Marketing	0779-7389	4	Marketing	2014
+INTERNATIONAL	International Journal of Bank Marketing	0265-2323	4	Marketing	2014
+INTERNATIONAL	Journal of Brand Management	1350-231X	4	Marketing	2014
+INTERNATIONAL	Journal of Business to Business Marketing	1051-712X	4	Marketing	2014
+INTERNATIONAL	Journal of Consumer Affairs	0022-0078	4	Marketing	2014
+INTERNATIONAL	Journal of Consumer Marketing	0736-3761	4	Marketing	2014
+INTERNATIONAL	Journal of MacroMarketing	0276-1467	4	Marketing	2014
+INTERNATIONAL	Journal of Marketing Theory and Practice	1069-6679	4	Marketing	2014
+INTERNATIONAL	Journal of Personal Selling and Sales Management	0885-3134	4	Marketing	2014
+INTERNATIONAL	Journal of Product and Brand Management	1061-0421	4	Marketing	2014
+INTERNATIONAL	Journal of Strategic Marketing	0965-254X	4	Marketing	2014
+INTERNATIONAL	Journal of Travel & Tourism Marketing	1054-8408	4	Marketing	2014
+INTERNATIONAL	Marketing Theory	1470-5931	4	Marketing	2014
+INTERNATIONAL	Qualitative Market Research	1352-2752	4	Marketing	2014
+INTERNATIONAL	European Journal of Operational Research	0377-2217	1	Operations Research	2014
+INTERNATIONAL	Mathematical Programming	0025-5610	1	Operations Research	2014
+INTERNATIONAL	Mathematics of Operations Research	0364-765X	1	Operations Research	2014
+INTERNATIONAL	Operations Research	0030-364X	1	Operations Research	2014
+INTERNATIONAL	Annals of Operations Research	0254-5330	2	Operations Research	2014
+INTERNATIONAL	Computers and Operations Research	0305-0548	2	Operations Research	2014
+INTERNATIONAL	Decision Sciences	0011-7315	2	Operations Research	2014
+INTERNATIONAL	Journal of the Operational Research Society	0160-5682	2	Operations Research	2014
+INTERNATIONAL	Omega	0305-0483	2	Operations Research	2014
+INTERNATIONAL	Operations Research Letters	0167-6377	2	Operations Research	2014
+INTERNATIONAL	4OR: A Quarterly Journal of Operations Research	1619-4500	3	Operations Research	2014
+INTERNATIONAL	Decision Analysis	1545-8490	3	Operations Research	2014
+INTERNATIONAL	Discrete Optimization	1572-5286	3	Operations Research	2014
+INTERNATIONAL	International Transactions in Operational Research	0969-6016	3	Operations Research	2014
+INTERNATIONAL	Journal of Productivity Analysis	0895-562X	3	Operations Research	2014
+INTERNATIONAL	Mathematical Methods of Operations Research	1432-2994	3	Operations Research	2014
+INTERNATIONAL	Naval Research Logistics Quarterly	0894-069X	3	Operations Research	2014
+INTERNATIONAL	Networks	0028-3045	3	Operations Research	2014
+INTERNATIONAL	OR Spectrum	0171-6468	3	Operations Research	2014
+INTERNATIONAL	RAIRO	0399-0559	3	Operations Research	2014
+INTERNATIONAL	TOP: An Official Journal of the Spanish Society of Statistics and Operations Research	1134-5764	3	Operations Research	2014
+INTERNATIONAL	Asia Pacific Journal of Operations Research	0217-5959	4	Operations Research	2014
+INTERNATIONAL	Central European Journal of Operations Research	1435-246X	4	Operations Research	2014
+INTERNATIONAL	INFOR	0315-5986	4	Operations Research	2014
+INTERNATIONAL	Journal of Multi-Criteria Decision Analysis	1057-9214	4	Operations Research	2014
+INTERNATIONAL	Administrative Science Quarterly	0001-8392	1	Organization Studies	2014
+INTERNATIONAL	Organization	1350-5084	1	Organization Studies	2014
+INTERNATIONAL	Organization Science	1047-7039	1	Organization Studies	2014
+INTERNATIONAL	Organization Studies	0170-8406	1	Organization Studies	2014
+INTERNATIONAL	Journal of Organizational Behavior	0894-3796	2	Organization Studies	2014
+INTERNATIONAL	Organizational Dynamics	0090-2616	2	Organization Studies	2014
+INTERNATIONAL	Organizational Research Methods	1094-4281	2	Organization Studies	2014
+INTERNATIONAL	Research in Organizational Behavior	0191-3085	2	Organization Studies	2014
+INTERNATIONAL	Group Dynamics: Theory, Research and Practice	1089-2699	3	Organization Studies	2014
+INTERNATIONAL	Group Processes and Intergroup Relations	1368-4302	3	Organization Studies	2014
+INTERNATIONAL	Journal of Applied Behavioral Science	0021-8863	3	Organization Studies	2014
+INTERNATIONAL	Journal of Organisational Behaviour Management	0160-8061	3	Organization Studies	2014
+INTERNATIONAL	Journal of Organizational Change Management	0953-4814	3	Organization Studies	2014
+INTERNATIONAL	Organization and Environment	1086-0266	3	Organization Studies	2014
+INTERNATIONAL	Culture and Organization	1475-9551	4	Organization Studies	2014
+INTERNATIONAL	Économies et Sociétés série "Économie de l’Entreprise"	1760-8864	4	Organization Studies	2014
+INTERNATIONAL	Gérer et Comprendre	0295-4397	4	Organization Studies	2014
+INTERNATIONAL	Journal of Knowledge Management	1367-3270	4	Organization Studies	2014
+INTERNATIONAL	Leadership	1742-7150	4	Organization Studies	2014
+INTERNATIONAL	Learning Organization	0969-6474	4	Organization Studies	2014
+INTERNATIONAL	Management Communication Quarterly	0893-3189	4	Organization Studies	2014
+INTERNATIONAL	International Journal of Production Economics	0925-5273	1	Production and Operations Management	2014
+INTERNATIONAL	Journal of Operations Management	0272-6963	1	Production and Operations Management	2014
+INTERNATIONAL	Production and Operations Management	1059-1478	1	Production and Operations Management	2014
+INTERNATIONAL	International Journal of Operations and Production Management	0144-3577	2	Production and Operations Management	2014
+INTERNATIONAL	International Journal of Production Research	0020-7543	2	Production and Operations Management	2014
+INTERNATIONAL	Journal of Business Logistics	0735-3766	2	Production and Operations Management	2014
+INTERNATIONAL	Journal of Quality Technology	0022-4065	2	Production and Operations Management	2014
+INTERNATIONAL	Production Planning and Control	0953-7287	2	Production and Operations Management	2014
+INTERNATIONAL	Transportation Research Part E: Logistics and Transportation	1366-5545	2	Production and Operations Management	2014
+INTERNATIONAL	Computers and Industrial Engineering	0360-8352	3	Production and Operations Management	2014
+INTERNATIONAL	International Journal of Flexible Manufacturing Systems (International Journal of Flexible Manufactu	0920-6299	3	Production and Operations Management	2014
+INTERNATIONAL	International Journal of Logistics Management	0957-4903	3	Production and Operations Management	2014
+INTERNATIONAL	International Journal of Logistics: Research and Applications	1367-5567	3	Production and Operations Management	2014
+INTERNATIONAL	International Journal of Manufacturing Technology and Management	1368-2148	3	Production and Operations Management	2014
+INTERNATIONAL	International Journal of Physical Distribution and Logistics Management	0960-0035	3	Production and Operations Management	2014
+INTERNATIONAL	International Journal of Project Management	0263-7863	3	Production and Operations Management	2014
+INTERNATIONAL	International Journal of Quality and Reliability Management	0265-671X	3	Production and Operations Management	2014
+INTERNATIONAL	International Journal of Retail and Distribution Management	0959-0552	3	Production and Operations Management	2014
+INTERNATIONAL	International Journal of Technology Management	0267-5730	3	Production and Operations Management	2014
+INTERNATIONAL	Journal Européen des Systèmes Automatisés	1269-6935	3	Production and Operations Management	2014
+INTERNATIONAL	Journal of Manufacturing and Operations Management	0890-2577	3	Production and Operations Management	2014
+INTERNATIONAL	Journal of Manufacturing Systems	0278-6125	3	Production and Operations Management	2014
+INTERNATIONAL	Journal of Purshasing and Supply Management	1478-4092	3	Production and Operations Management	2014
+INTERNATIONAL	Production and Inventory Management Journal	0897-8336	3	Production and Operations Management	2014
+INTERNATIONAL	Supply Chain Management: An International Journal	1359-8546	3	Production and Operations Management	2014
+INTERNATIONAL	Industrial Management and Data Systems	0263-5577	4	Production and Operations Management	2014
+INTERNATIONAL	Journal of Manufacturing Technology Management (formerl	0957-6061	4	Production and Operations Management	2014
+INTERNATIONAL	Journal of Service Management	1757-5818	4	Production and Operations Management	2014
+INTERNATIONAL	Journal of Supply Chain Management	1523-2409	4	Production and Operations Management	2014
+INTERNATIONAL	Manufacturing and Service Operations Management	1523-4614	4	Production and Operations Management	2014
+INTERNATIONAL	Quality Management Journal	1068-6967	4	Production and Operations Management	2014
+INTERNATIONAL	Revue Française de Gestion Industrielle	0242-9780	4	Production and Operations Management	2014
+INTERNATIONAL	Supply Chain Forum: An International Journal	1625-8312	4	Production and Operations Management	2014
+INTERNATIONAL	Total Quality Management & Business Excellence	1478-3363	4	Production and Operations Management	2014
+INTERNATIONAL	Journal of Public Economics	0047-2727	1	Public Economics and Public Choice	2014
+INTERNATIONAL	Public Choice	0048-5829	1	Public Economics and Public Choice	2014
+INTERNATIONAL	Social Choice and Welfare	0176-1714	1	Public Economics and Public Choice	2014
+INTERNATIONAL	International Tax and Public Finance	0927-5940	2	Public Economics and Public Choice	2014
+INTERNATIONAL	Journal of Policy Analysis & Management	1520-6688	2	Public Economics and Public Choice	2014
+INTERNATIONAL	Journal of Public Economic Theory	1097-3923	2	Public Economics and Public Choice	2014
+INTERNATIONAL	National Tax Journal	0028-0283	2	Public Economics and Public Choice	2014
+INTERNATIONAL	Review of Income and Wealth	0034-6586	2	Public Economics and Public Choice	2014
+INTERNATIONAL	Economics and Politics	0954-1985	3	Public Economics and Public Choice	2014
+INTERNATIONAL	Economics of Governance	1435-8131	3	Public Economics and Public Choice	2014
+INTERNATIONAL	Fiscal Studies	0143-5671	3	Public Economics and Public Choice	2014
+INTERNATIONAL	Journal of Economic Inequality	1569-1721	3	Public Economics and Public Choice	2014
+INTERNATIONAL	Nonprofit and Voluntary Sector Quarterly	0899-7640	3	Public Economics and Public Choice	2014
+INTERNATIONAL	Economics of Planning	1573-9414	4	Public Economics and Public Choice	2014
+INTERNATIONAL	Économie Publique	1373-8496	4	Public Economics and Public Choice	2014
+INTERNATIONAL	Finanz Archiv	0015-2218	4	Public Economics and Public Choice	2014
+INTERNATIONAL	Journal of Happiness Studies	1389-4978	4	Public Economics and Public Choice	2014
+INTERNATIONAL	Journal of Policy Modeling	0161-8938	4	Public Economics and Public Choice	2014
+INTERNATIONAL	Journal of Public Finance and Public Choice	1120-7019	4	Public Economics and Public Choice	2014
+INTERNATIONAL	Public Finance Review	1091-1421	4	Public Economics and Public Choice	2014
+INTERNATIONAL	Review of International Organizations	1559-7431	4	Public Economics and Public Choice	2014
+INTERNATIONAL	Urban Public Economics Review	1697-6223	4	Public Economics and Public Choice	2014
+INTERNATIONAL	Journal of Public Administration Research and Theory	1053-1858	1	Public Management	2014
+INTERNATIONAL	Public Administration Review	0033-3352	1	Public Management	2014
+INTERNATIONAL	Administration and Society	0095-3997	2	Public Management	2014
+INTERNATIONAL	Policy and Politics	0305-5736	2	Public Management	2014
+INTERNATIONAL	Evaluation	1356-3890	3	Public Management	2014
+INTERNATIONAL	Governance	0952-1895	3	Public Management	2014
+INTERNATIONAL	International Journal of Public Administration	0190-0692	3	Public Management	2014
+INTERNATIONAL	International Journal of Public Sector Management	0951-3558	3	Public Management	2014
+INTERNATIONAL	International Review of Administrative Sciences	0020-8523	3	Public Management	2014
+INTERNATIONAL	Local Government Studies	0300-3930	3	Public Management	2014
+INTERNATIONAL	Public Administration: An International Quarterly	0033-3298	3	Public Management	2014
+INTERNATIONAL	Public Administration and Development	0271-2075	3	Public Management	2014
+INTERNATIONAL	Public Management Review	1471-9037	3	Public Management	2014
+INTERNATIONAL	Public Money and Management	0954-0962	3	Public Management	2014
+INTERNATIONAL	Public Organization Review	1566-7170	3	Public Management	2014
+INTERNATIONAL	Politiques et Management Public	0758-1726	4	Public Management	2014
+INTERNATIONAL	International Review of Public Administration	1229-4659	4	Public Management	2014
+INTERNATIONAL	Revue Française d’Administration Publique	0152-7401	4	Public Management	2014
+INTERNATIONAL	Economic Geography	0013-0095	1	Urban, Spatial and Regional Economics, transportation and tourism	2014
+INTERNATIONAL	Journal of Economic Geography	1468-2702	1	Urban, Spatial and Regional Economics, transportation and tourism	2014
+INTERNATIONAL	Journal of Urban Economics	0094-1190	1	Urban, Spatial and Regional Economics, transportation and tourism	2014
+INTERNATIONAL	Annals of Regional Science	0570-1864	2	Urban, Spatial and Regional Economics, transportation and tourism	2014
+INTERNATIONAL	Economic Development Quarterly	0891-2424	2	Urban, Spatial and Regional Economics, transportation and tourism	2014
+INTERNATIONAL	Environment and Planning (A)	0308-518X	2	Urban, Spatial and Regional Economics, transportation and tourism	2014
+INTERNATIONAL	International Regional Science Review	0160-0176	2	Urban, Spatial and Regional Economics, transportation and tourism	2014
+INTERNATIONAL	Journal of Housing Economics	1051-1377	2	Urban, Spatial and Regional Economics, transportation and tourism	2014
+INTERNATIONAL	Journal of Regional Science	0022-4146	2	Urban, Spatial and Regional Economics, transportation and tourism	2014
+INTERNATIONAL	Land Economics	0023-7639	2	Urban, Spatial and Regional Economics, transportation and tourism	2014
+INTERNATIONAL	Papers in Regional Science	1056-8190	2	Urban, Spatial and Regional Economics, transportation and tourism	2014
+INTERNATIONAL	Regional Science and Urban Economics	0166-0462	2	Urban, Spatial and Regional Economics, transportation and tourism	2014
+INTERNATIONAL	Regional Studies	0034-3404	2	Urban, Spatial and Regional Economics, transportation and tourism	2014
+INTERNATIONAL	Transportation Research A	0965-8564	2	Urban, Spatial and Regional Economics, transportation and tourism	2014
+INTERNATIONAL	Transportation Research B	0191-2615	2	Urban, Spatial and Regional Economics, transportation and tourism	2014
+INTERNATIONAL	Transportation Science	0041-1655	2	Urban, Spatial and Regional Economics, transportation and tourism	2014
+INTERNATIONAL	Urban Studies	0042-0980	2	Urban, Spatial and Regional Economics, transportation and tourism	2014
+INTERNATIONAL	Annals of Tourism Research	0160-7383	3	Urban, Spatial and Regional Economics, transportation and tourism	2014
+INTERNATIONAL	Canadian Journal of Regional Science	0705-4580	3	Urban, Spatial and Regional Economics, transportation and tourism	2014
+INTERNATIONAL	Growth and Change	0017-4815	3	Urban, Spatial and Regional Economics, transportation and tourism	2014
+INTERNATIONAL	Housing Studies	0267-3037	3	Urban, Spatial and Regional Economics, transportation and tourism	2014
+INTERNATIONAL	International Journal of Transport Economics	0391-8440	3	Urban, Spatial and Regional Economics, transportation and tourism	2014
+INTERNATIONAL	Journal of Real Estate Finance and Economics	0895-5638	3	Urban, Spatial and Regional Economics, transportation and tourism	2014
+INTERNATIONAL	Journal of Transport Economics and Policy	0022-5258	3	Urban, Spatial and Regional Economics, transportation and tourism	2014
+INTERNATIONAL	Real Estate Economics	1080-8620	3	Urban, Spatial and Regional Economics, transportation and tourism	2014
+INTERNATIONAL	Revue d'Économie Régionale et Urbaine	0180-7307	3	Urban, Spatial and Regional Economics, transportation and tourism	2014
+INTERNATIONAL	Tourism Management	0261-5177	3	Urban, Spatial and Regional Economics, transportation and tourism	2014
+INTERNATIONAL	Transport Reviews	0144-1647	3	Urban, Spatial and Regional Economics, transportation and tourism	2014
+INTERNATIONAL	Transportation Research D	1361-9209	3	Urban, Spatial and Regional Economics, transportation and tourism	2014
+INTERNATIONAL	Cahiers Scientifiques du Transport	1150-8809	4	Urban, Spatial and Regional Economics, transportation and tourism	2014
+INTERNATIONAL	Économie Rurale	0013-0559	4	Urban, Spatial and Regional Economics, transportation and tourism	2014
+INTERNATIONAL	European Planning Studies	0965-4313	4	Urban, Spatial and Regional Economics, transportation and tourism	2014
+INTERNATIONAL	Géographie Économie Société	1295-926X	4	Urban, Spatial and Regional Economics, transportation and tourism	2014
+INTERNATIONAL	International Journal of Urban and Regional Research	0309-1317	4	Urban, Spatial and Regional Economics, transportation and tourism	2014
+INTERNATIONAL	Journal of Travel Research	0047-2875	4	Urban, Spatial and Regional Economics, transportation and tourism	2014
+INTERNATIONAL	Région et Développement	1267-5059	4	Urban, Spatial and Regional Economics, transportation and tourism	2014
+INTERNATIONAL	Spatial Economic Analysis	1742-1772	4	Urban, Spatial and Regional Economics, transportation and tourism	2014
